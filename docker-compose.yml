@@ -1,6 +1,6 @@
 web:
   build: .
-  command: 'gunicorn gettingstarted.wsgi --log-file -'
+  command: 'gunicorn gettingstarted.wsgi --log-file - --reload'
   working_dir: /app/user
   environment:
     PORT: 8080
