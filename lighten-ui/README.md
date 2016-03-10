@@ -16,6 +16,18 @@ npm test                 # run the tests once
 npm run tdd              # run the tests continually (TDD mode)
 ```
 
+Build the UI and update files in django app
+-------------------------------------------
+
+Simple run the `build.sh` script at the project root.
+```bash
+./build.sh
+```
+
+That script runs an `npm run build`, then runs the `djangoize` script, which prepares and copies the static bundle to the appropriate folders in the django app.
+
+You can then see the changes to the UI locally in docker, and when you are ready to push to product, just `git push`!
+
 Using the Redux devtools
 -------------------------------------
 
