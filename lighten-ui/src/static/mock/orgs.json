@@ -1,0 +1,471 @@
+[
+  {
+    "_type" : "org"
+  ,"org_name" : "COMPASS FAMILY SERVICES COMPASS CONNECTING POINT"
+  ,"description" : "Compass Connecting Point (CCP) is a unique program that gives any San Francisco family experiencing a housing crisis quick access to the services that they need most, including eviction prevention, emergency shelter, health care, child care, and educational programs. CCP manages the shelter waiting list for the City-funded long-term family shelters. Our goals are to place families into shelter and provide supportive services during that wait, including emergency food, diapers, transportation assistance, and intensive supoort with housing search. Additionally CCP provides a one-time interest free loan for move-in funds and eviction prevention.  www.compass-sf.org/programs/connecting-point"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Any hotline worker or Crisis Intervention Counselor", "label" : "Contact person" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(855) 234-2667", "label" : "Phone" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 442-5138", "label" : "Fax" }
+  ,"email"  : { "_type" : "contact" , "value" : "mary.mora@sfgov.org", "label" : "Email" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org/programs/connecting-point", "label" : "Website" }
+  }
+  ,"hours" : {
+    "Intake" :  {
+      "_type" : "hours"
+      ,"label": "Intake hours"
+      ,"hours_atoms" : [
+        {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "13:00" , "close" : "17:00" }
+
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:00" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "13:00" , "close" : "17:00" }
+
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "13:00" , "close" : "17:00" }
+
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:00" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "13:00" , "close" : "17:00" }
+
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:00" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "13:00" , "close" : "17:00" }
+
+      ]
+    }
+
+  ,"Drop-in" :  {
+      "_type" : "hours"
+      ,"label": "Drop-in hours"
+      ,"hours_atoms" : [
+        {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:30" , "close" : "12:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:00" , "close" : "12:00" }
+      ]
+    }
+
+  }
+  ,"notes" : "No referral required. All clients are required to do a 15 minute phone intake over the hotline at (855) 234-2667. \nFamilies are typically on the waitlist for 6 to 8 months during which we provide supportive services.\nWe are able to arrange ASL interpreters."
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License and Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","P.O. Box/Mail Service","Transit Vouchers","Mental Health Treatment","Health & Wellness Education","Assistance Applying for Calfresh/Food stamps." ]
+      }
+    ]
+  }
+  ,"languages_spoken" : [ "English" ,"Spanish", "Cantonese" , "Mandarin","German" ,"We are able to arrange ASL interpreters."  ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" ]
+      }
+    ]
+  }
+  ,"usage_requirements" : {
+    "_type"  : "usage_requirements"
+  ,"usage_requirement_atoms" : [
+      { "_type" : "usage_requirement_atom"
+      ,"keys" : [ "All families, pregnant women, women with children. Eligible families have at least one legal adult plus either a minor child in their custody or a pregnancy. There is no maximum family size.  For shelter wait list, families must be homeless and receiving public benefits in SF or willing to transfer to SF. For rental assistance, families must be SF residents. For move in funds, they must be homeless in SF and have a unit they have been accepted into." ]
+      }
+    ]
+  }
+  ,"faith_based" : "No."
+  },
+  {
+    "_type" : "org"
+  ,"org_name" : "LAVENDER YOUTH RECREATION & INFORMATION CENTER (LYRIC)"
+  ,"description" : "LYRIC is an organization for lesbian, gay, bisexual, transgender, queer and questioning youth, ages 24 and younger. LYRIC’s mission is to build community and inspire positive social change through education enhancement, career training, health promotion and leadership development with LGBTQQ youth, their families, and allies of all races, classes, genders and abilities. LYRIC works to meet youth where they are and support them in getting what they need. www.lyric.org"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Youth Advocates" }
+  ,"phone"  : { "_type" : "contact" , "value" : ": (415) 703-6150" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 703-6153" }
+  ,"email"  : { "_type" : "contact" , "value" : "lyricinfo@lyric.org" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.lyric.org" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ "127 Collingwood St","San Francisco","CA 94114" ]
+    ,"postal-code" : "94114"
+    }
+    }
+  }
+  ,"hours" : {
+    "hours" :  {
+      "_type" : "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "10:00" , "close" : "18:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "10:00" , "close" : "18:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:00" , "close" : "18:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "10:00" , "close" : "18:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "10:00" , "close" : "18:00" }
+      ]
+    }
+
+  }
+  ,"notes" : ": No referral needed. Drop-ins are welcome.\nReferrals to other resources available as needed"
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Hygiene/Personal Care Items","Health & Wellness Education","Community Education & Mediation","Outreach","Employment Training","Employment Placement","Employment Retention","Job Readiness/Life Skills." ]
+      }
+    ]
+
+  }
+  ,"languages_spoken" : [ "English" ,"Spanish", "French" ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" , "Other disabilities are accommodated." ]
+      }
+    ]
+  }
+  ,"usage_requirements" : {
+    "_type"  : "usage_requirements"
+  ,"usage_requirement_atoms" : [
+      { "_type" : "usage_requirement_atom"
+      ,"keys" : [ "All individuals (men, women, transgender people), up to 24 years old, pregnant women, women with children." ]
+      }
+    ]
+  }
+  ,"faith_based" : "No."
+  },
+  {
+    "_type" : "org"
+  ,"org_name" : "LEADERS IN COMMUNITY ALTERNATIVES, INC. (LCA) ELECTRONIC MONITORING"
+  ,"description" : "LCA allows participants to serve their time in the community working, supporting family, and receiving treatment while still being accountable. www.lcaservices.com"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Intake"}
+  ,"phone"  : { "_type" : "contact" , "value" : "(415) 525-5587" }
+  ,"phone2"  : { "_type" : "contact" , "value" : "(800) 944-1170" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 546-4147" }
+  ,"fax2"  : { "_type" : "contact" , "value" : "(800) 925-8049" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.lcaservices.com" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ "160 Franklin St.","Oakland","CA 94607"]
+    ,"postal-code" : "94607"
+    }
+    }
+  ,"hours" : {
+      "_type" : "hours"
+      ,"label": "Hours"
+      , "hours" : [
+        {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:30" , "close" : "17:30" }
+      ]
+    }
+  ,"service_description" : {
+      "_type" : "service_description"
+    ,"service_categories" : [
+        {"_type" : "service_catagory_atom"
+        ,"keys" : [ "Electronic Monitoring","GPS Monitoring and Tracking","Continuous Alcohol Monitoring","Substance Abuse Testing","Parolee Monitoring" ]
+        }
+      ]
+    }
+  ,"languages_spoken" : [ "English" ,"Spanish", "Tagalog" ]
+  ,"usage_requirements" : {
+      "_type"  : "usage_requirements"
+    ,"usage_requirement_atoms" : [
+        { "_type" : "usage_requirement_atom"
+        ,"keys" : [ "All individuals involved in the juvenile or criminal justice system, in custody and in community programs or alternative custody programs."
+        ]
+        }
+      ]
+    }
+  ,"notes": " May self-refer, or be referred by Court, supervising authority, or community based program."
+  ,"faith_based" : "No."
+  }
+  },
+  {
+    "_type" : "org"
+  ,"org_name" : "MISSION NEIGHBORHOOD RESOURCE CENTER"
+  ,"description" : "Harm reduction drop-in center in the Mission district, targeting the homeless and those at risk in the neighborhood with a focus on Latino immigrants. Peer-led and professionally-supported staff.  Additionally, MNRC offers TB screening, urgent care, primary care, acupuncture, and HIV counseling and testing. Our women’s program on Thursday nights (6-8pm) provides dinner, hygiene kits, needle exchange, and social support for women. www.mnhc.org"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Any intake staff" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1013" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 863-1882" }
+  ,"email"  : { "_type" : "contact" , "value" : "info@mnhc.org" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.mnhc.org" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ "165 Capp Street (between 16th&17th)","San Francisco", "CA 94110" ]
+    ,"postal-code" : "94110"
+    }
+    }
+  }
+  ,"hours" : {
+    "hours" : {
+      "_type": "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [
+        {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "07:00" , "close" : "19:00" }
+      ]
+    }
+  , "Women only" : { "_type" : "hours" ,"hours_atoms" : [
+      {  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "06:00" , "close" : "20:00" }
+    ]
+    }
+  }
+  ,"notes" : "Women only hours are for biological and transgender females\nNo referral needed. Drop-in only."
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Entry Point to Single-Adult Shelter System","Shower and Laundry Facility","Bilingual Case Management","Mental Health Support Groups","Community Building and Organizing","Access to Benefits (SSI, GA, TANF, etc.)","Case Management","Co-Occurring Disorder/Dual Diagnosis","Healthcare","Mental Health Treatment","Phone/Voicemail","Support Groups", "Referrals to other resources available as needed"
+      ]
+      }
+    ]
+  }
+  ,"languages_spoken" : [ "English" ,"Spanish" ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" , "Other disabilities are accommodated." ]
+      }
+    ]
+  }
+  ,"faith_based" : "No."
+  },
+  {
+    "_type" : "org"
+  ,"org_name" : "SAN FRANCISCO DEPARTMENT OF CHILD SUPPORT SERVICES COMPROMISE OF ARREARS PROGRAM (COAP)"
+  ,"description" : "The Department's mission is to empower parents to provide for the economic and medical support needs of their children. COAP is a program for eligible noncustodial parents to reduce past-due child support (arrears) debt owed to the State. This debt is owed because the State supported the family while the dependent children were on public assistance (welfare) or in foster care. If you qualify for COAP you may offer to pay an amount that is less than the full amount you owe. Any reduction in your arrears and interest owed will be based on your income and assets. Arrears may be paid in a lump sum or in monthly installments over 36 months, depending on the individual circumstances.  www.sfgov.org/dcss or www.facebook.com/sfdcss"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Mary Mora, Child Support Officer/COAP Coordinator" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(415) 356-2871" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 356-2871" }
+  ,"email"  : { "_type" : "contact" , "value" : "mary.mora@sfgov.org" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.sfgov.org/dcss" }
+  ,"facebook"  : { "_type" : "contact" , "value" : "www.facebook.com/sfdcss" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ " 617 Mission Street" , "San Francisco" , "CA 94105" ]
+    ,"postal-code" : "94105"
+    }
+    }
+  }
+  ,"hours" : {
+    "hours" :  {
+      "_type" : "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:30" , "close" : "17:30" }
+      ]
+    }
+
+  }
+  ,"notes" : ": No referral needed. Drop-ins are welcome."
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Intensive Case Management" , "Family Law" , "Establishment of Paternity" ,"Child Support Orders" ,"Health Insurance Orders" ] 	}
+    ]
+  }
+  ,"languages_spoken" : [ "English" ,"Spanish", "Cantonese" ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" , "Other disabilities are accommodated." ]
+      }
+    ]
+  }
+  ,"usage_requirements" : {
+    "_type"  : "usage_requirements"
+  ,"usage_requirement_atoms" : [
+      { "_type" : "usage_requirement_atom"
+      ,"keys" : [ "All individuals with an open child support case with child support arrears owed to the State."  ]
+      }
+    ]
+  }
+  ,"faith_based" : "No."
+  },
+  {
+    "_type" : "org"
+  ,"org_name" : "SAN FRANCISCO DEPARTMENT OF PUBLIC HEALTH CHILD CRISIS SERVICES"
+  ,"description" : "To provide acute mobile psychiatric crisis evaluation and intervention for children and youth in San Francisco, regardless of insurance, up to age 18. We are strongly committed to delivering family focused and consumer driven care, and developing a safety network within San Francisco County. "
+  ,"contacts" : {
+    "phone"  : { "_type" : "contact" , "value" : "(415) 970-3800" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ "3801 Third Street","Building B","Suite 400","San Francisco","CA 94124" ]
+    ,"postal-code" : "94124"
+    }
+    }
+  }
+  ,"hours" : {
+    "hours" :  {
+      "_type" : "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:30" , "close" : "17:30" }
+      ]
+    }
+
+  }
+  ,"notes" : "No referral needed. Please call first.\nOther languages can be accommodated."
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Psychiatric Inpatient Hospital Bed","Mental Health Treatment","Crisis Case Management" , "Referrals to other resources available as needed." ]
+      }
+    ]
+  }
+  ,"languages_spoken" : [ "English", "Spanish", "Chinese", "Taglog", "Vietnamese" ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" ]
+      }
+    ]
+  }
+  ,"usage_requirements" : {
+    "_type"  : "usage_requirements"
+  ,"usage_requirement_atoms" : [
+      { "_type" : "usage_requirement_atom"
+      ,"keys" : [ "Clients must exhibit psychiatric emergencies"  , "Sliding scale fee"  ]
+      }
+    ]
+  }
+  ,"faith_based" : "No."
+  },
+  {
+    "_type" : "org"
+  ,"org_name" : "CITYTEAM INTERNATIONAL SUBSTANCE ABUSE TREATMENT SERVICES"
+  ,"description" : "In San Jose, Cityteam is providing hot meals, safe shelter, showers, and clean clothing to our city's homeless population. Located in the heart of Silicon Valley, Cityteam brings real help and real hope to the men, women, children, and families in crisis that are struggling with poverty or homelessness in San Jose and throughout Santa Clara County.  Cityteam San Jose also has renowned recovery programs for men and women seeking help to transform their lives from addiction to drugs and alcohol. Cityteam provides long-term compassionate ministry to people that walk through our doors. Through the generous support of our staff, volunteers, and donors, Cityteam is able to provide real help and real hope in Christ in order to bring real change into their lives. www.cityteam.org/san-jose"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Recovery Program" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(408) 288-2185" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(408) 428-9505" }
+  ,"Woman's intake"  : { "_type" : "contact" , "value" : "(408) 885-8080 " }
+  ,"email"  : { "_type" : "contact" , "value" : "sanjose@cityteam.org" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ " Men’s Recovery Program","580 Charles Streeat","San Jose","CA 95112"]
+    ,"postal-code" : "95112"
+    }
+    }
+  ,"web" : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
+  }
+  ,"hours" : {
+    "hours" :  {
+      "_type" : "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:00" , "close" : "17:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "17:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:00" , "close" : "17:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:00" , "close" : "17:00" }
+      ]
+    }
+
+  }
+  ,"notes" : "Please call first for an intake. Call (408) 885-8080 for our Women’s Recovery Program.\nReferrals to other services available as needed."
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Residential Substance Abuse Treatment","12 Step Program","Health & Wellness Education","Anger Management","Case Management","Mentorship","Therapy","Clothing","Meals","Hygiene/Personal Care Items." ]
+      }
+    ]
+  }
+  ,"languages_spoken" : [ "English" ,"Spanish" ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" ]
+      }
+    ]
+  }
+  ,"usage_requirements" : {
+    "_type"  : "usage_requirements"
+  ,"usage_requirement_atoms" : [
+      { "_type" : "usage_requirement_atom"
+      ,"keys" : [ "Sliding Scale fees" , "Men ages 18 and older." ]
+      }
+    ]
+  }
+  ,"faith_based" : "Yes."
+  }
+,
+
+  {
+    "_type" : "org"
+  ,"org_name" : "PROJECT 90 SUBSTANCE ABUSE TREATMENT SERVICES SAN JOSE"
+  ,"description" : "Project 90 is a human services organization dedicated to meeting the needs of individuals, families and our communities through comprehensive alcohol and drug recovery. www.projectninety.org"
+  ,"contacts" : {
+    "Contact Person"  : { "_type" : "contact" , "value" : "Intake Department" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(408) 885-1291" }
+  ,"Gateway"  : { "_type" : "contact" , "value" : "800-488-9919" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.projectninety.org" }
+  ,"service_site"  : { "_type" : "contact" , "value" :
+    { "_type" : "address1" , "addrtxtlines" :
+    [ "561 South 9th Street","San Jose","CA 95112" ]
+    ,"postal-code" : "95112"
+    }
+    }
+  ,"web" : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
+  }
+  ,"hours" : {
+    "hours" :  {
+      "_type" : "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:00" , "close" : "17:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "17:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:00" , "close" : "17:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:00" , "close" : "17:00" }
+      ]
+    }
+
+  }
+  ,"notes" : "All clients must be referred through Gateway. Please contact Gateway at 800-488-9919."
+  ,"service_description" : {
+    "_type" : "service_description"
+  ,"service_categories" : [
+      {"_type" : "service_catagory_atom"
+      ,"keys" : [ "Residential Substance Abuse Treatment","Co-Occuring Disorders/Dual Diagnosis Treatment","Health & Wellness Education","Anger Management","Case Management","Trauma Recovery Services","Mentorship","Therapy","Clothing","Meals","Hygiene/Personal Care Items" ]
+      }
+    ]
+  }
+  ,"languages_spoken" : [ "English" ]
+  ,"accessibility" : {
+    "_type" : "accessibility"
+  ,"accessibility_atoms" : [
+      { "_type" : "accessibility_atom"
+      ,"keys" : [ "Wheelchair accessible" ]
+      }
+    ]
+  }
+  ,"usage_requirements" : {
+    "_type"  : "usage_requirements"
+  ,"usage_requirement_atoms" : [
+      { "_type" : "usage_requirement_atom"
+      ,"keys" : [ "State-Issued ID" , " Men and Women, ages 18 and older." , "Must not have conviction for arson or sex offense. " ]
+      }
+    ]
+  }
+  ,"faith_based" : "No."
+  }
+]

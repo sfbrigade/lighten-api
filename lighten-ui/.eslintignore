@@ -1,0 +1,5 @@
+coverage/**
+node_modules/**
+@datanerd/**
+dist/**
+src/index.html
