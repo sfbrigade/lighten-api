@@ -17,7 +17,7 @@ export class Home extends React.Component {
     const { organizations } = this.state
     return (
       <div className='home-view'>
-        <h1>Organizations - wow!</h1>
+        <h1>Organizations</h1>
         <ul>
           {
             organizations.map((org, index) => {
