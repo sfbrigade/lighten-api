@@ -2,18 +2,19 @@
   {
     "_type" : "org"
   ,"org_name" : "COMPASS FAMILY SERVICES COMPASS CONNECTING POINT"
-  ,"description" : "Compass Connecting Point (CCP) is a unique program that gives any San Francisco family experiencing a housing crisis quick access to the services that they need most, including eviction prevention, emergency shelter, health care, child care, and eductional programs. CCP manages the shelter waiting list for the City-funded long-term family shelters. Our goals are to place families into shelter and provide supportive services during that wait, including emergency food, diapers, transportation assistance, and intensive supoort with housing search. Additionally CCP provides a one-time interest free loan for move-in funds and eviction prevention.  www.compass-sf.org/programs/connecting-point"
+  ,"description" : "Compass Connecting Point (CCP) is a unique program that gives any San Francisco family experiencing a housing crisis quick access to the services that they need most, including eviction prevention, emergency shelter, health care, child care, and educational programs. CCP manages the shelter waiting list for the City-funded long-term family shelters. Our goals are to place families into shelter and provide supportive services during that wait, including emergency food, diapers, transportation assistance, and intensive supoort with housing search. Additionally CCP provides a one-time interest free loan for move-in funds and eviction prevention.  www.compass-sf.org/programs/connecting-point"
   ,"contacts" : {
-    "Contact Person"  : { "_type" : "contact" , "value" : "Any hotline worker or Crisis Intervention Counselor" }
-  ,"phone"  : { "_type" : "contact" , "value" : "(855) 234-2667" }
-  ,"fax"  : { "_type" : "contact" , "value" : "(415) 442-5138" }
-  ,"email"  : { "_type" : "contact" , "value" : "mary.mora@sfgov.org" }
-  ,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org/programs/connecting-point" }
+    "Contact Person"  : { "_type" : "contact" , "value" : "Any hotline worker or Crisis Intervention Counselor", "label" : "Contact person" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(855) 234-2667", "label" : "Phone" }
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 442-5138", "label" : "Fax" }
+  ,"email"  : { "_type" : "contact" , "value" : "mary.mora@sfgov.org", "label" : "Email" }
+  ,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org/programs/connecting-point", "label" : "Website" }
   }
   ,"hours" : {
     "Intake" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [
+      ,"label": "Intake hours"
+      ,"hours_atoms" : [
         {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "13:00" , "close" : "17:00" }
 
@@ -34,7 +35,8 @@
 
   ,"Drop-in" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [
+      ,"label": "Drop-in hours"
+      ,"hours_atoms" : [
         {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:30" , "close" : "12:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:00" , "close" : "12:00" }
@@ -88,9 +90,10 @@
     }
   }
   ,"hours" : {
-    "" :  {
+    "hours" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "10:00" , "close" : "18:00" }
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "10:00" , "close" : "18:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "10:00" , "close" : "18:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:00" , "close" : "18:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "10:00" , "close" : "18:00" }
@@ -145,8 +148,10 @@
     ,"postal-code" : "94607"
     }
     }
-  ,"hours" : { "_type" : "hours"
-    , "" : [
+  ,"hours" : {
+      "_type" : "hours"
+      ,"label": "Hours"
+      , "hours" : [
         {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
@@ -194,13 +199,16 @@
     }
   }
   ,"hours" : {
-    "" : {"_type" : "hours" 	, "hours_atoms" : [
-      {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "07:00" , "close" : "19:00" }
-    ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "07:00" , "close" : "19:00" }
-    ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "07:00" , "close" : "19:00" }
-    ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "07:00" , "close" : "19:00" }
-    ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "07:00" , "close" : "19:00" }
-    ]
+    "hours" : {
+      "_type": "hours"
+      ,"label": "Hours"
+      ,"hours_atoms" : [
+        {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "07:00" , "close" : "19:00" }
+      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "07:00" , "close" : "19:00" }
+      ]
     }
   , "Women only" : { "_type" : "hours" ,"hours_atoms" : [
       {  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "06:00" , "close" : "20:00" }
@@ -247,9 +255,10 @@
     }
   }
   ,"hours" : {
-    "" :  {
+    "hours" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
@@ -299,9 +308,10 @@
     }
   }
   ,"hours" : {
-    "" :  {
+    "hours" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
@@ -358,9 +368,10 @@
   ,"web" : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
   }
   ,"hours" : {
-    "" :  {
+    "hours" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:00" , "close" : "17:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "17:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:00" , "close" : "17:00" }
@@ -417,9 +428,10 @@
   ,"web" : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
   }
   ,"hours" : {
-    "" :  {
+    "hours" :  {
       "_type" : "hours"
-    ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+      ,"label": "Hours"
+      ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:00" , "close" : "17:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "17:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:00" , "close" : "17:00" }
