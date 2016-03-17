@@ -1,0 +1,87 @@
+[
+
+{
+	"_type" : "org"
+	,"org_name" : "HAMILTON FAMILY CENTER FIRST AVENUES PROGRAM"
+	,"description" : "The mission of Hamilton Family Center is to break the cycle of homelessness and poverty. Through a Housing First approach, HFC provides a continuum of housing solutions and comprehensive services that promote self-sufficiency for families and individuals, and foster the potential of children and youth. In July 2006, HFC launched a city wide Housing First Initiative called First Avenues: Housing Solutions for Families. First Avenues’ primary focus is to return families to independent living and to assist families and individuals to maintain their housing. First Avenues assists families with addressing housing barriers, such as; eviction and credit problems, locating and securing rental units, accessing available resources for rental and move-in assistance, and short-term rental subsidies. Families applying for First Avenues financial assistance grants and/or residing in a San Francisco shelters may access the housing services from a First Avenues Homeless Prevention Case Manager including, Bay Area housing search, linkage to fair market housing, linkage to affordable, subsidized, permanent supportive housing, Housing Authority waitlists, housing application assistance, housing advice and counseling, landlord/tenant assistance, address obstacles such as bad credit and history of eviction, access credit reports, deposit and move-in assistance, application to short term rental subsidies, for those who are eligible. www.myhousing.org www.hamiltonfamilycenter.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Intake Specialist" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 614-9060 ext. 108" }
+		,"fax"  : { "_type" : "contact" , "value" : "" }
+		,"email"  : { "_type" : "contact" , "value" : "" }
+		,"web"  : { "_type" : "contact" , "value" : "www.myhousing.org" }
+		,"web2"  : { "_type" : "contact" , "value" : "www.hamiltonfamilycenter.org" }
+		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "255 Hyde Street","San Francisco","CA 94102"
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Applications for the Rental Subsidy Program can be picked up at the office. To qualify, prospective applicants must: 1) Be homeless or at risk of homelessness in San Francisco. 2) Have a qualifying income.  3) Must have legal custody of at least one minor child. \n\nMove-In Assistance\n Once housing is secured, First Avenues will provide a qualifying family with a grant towards deposit and/or first month’s rent. First Avenues Move-In Assistance grants are one-time only. Deposits can be accessed for housing located both in and outside of San Francisco.  \n\n Eligibility Criteria:\n • Family unit with legal custody of minor children\n • Homeless, must provide appropriate documentation (i.e. Certification of Homelessness)\n • Moving within or from San Francisco.\n • Family has sufficient resources to pay monthly rent\n \n Rental Subsidy Program:\n The First Avenues Rental Subsidy Program is targeted towards working families in San Francisco.  Families may be in shelter or on the verge of homelessness. The Rental Subsidy Program provides eligible families with monthly rental assistance for3-24 months. Families must demonstrate an ability to increase their income by at least the amount of the subsidy and recertify quarterly for eligibility, need and progress. This subsidy is used to enhance each family’s employment goals and maintain their housing goals as they move towards self-sufficiency. Families pay 50% of their monthly income towards rent, and the rental assistance maximum per family is $800 per month.  The rental subsidy is only applicable to market rate and affordable housing options; it cannot be applied to subsidized options like housing authority where the family’s rental amount is determined by a percentage of their income. Families enrolled in this program receive home-based support services for the duration of their financial assistance.\n\n Eligibility Criteria:\n • Family is living in a shelter or transitional housing program in San Francisco or is housed in San Francisco and at risk of losing their housing;\n • Have a household member who is working part or full-time, and/or families on Cal Works who are transitioning into work;\n • If the family did not receive the subsidy they would be paying over 50% of their income toward rent;\n • Income must be less than 50% AMI in San Francisco;\n • Family has the ability to increase their monthly income and take over the full rent by the end of the program term.\n\n Eviction Prevention Program:\n First Avenues Eviction Prevention assistance is a one time, maximum $1,500 grant to families and individuals facing imminent eviction and subsequent homelessness. The grant must prevent an eviction and avert the family or individual from entering shelter. First Avenues Eviction Prevention targets households who are at risk of eviction and who would be able to retain their housing with one-time rental assistance. Households receive follow up phone calls to ensure that they have remained stably housed.\n\n Eligibility Criteria:\n • Must have a legal lease\n • W-9 from the landlord (or can obtain one from the landlord)\n • Eviction Notice (within 30 days)\n • Ability to pay rent forward.\n Households need to call the Eviction Prevention Specialist at 415-614-9060 ext. 114\n"
+			,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+					"Eviction Prevention Assistance"," Rental Move-in Assistance","Access to Internet","Clothing","Food/Prepared Meals","Transit Vouchers (youth passes for MUNI)","Mental Health Treatment","Substance Abuse Treatment","Health & Wellness Education","Group Counseling/Therapy"," Outreach","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education","Housing & Eviction Defense","Couples/Family Counseling","Parenting Support/Education","Services for Children","Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"All required documents are listed on the front of the Rental Subsidy Application"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Homeless","At rist of losing housing"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

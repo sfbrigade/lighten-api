@@ -1,0 +1,124 @@
+[
+{
+	"_type" : "org"
+	,"org_name" : "San Francisco Housing Authority"
+	,"description" : "The San Francisco Board of Supervisors established the San Francisco Housing Authority (SFHA) in 1938. The San Francisco Housing Authority is the oldest housing authority in California and the 17th largest in the country. Since its inception, the SFHA's Conventional Public Housing Department has grown to include over 40 developments located throughout San Francisco.  \n\n In 1974, the Housing Choice Voucher Program (formerly 'Section 8') was introduced to the SFHA. Over 10,000 individuals and families have been served through the Housing Choice Voucher Program. \n\n Today, the SFHA serves over 20,000 individuals residing in San Francisco.\n\nThe Mission of the San Francisco Housing Authority is to deliver safe and decent housing for low income households and integrate economic opportunity for residents."
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 715-3280" }
+		,"TTY"  : { "_type" : "contact" , "value" : "(415) 467-6754" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 715-3296" }
+		,"email"  : { "_type" : "contact" , "value" : "customercare@sfha.org" }
+		,"Customer Care Line (Wait List Status)"  : { "_type" : "contact" , "value" : "(415) 715-5200" }
+		,"Section 8 Department (tel)"  : { "_type" : "contact" , "value" : "(415) 715-5200" }
+		,"Section 8 Department (fax)"  : { "_type" : "contact" , "value" : "(415) 715-3296" }
+		,"web"  : { "_type" : "contact" , "value" : "http://www.sfha.org/" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1815 Egbert Avenue", "San Francisco", "California 94124"]
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:00" , "close" : "17:00" }
+						]
+					}
+	}
+		,"notes" : "Be sure to apply for public housing or Section 8 voucher with the San Francisco Housing Authority if you are eligible. Periodically, the wait list for public housing in San Francisco opens, but may be closed when you first inquire. Check back frequently to see if it has reopened. Contact information for the San Francisco Housing Authority. \n\nAlso, there are many privately subsidized hotels and other apartment units that are available on a rolling basis. Inquire about open housing waiting lists at San Francisco Human Services Agency and community based organizations, and get help completing applications. Domestic violence shelters are available for individuals and families seeking safety from spouse, intimate partner, or other member of the household. "
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [  "housing", "Educational Assistance" , "Transportation" , "Parenting Assistance" , "Child Care", "Legal Assistance" , "Training and Employment" , "LGBT Resources", "Emergency Assistance" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ ]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+				,"keys" : [
+					 "Residents of San Francisco"
+					]
+				}
+			]
+	}
+		,"usage_requirements_expression" : "resident_of_('San Francisco County')" 
+		,"faith_based" : "No."
+},
+{
+	"_type" : "org"
+	,"org_name" : "Coalition on Homelessness"
+	,"description" : "Some affordable housing opportunities may ask for a Certificate of Homelessness. You can obtain a Certificate of Homelessness from the Coalition on Homelessness. "
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 346-3740" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "468 Turk Street" , "San Francisco", "CA 94102" ]
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:00" , "close" : "12:00" }
+						]
+					}
+		
+	}
+		,"notes" : ""
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [  "Certificate of Homelessness"
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+				,"keys" : [
+					]
+				}
+			]
+	}
+		,"usage_requirements_expression" : "resident_of_('San Francisco County') and is_in_class('homeless') " 
+		,"faith_based" : "No."
+}
+
+]

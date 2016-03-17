@@ -1,0 +1,81 @@
+http://spacetelescope.github.io/understanding-json-schema/UnderstandingJSONSchema.pdf
+
+  504  sudo port install py-jsonschema
+  505  jsonschema-2.7 --help 
+  506  pwd
+  507  cd fp/sfor/
+  508  ls
+  509  cd json_format_1/
+  510  ls
+  511  mkdir schema_checker_dinkering
+  512  cd schema_checker_dinkering/
+  513  ls
+  514  vi one.jsc
+  515  vi one.t.1
+  516  mv one.t.1 one.t.p.1
+  517  echo '"42"' > one.t.f.1
+  518  jsonschema-2.7 -i one.t.p.1 one.jsc 
+  519  echo $?
+  520  jsonschema-2.7 -i one.t.f.1 one.jsc 
+  521  echo $?
+  522  vi two.jsc
+  523  vi two.t.f.1
+  524  vi two.t.p.1
+  525  jsonschema-2.7 -i two.t.f.1 two.jsc 
+  526  jsonschema-2.7 -i two.t.p.1 two.jsc 
+  527  echo $?
+  528  jsonschema-2.7 -i two.t.f.1 two.jsc ; echo $?
+  529  vi notes 
+  530  history >> notes 
+
+
+Wed Feb 10 15:19:53 PST 2016
+
+
+A quick jumpstart.
+	
+	-1) a reasonable long term goal may be getting to a full RDF style description, that's not going to happen in the short term, though several of the internal structures sort of feel like RDF-lite. 
+	0) location and org were squished into each other, now we can get away with haivng just the one record per provider for now. 
+	1) The schema to look at is json_schema/basic_components.jsc
+	2) the test harness can be run with ( cd json_schema ; ../quick_schema_regresssor orgs.jsc ) 
+	e.g. 
+
+bbbb:schema_checker_dinkering x$ ( cd json_schema ; ../quick_schema_regresssor orgs.jsc ) 
+(orgs.jsc.tmp) passed json validation
+(basic_components.jsc) passed json validation
+(./orgs.t.p.1) passed json validation
+pass of (orgs.t.p.1)
+(./orgs.t.p.191) passed json validation
+pass of (orgs.t.p.191)
+(./orgs.t.p.201) passed json validation
+pass of (orgs.t.p.201)
+(./orgs.t.p.202) passed json validation
+pass of (orgs.t.p.202)
+(./orgs.t.p.228) passed json validation
+pass of (orgs.t.p.228)
+(./orgs.t.p.230) passed json validation
+pass of (orgs.t.p.230)
+(./orgs.t.p.288) passed json validation
+pass of (orgs.t.p.288)
+
+
+failures (0)
+pass
+
+bbbb:schema_checker_dinkering x$
+
+	3) the 8 example objects are taken from the pages of http://sfgov.org/sfreentry/sites/default/files/FileCenter/Documents/2856-Final%20GOSO%20edition_1st%20printing_August%2011_2015.pdf , and named orgs.t.p.$N , where $N is most likely the document page.
+	4) The schema needs some rework around the "usage_requirements" group, it is a combination of several things, some of which will require a logic system to fix e.g.  (THIS or THAT and not THAT_OTHER_THING) e.g. ( child or parent and not a sex offender ).  
+	5) For reaosns of time _meta and the data translation stuff between openreferal and this datastructure have to yet to be done. 
+	6) as this moves forwrd more riggor around the contents of the fields can be occomplished, and the 'description' properties of each schema part can be filled out with the reasons why and what for. 
+
+
+
+
+
+
+
+
+
+
+
