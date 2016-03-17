@@ -18,11 +18,11 @@
 			 } 
 		,"hours" : { "_type" : "hours" 		
 			, "" : [
-					{  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
-					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
-					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
-					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
-					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:30" , "close" : "17:30" }
+					{  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:30" , "close" : "17:30" }
 					]
 		}
 		,"service_description" : { 
@@ -66,15 +66,15 @@
 	}
 		,"hours" : { 
 			 "" : {"_type" : "hours" 	, "hours_atoms" : [
-					{  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "07:00" , "close" : "19:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "07:00" , "close" : "19:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "07:00" , "close" : "19:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "07:00" , "close" : "19:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "07:00" , "close" : "19:00" }
+					{  "_type" : "hours_atom" , "day" : "Monday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "07:00" , "close" : "19:00" }
 					]
 					}
 			, "Women only" : { "_type" : "hours" ,"hours_atoms" : [
-					{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "06:00" , "close" : "20:00" }
+					{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "06:00" , "close" : "20:00" }
 					]
 				}
 		}

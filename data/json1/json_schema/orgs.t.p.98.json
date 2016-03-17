@@ -14,11 +14,11 @@
 			 "" :  { 
 						"_type" : "hours" 
 					 ,"hours_atoms" : [ 
-					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:00" , "close" : "16:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:00" , "close" : "16:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:00" , "close" : "16:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:00" , "close" : "16:00" }
-					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:00" , "close" : "16:00" }
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "16:00" }
 						]
 					}
 		

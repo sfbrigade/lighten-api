@@ -21,13 +21,13 @@
 			 "" :  { 
 						"_type" : "hours" 
 					 ,"hours_atoms" : [ 
-					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "00:00" , "close" : "23:59" }
-					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "00:00" , "close" : "23:59" }
-					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "00:00" , "close" : "23:59" }
-					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "00:00" , "close" : "23:59" }
-					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "00:00" , "close" : "23:59" }
-					,{  "_type" : "hours_atom" , "mday" : "Sat" , "open" : "00:00" , "close" : "23:59" }
-					,{  "_type" : "hours_atom" , "mday" : "Sun" , "open" : "00:00" , "close" : "23:59" }
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "00:00" , "close" : "23:59" }
 						]
 					}
 		

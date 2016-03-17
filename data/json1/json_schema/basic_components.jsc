@@ -14,14 +14,14 @@
 			"type" : "object"
 			,"properties" : { 
 				"_type" : { "type" : "string" , "pattern" : "^hours_atom$" } 
-				,"mday" : { "enum" : ["Mon" , "Tue" , "Wed" , "Thu", "Fri", "Sat","Sun" ] } 
+				,"day" : { "enum" : ["Monday" , "Tuesday" , "Wednesday" , "Thursday", "Friday", "Saturday","Sunday" ] } 
 				,"timezone" : { "type" : "string" , "pattern" : "^(pdt)*$", "description" : "a placeholder, for later expansion" } 
 				,"open" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1})$"
 						,"description" : "this needs to get flexed out to 12 hour time and tested" }
 				,"close" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1})$"
 						,"description" : "this needs to get flexed out to 12 hour time and tested" }
 			}
-			,"required" : [ "_type"  , "mday" , "open" ,"close"] 
+			,"required" : [ "_type"  , "day" , "open" ,"close"] 
             ,"additionalProperties": false
 		}
 		
@@ -56,7 +56,7 @@
 			,"description" : " possily include ical info for a person like thing?" 
             ,"properties": {
 				"_type" : { "type" : "string" , "pattern" : "^contact$" } 
-				,"value" : { "oneOf" : [ { "$ref" : "#/definitions/telstr"} , { "$ref" : "#/definitions/address" } , { "type" : "string" } ] } 
+				,"value" : { "anyOf" : [ { "$ref" : "#/definitions/telstr"} , { "$ref" : "#/definitions/address1" } , { "type" : "string" } ] } 
             }
 			,"required" : [ "_type"  , "value" ] 
             ,"additionalProperties": false

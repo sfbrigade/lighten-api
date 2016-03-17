@@ -1,7 +1,18 @@
 
+    
     *.jsc  :  json schema 
     
 
     TODO : 
+
         migrate migrate
-    
+        add a uniq record  GUID... 
+        document some of the reasons why... 
+
+
+    TODONE : 
+
+        mday => day { Monday, Tuesday, Wednesday ... } 
+ 
+
+     
