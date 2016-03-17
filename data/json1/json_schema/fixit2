@@ -1,0 +1,17 @@
+#!/usr/bin/env bash 
+
+for i in orgs.t.*.json 
+do
+  (  cat "$i" |  sed 's/"org"/"org"  ,"unique_lighten_recordId" : "'`pwgen -n1  -c 40`'"/g'  
+        ) > $i.tmp
+    diff $i $i.tmp
+    if cat "$i.tmp" | python -mjson.tool > /dev/null 
+    then 
+        echo "meh ($?)"
+    else
+        echo "no meh ($?)"
+    fi     
+    mv $i.tmp $i
+done
+
+

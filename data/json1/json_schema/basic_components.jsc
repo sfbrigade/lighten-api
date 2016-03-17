@@ -153,6 +153,7 @@
 			,"description" : " More copmlicated now that we'll have a relational format as well.. nuts to that. todo:  consider a list of A.K.A.  e.g. Food STamps are now called 'CalFresh' or some such .... 'accepting new clients?' accepting new wait list entries?  .  We curerntly punt on 'usage_requirements_expression' , the idea is to add it to the data in pseudo language, so we can get examples for a non psuedo language good examples are getting_out_staying_out p82,85, 'it's complicated, please call' , page 83,  'different services have different eligabilty' , 87, a multi tierd org attempting to shoe horn in. ... page 95-96, a few programs stuffed into one record.... p97 , 'third trimester of pregnenacy'  98 , for things to bring... 'if Veteran, Form DD214.' " 
             ,"properties": {
 				"_type" : { "type" : "string" , "pattern" : "^org$" } 
+                                ,"unique_lighten_recordId" : { "type" : "string" , "pattern" : "^.*$" } 
 				,"org_name" : { "type" : "string" }
 				,"notes" : { "type" : "string" }
                 ,"description" : { "type" : "string" }
@@ -168,7 +169,7 @@
 				,"sub_orgs" : { "type" : "array" , "items" : { "$ref" : "#/definitions/org"  } }
 				,"languages_spoken" : { "type" : "array" , "items" : { "type" : "string" }}
             }
-			,"required" : [ "_type"  ] 
+			,"required" : [ "_type" , "unique_lighten_recordId" ] 
             ,"additionalProperties": false
 		}
     }

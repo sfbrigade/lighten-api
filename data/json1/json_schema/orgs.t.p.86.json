@@ -1,7 +1,7 @@
 [
 
 {
-	"_type" : "org"
+	"_type" : "org"  ,"unique_lighten_recordId" : "teicheiv7Thieke0Vooshar6keichu2Haethu6be"
 	,"org_name" : "SAN FRANCISCO HUMAN SERVICES AGENCY SAN FRANCISCO RENTAL ASSISTANCE PROGRAM"
 	,"description" : "Provide back rent or security deposit to low income San Francisco residents meeting criteria.  www.sfhsa.org"
 	,"contacts" : { 
@@ -79,7 +79,7 @@
 }
 ,
 {
-	"_type" : "org"
+	"_type" : "org"  ,"unique_lighten_recordId" : "teicheiv7Thieke0Vooshar6keichu2Haethu6be"
 	,"org_name" : "TENDERLOIN HOUSING CLINIC NEW ROADS PROGRAM"
 	,"description" : "In partnership with San Francisco Adult Probation, the New Roads Program provides services to clients who are on Adult Probation in San Franisco. The New Roads Program is a rental subsidy program designed for clients who are homeless or unstably housed, and are seeking housing and financial stability. Services for clients accepted into the program include: housing search assistance, rental subsidies, financial assistance, and supportive setvices. The goal for all New Roads clients is to obtain permanent housing and increase monthly income during program participation, in order to become self-sufficient. www.thclinic.org"
 	,"contacts" : { 

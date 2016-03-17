@@ -1,6 +1,6 @@
 [
 {
-	"_type" : "org"
+	"_type" : "org"  ,"unique_lighten_recordId" : "ooqu2eidepheGhee3awi9iPh1veph9xohMoh4Poh"
 	,"org_name" : "San Francisco Housing Authority"
 	,"description" : "The San Francisco Board of Supervisors established the San Francisco Housing Authority (SFHA) in 1938. The San Francisco Housing Authority is the oldest housing authority in California and the 17th largest in the country. Since its inception, the SFHA's Conventional Public Housing Department has grown to include over 40 developments located throughout San Francisco.  \n\n In 1974, the Housing Choice Voucher Program (formerly 'Section 8') was introduced to the SFHA. Over 10,000 individuals and families have been served through the Housing Choice Voucher Program. \n\n Today, the SFHA serves over 20,000 individuals residing in San Francisco.\n\nThe Mission of the San Francisco Housing Authority is to deliver safe and decent housing for low income households and integrate economic opportunity for residents."
 	,"contacts" : { 
@@ -65,7 +65,7 @@
 		,"faith_based" : "No."
 },
 {
-	"_type" : "org"
+	"_type" : "org"  ,"unique_lighten_recordId" : "ooqu2eidepheGhee3awi9iPh1veph9xohMoh4Poh"
 	,"org_name" : "Coalition on Homelessness"
 	,"description" : "Some affordable housing opportunities may ask for a Certificate of Homelessness. You can obtain a Certificate of Homelessness from the Coalition on Homelessness. "
 	,"contacts" : { 

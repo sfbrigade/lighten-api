@@ -1,6 +1,6 @@
 [
 {
-	"_type" : "org"
+	"_type" : "org"  ,"unique_lighten_recordId" : "Thoo0xitheivahquee5paeche9eleeg3ieBie6Ku"
 	,"org_name" : "CITYTEAM INTERNATIONAL SUBSTANCE ABUSE TREATMENT SERVICES"
 	,"description" : "In San Jose, Cityteam is providing hot meals, safe shelter, showers, and clean clothing to our city's homeless population. Located in the heart of Silicon Valley, Cityteam brings real help and real hope to the men, women, children, and families in crisis that are struggling with poverty or homelessness in San Jose and throughout Santa Clara County.  Cityteam San Jose also has renowned recovery programs for men and women seeking help to transform their lives from addiction to drugs and alcohol. Cityteam provides long-term compassionate ministry to people that walk through our doors. Through the generous support of our staff, volunteers, and donors, Cityteam is able to provide real help and real hope in Christ in order to bring real change into their lives. www.cityteam.org/san-jose"
 	,"contacts" : { 
@@ -61,7 +61,7 @@
 ,
 
 {
-	"_type" : "org"
+	"_type" : "org"  ,"unique_lighten_recordId" : "Thoo0xitheivahquee5paeche9eleeg3ieBie6Ku"
 	,"org_name" : "PROJECT 90 SUBSTANCE ABUSE TREATMENT SERVICES SAN JOSE"
 	,"description" : "Project 90 is a human services organization dedicated to meeting the needs of individuals, families and our communities through comprehensive alcohol and drug recovery. www.projectninety.org"
 	,"contacts" : { 
