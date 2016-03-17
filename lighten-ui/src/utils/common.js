@@ -5,7 +5,7 @@ export const parseOrganization = (organization) => {
   Object.keys(organization.contacts).forEach((key) => {
     const contact = organization.contacts[key]
     if (typeof contact.value === 'object' && contact.value._type === 'address1') {
-      organization.locations[key] = contact
+      organization.locations[key] = contact.value
       delete organization.contacts[key]
     }
   })

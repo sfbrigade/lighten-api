@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import DataBlock from '../components/DataBlock'
+import Location from '../components/Location'
 import Hours from '../components/Hours'
 import { parseOrganization } from '../utils/common'
 import './Organization.scss'
@@ -57,6 +58,12 @@ export default class Organization extends React.Component {
 
         <section>
           <h2>Locations</h2>
+          {
+            Object.keys(organization.locations).map((locationKey) => {
+              const location = organization.locations[locationKey]
+              return <Location key={locationKey} location={location} />
+            })
+          }
         </section>
 
         <section>
