@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import { connect } from 'react-redux'
 import organizations from '../static/mock/orgs.json'
 import './Home.scss'
-console.log(organizations)
+
 export class Home extends React.Component {
 
   constructor (props) {

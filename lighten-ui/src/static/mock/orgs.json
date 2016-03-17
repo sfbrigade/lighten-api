@@ -4,16 +4,15 @@
   ,"org_name" : "COMPASS FAMILY SERVICES COMPASS CONNECTING POINT"
   ,"description" : "Compass Connecting Point (CCP) is a unique program that gives any San Francisco family experiencing a housing crisis quick access to the services that they need most, including eviction prevention, emergency shelter, health care, child care, and educational programs. CCP manages the shelter waiting list for the City-funded long-term family shelters. Our goals are to place families into shelter and provide supportive services during that wait, including emergency food, diapers, transportation assistance, and intensive supoort with housing search. Additionally CCP provides a one-time interest free loan for move-in funds and eviction prevention.  www.compass-sf.org/programs/connecting-point"
   ,"contacts" : {
-    "Contact Person"  : { "_type" : "contact" , "value" : "Any hotline worker or Crisis Intervention Counselor", "label" : "Contact person" }
-  ,"phone"  : { "_type" : "contact" , "value" : "(855) 234-2667", "label" : "Phone" }
-  ,"fax"  : { "_type" : "contact" , "value" : "(415) 442-5138", "label" : "Fax" }
-  ,"email"  : { "_type" : "contact" , "value" : "mary.mora@sfgov.org", "label" : "Email" }
-  ,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org/programs/connecting-point", "label" : "Website" }
+    "Contact Person"  : { "_type" : "contact" , "value" : "Any hotline worker or Crisis Intervention Counselor"}
+  ,"phone"  : { "_type" : "contact" , "value" : "(855) 234-2667"}
+  ,"fax"  : { "_type" : "contact" , "value" : "(415) 442-5138"}
+  ,"email"  : { "_type" : "contact" , "value" : "mary.mora@sfgov.org"}
+  ,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org/programs/connecting-point"}
   }
   ,"hours" : {
     "Intake" :  {
       "_type" : "hours"
-      ,"label": "Intake hours"
       ,"hours_atoms" : [
         {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "13:00" , "close" : "17:00" }
@@ -35,7 +34,6 @@
 
   ,"Drop-in" :  {
       "_type" : "hours"
-      ,"label": "Drop-in hours"
       ,"hours_atoms" : [
         {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:00" , "close" : "12:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:30" , "close" : "12:00" }
@@ -78,7 +76,7 @@
   ,"description" : "LYRIC is an organization for lesbian, gay, bisexual, transgender, queer and questioning youth, ages 24 and younger. LYRIC’s mission is to build community and inspire positive social change through education enhancement, career training, health promotion and leadership development with LGBTQQ youth, their families, and allies of all races, classes, genders and abilities. LYRIC works to meet youth where they are and support them in getting what they need. www.lyric.org"
   ,"contacts" : {
     "Contact Person"  : { "_type" : "contact" , "value" : "Youth Advocates" }
-  ,"phone"  : { "_type" : "contact" , "value" : ": (415) 703-6150" }
+  ,"phone"  : { "_type" : "contact" , "value" : "(415) 703-6150" }
   ,"fax"  : { "_type" : "contact" , "value" : "(415) 703-6153" }
   ,"email"  : { "_type" : "contact" , "value" : "lyricinfo@lyric.org" }
   ,"web"  : { "_type" : "contact" , "value" : "www.lyric.org" }
@@ -92,7 +90,6 @@
   ,"hours" : {
     "default" :  {
       "_type" : "hours"
-      ,"label": "Hours"
       ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "10:00" , "close" : "18:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "10:00" , "close" : "18:00" }
       ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:00" , "close" : "18:00" }
@@ -100,9 +97,8 @@
       ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "10:00" , "close" : "18:00" }
       ]
     }
-
   }
-  ,"notes" : ": No referral needed. Drop-ins are welcome.\nReferrals to other resources available as needed"
+  ,"notes" : "No referral needed. Drop-ins are welcome.\nReferrals to other resources available as needed"
   ,"service_description" : {
     "_type" : "service_description"
   ,"service_categories" : [
@@ -149,16 +145,42 @@
     }
     }
   ,"hours" : {
-      "_type" : "hours"
-      ,"label": "Hours"
-      , "hours" : [
-        {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
-      ,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
-      ,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
-      ,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
-      ,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:30" , "close" : "17:30" }
+    "default" : {
+      "_type": "hours",
+      "hours_atoms": [
+        {
+          "_type": "hours_atom",
+          "mday": "Mon",
+          "open": "08:30",
+          "close": "17:30"
+        },
+        {
+          "_type": "hours_atom",
+          "mday": "Tue",
+          "open": "08:30",
+          "close": "17:30"
+        },
+        {
+          "_type": "hours_atom",
+          "mday": "Wed",
+          "open": "08:30",
+          "close": "17:30"
+        },
+        {
+          "_type": "hours_atom",
+          "mday": "Thu",
+          "open": "08:30",
+          "close": "17:30"
+        },
+        {
+          "_type": "hours_atom",
+          "mday": "Fri",
+          "open": "08:30",
+          "close": "17:30"
+        }
       ]
     }
+  }
   ,"service_description" : {
       "_type" : "service_description"
     ,"service_categories" : [
@@ -267,7 +289,7 @@
     }
 
   }
-  ,"notes" : ": No referral needed. Drop-ins are welcome."
+  ,"notes" : "No referral needed. Drop-ins are welcome."
   ,"service_description" : {
     "_type" : "service_description"
   ,"service_categories" : [

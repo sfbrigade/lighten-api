@@ -35,8 +35,9 @@ export default class Hours extends React.Component {
           Object.keys(data).map(key => {
             const hours = data[key]
             return <DataBlock
-              label={hours.label}
-              value={createHoursMarkup(hours.hours_atoms)} />
+              key={key}
+              label={key}
+              values={createHoursMarkup(hours.hours_atoms)} />
           })
         }
       </div>

@@ -1,10 +1,15 @@
 import React, { PropTypes } from 'react'
 import DataBlock from '../components/DataBlock'
 import Hours from '../components/Hours'
+import { parseOrganization } from '../utils/common'
 import './Organization.scss'
 import organizations from '../static/mock/orgs.json'
 
 export default class Organization extends React.Component {
+
+  static propTypes = {
+    params: PropTypes.object.isRequired
+  }
 
   constructor (props) {
     super(props)
@@ -16,6 +21,7 @@ export default class Organization extends React.Component {
 
   render () {
     const { organization } = this.state
+    parseOrganization(organization)
     console.log(organization)
 
     let hoursMarkup
@@ -32,7 +38,7 @@ export default class Organization extends React.Component {
           {
             Object.keys(organization.contacts).map((contactKey) => {
               const contact = organization.contacts[contactKey]
-              return <DataBlock label={contact.label} value={contact.value} />
+              return <DataBlock key={contactKey} label={contactKey} value={contact.value} />
             })
           }
           { hoursMarkup }
@@ -44,7 +50,7 @@ export default class Organization extends React.Component {
           <h2>Things to know</h2>
           <DataBlock label='Eligible population' values={organization.usage_requirements.usage_requirement_atoms[0].keys} />
           <DataBlock label='Languages' value={organization.languages_spoken.join(', ')} />
-          <DataBlock label='Accessibility' value={organization.accessibility.accessibility_atoms[0].keys} />
+          <DataBlock label='Accessibility' value={organization.accessibility.accessibility_atoms[0].keys.join('. ')} />
           <DataBlock label='Faith-based' value={organization.faith_based} />
 
         </section>
@@ -59,7 +65,4 @@ export default class Organization extends React.Component {
       </div>
     )
   }
-}
-Organization.propTypes = {
-  params: PropTypes.object.isRequired
 }

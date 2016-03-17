@@ -16,6 +16,7 @@ export default class DataBlock extends React.Component {
 
   render () {
     const { label, value, values } = this.props
+    if (Array.isArray(value)) console.log('value', label, value)
 
     let labelMarkup
     if (label) {
@@ -24,8 +25,8 @@ export default class DataBlock extends React.Component {
 
     let valuesMarkup
     if (values) {
-      valuesMarkup = values.map(value => {
-        return <div className='value'>{value}</div>
+      valuesMarkup = values.map((value, index) => {
+        return <div key={index} className='value'>{value}</div>
       })
     } else if (value) {
       valuesMarkup = <div className='value'>{value}</div>
