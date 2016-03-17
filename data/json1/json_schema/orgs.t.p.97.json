@@ -1,0 +1,80 @@
+[
+
+{
+	"_type" : "org"
+	,"org_name" : "HAMILTON FAMILY CENTER TRANSITIONAL HOUSING PROGRAM"
+	,"description" : "The Hamilton Family Center Transitional Housing program seeks to break the cycle of homelessness and poverty. Through a housing-first approach, we provide a continuum of housing solutions and hands-on services that promote self-sufficiency for families and individuals, and foster the potential of children and youth. The Transitional Housing Program offers 20 high-needs families interim housing with comprehensive support services for up to 18 months. www.hamiltonfamilycenter.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Front Desk" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 409-2100 ext 100" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 345-0471" }
+		,"email"  : { "_type" : "contact" , "value" : "thp.intake@hamiltonfamilycenter.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.hamiltonfamilycenter.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1631 Hayes St","San Francisco","CA 94117"
+						] 
+				 ,"postal-code" : "94117"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+						]
+					}
+		
+	}
+		,"notes" : "Clients are required to have a referral from a social service provider and a certificate of homelessness. Appointment required."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [
+					"Access to Internet","Assistance getting Driver’s License/ID","Clothing","Mental Health Treatment","Health & Wellness Education","Intensive Case Management","Individual Counseling"," Housing Placement Assistance","Assistance Applying For CalFresh/Food Stamps","Assessment & Application for SSI","Credit Repair","Job Readiness/Life Skills","Money Management/Personal Financial Education","Assistance Applying For Health Insurance","Couples/Family Counseling","Family Reunification","Parenting Support/Education","Services For Children" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"State-Issued ID","Social Security Card","birth certificates for children in physical/legal custody","back rent notice or certification of homelessness","Program will try to assist client in getting these"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"30% of income as rent", "20% of income to savings"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Families (any adult/s with children) with at least one child under 18 in physical or legal custody or be in the 3rd trimester or 5th month of high risk pregnancy"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

@@ -1,0 +1,7 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#"
+	,"id" : "flie:///contact.jsc"
+	,"title" : "test stub"
+	,"description" : "stuff"
+	,"default" : "none"
+    ,"allOf" :[ { "$ref" : "URLPWD/basic_components.jsc#/definitions/contact" } ] 
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env perl 
+
+# do_a_page $PAGENUM $entries
+
+my ($pagenum,$entries) = @ARGV; 
+
+if (not defined $pagenum){
+	die("need pagenum\n");
+}
+
+$fname = "orgs.t.p.$pagenum.json"; 
+if ( -f $fname ){
+	die" Woooah... STOP!!!! there is one already....\n";
+}
+
+`./ntimes $entries > $fname `; 
+exec ("vi $fname");

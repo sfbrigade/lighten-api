@@ -1,0 +1,56 @@
+[
+{
+	"_type" : "org"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF PUBLIC HEALTH CHILD CRISIS SERVICES"
+	,"description" : "To provide acute mobile psychiatric crisis evaluation and intervention for children and youth in San Francisco, regardless of insurance, up to age 18. We are strongly committed to delivering family focused and consumer driven care, and developing a safety network within San Francisco County. "
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 970-3800" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "3801 Third Street","Building B","Suite 400","San Francisco","CA 94124" ]
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+						,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "08:30" , "close" : "17:30" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "08:30" , "close" : "17:30" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Please call first.\nOther languages can be accommodated."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Psychiatric Inpatient Hospital Bed","Mental Health Treatment","Crisis Case Management" , "Referrals to other resources available as needed." ]
+				}
+			]
+	}
+		,"languages_spoken" : [ "English", "Spanish", "Chinese", "Taglog", "Vietnamese" ]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ "Wheelchair accessible" ]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+				,"keys" : [ "Clients must exhibit psychiatric emergencies"  , "Sliding scale fee"  ]
+				}
+			]
+	}
+		,"faith_based" : "No."
+}
+
+]

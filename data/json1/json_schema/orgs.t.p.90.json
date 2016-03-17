@@ -1,0 +1,84 @@
+[
+
+{
+	"_type" : "org"
+	,"org_name" : "CENTER ON JUVENILE AND CRIMINAL JUSTICE (CJCJ) CAMEO HOUSE ALTERNATIVE SENTENCING PROGRAM"
+	,"description" : "In partnership with the San Francisco Adult Probation Department, the Center on Juvenile and Criminal Justice’s Cameo House serves criminally involved pregnant and parenting women, who are certified as homeless (as defined by the City and County of San Francisco). The goal of Cameo House is to identify eligible women who are awaiting adjudication and recommend to the courts that they be sentenced to Cameo House in lieu of state prison or county jail, when appropriate. All women residing at Cameo House must have at least one child in their custody, have active reunification services with at least one of their children, or be pregnant at the time of enrollment. Cameo House is a 12-month program but clients can remain for up to two years. All residents must be willing to participate in case management and other clinical services as a condition of the residency. During their stay at Cameo House, women are expected to obtain employment, reunify with at least one of their children, remain clean and sober (verified through random UAs conducted at Cameo House at least once per month), satisfy their Probation requirements, and obtain steady employment, with the goal being for them to obtain and sustain permanent housing. Cameo House residents work intensively with our on-site Case Manager and Therapist to insure that all these objectives are met. www.cjcj.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Intake/Staff" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 703-0600" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 703-0550" }
+		,"web"  : { "_type" : "contact" , "value" : "www.cjcj.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "Cameo House","40 Boardman Place","San Francisco","CA 94103"
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "mday" : "Sat" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "mday" : "Sun" , "open" : "00:00" , "close" : "23:59" }
+						]
+					}
+		
+	}
+		,"notes" : "Clients may call for more information about the referral process. Appointments required"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+					"Assistance with Permanent Housing; Transitional Housing; Access to Internet"," Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","P.O. Box/Mail Service","Storage Facilities","Transit Vouchers","Mental Health Treatment"," Substance Abuse Treatment","Co-occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Anger Management","Community Education & Mediation","Group Counseling/Therapy"," Intensive Case Management","Individual Counseling/Therapy","Outreach","Post-Incarceration Support"," Restorative Justice/Survivor Impact","Basic/Remedial Education","College & Graduate Education","GED & High School Education","Reading/Literacy","Assessment & Application for Food Stamps, General Assistance, SSI","Credit Repair","Employment Training","Employment Retention","Money Management/Personal Financial Education","Representative Payee Services","Clean Slate/ Conviction Expungement Services","Inmate & Parolee Legal Issues","Employment Law","Childcare","Family Reunification","Parenting Support/Education","Services for Children","Referrals to other resources available as needed"
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Formerly incarcerated women with young children. May not have a criminal conviction for a sex offense or be a registered sex offender."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : ""
+		,"faith_based" : "No."
+}
+
+
+]

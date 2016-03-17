@@ -1,0 +1,7 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#"
+	,"id" : "org.jsc"
+	,"title" : "test stub"
+	,"description" : "stuff"
+	,"default" : "none"
+    ,"allOf" :[ { "$ref" : "file:///Users/x/fp/sfor/heroku/lighten-django-demo/data/json1/json_schema/basic_components.jsc#/definitions/org" } ] 
+}

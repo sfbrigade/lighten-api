@@ -1,0 +1,84 @@
+[
+
+{
+	"_type" : "org"
+	,"org_name" : "COMPASS FAMILY SERVICES COMPASS CLARA HOUSE"
+	,"description" : "Compass Clara House (CCH) is a two-year transitional housing program of Compass Family Services and is aimed at supporting families with minor children to permanently break the cycle of homelessness. Through intensive case management, on-site therapy, life skills classes, parenting support, on-site licensed childcare for children through age 5, after school programs, education/vocational support, money management, and recovery support, our two-year program helps families build a lasting foundation for success.  www.compass-sf.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Felicia Less, Intake Coordinator" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 644-0504 ext. 5104" }
+		,"email"  : { "_type" : "contact" , "value" : "fless@compass-sf.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "111 Page Street","San Francisco","CA 94102"
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "10:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "10:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "10:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "10:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "10:00" , "close" : "18:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Clients must be referred by a social service agency (such as a family shelter or substance abuse treatment program).  Appointment required."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+					 "Case Management","Life Skills","Permanent Housing Placement","Licensed Child Care and Afterschool Activities","Transitional Housing (up to 2 years)","Individual Therapy","Educational/Vocational Support","Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"TB Clearance","proof of custody of minor(s)","proof of income (if any)","identification information (state-issued or other)"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"30% of income for rent","20% of income for savings"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"homeless families with minor children", "6 months clean", "Clients who have experienced domestic violence must be able to demonstrate at least 2 months separation from batterer", "not convicted of a violent offense","not convicted of a sex offense", "not convicted of arson"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

@@ -1,0 +1,176 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#"
+	,"id" : "basic_components.jsc"
+	,"title" : "Basic Component parts for the sfor backend datastore"
+	,"description" : " Version 0.0.0.1 :  We still need '_meta' stuff,  basicly another object for arbitrary keys and values for logging, and a place to put extra data when converting to/from other primary formats (basicly every object will probably get a _meta) \n 'usage_requirements' is a combination of eligabilty and what one needs to bring, Stuff to bring may need to be split out again ,and eligabilty requirements will require an and/or/not  logic system of some sort to support the given dataset. We may also wish to add a 'noes' field each of the new datatypes due ot the heavy use of interspersed human text in the tables (or leave this in _meta maybe)" 
+	,"default" : "none"
+    ,"definitions" :{
+		"telstr" : { 
+			"type" : "string"
+			,"description" : " eventually this could be replaced by tel urls? "
+			,"pattern" : "^[ 0-9-#xX()]{5,30}$"
+		}
+
+		,"hours_atom" : { 
+			"type" : "object"
+			,"properties" : { 
+				"_type" : { "type" : "string" , "pattern" : "^hours_atom$" } 
+				,"mday" : { "enum" : ["Mon" , "Tue" , "Wed" , "Thu", "Fri", "Sat","Sun" ] } 
+				,"timezone" : { "type" : "string" , "pattern" : "^(pdt)*$", "description" : "a placeholder, for later expansion" } 
+				,"open" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1})$"
+						,"description" : "this needs to get flexed out to 12 hour time and tested" }
+				,"close" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1})$"
+						,"description" : "this needs to get flexed out to 12 hour time and tested" }
+			}
+			,"required" : [ "_type"  , "mday" , "open" ,"close"] 
+            ,"additionalProperties": false
+		}
+		
+		,"hours" : { 
+			"type": "object"
+			,"properties" : { 
+				"_type" : { "type" : "string" , "pattern" : "^hours$" } 
+				,"hours_atoms" : { "type" : "array" , "items" : { "$ref" : "#/definitions/hours_atom" } } 
+			}
+			,"required" : [ "_type" ,"hours_atoms"]
+            ,"additionalProperties": false
+		}
+	
+		,"address1" : { 
+			"type" : "object"
+			,"description" : "the address simply can't be done correctly, ( http://www.columbia.edu/~fdc/postal/ ) , There is much to say about possibly data validation, and generality, there is in fact and industry around it e.g. http://www.address-validator.net/ for now punt "
+			,"properties" : { 
+				"_type" : { "type" : "string" , "pattern" : "^address1$" } 
+				,"name" : { "type" :"string"}
+				,"addrtxtlines" : { "type" : "array" , "items" : { "type" :  "string" , "minLength" : 2 } , "minItems" : 2 }
+				,"city" : { "type" :"string"}
+				,"state" : { "type" :"string" }
+				,"postal-code" : { "type" : "string" , "pattern" : "^[0-9]{5}(-[0-9]{4})?$" }
+				,"country" : { "type" : "string" , "pattern" : "^.+$" , "description" : "place holder"}
+			}
+			,"required" : [ "_type" , "addrtxtlines" , "postal-code" ]
+            ,"additionalProperties": false
+		}
+
+        ,"contact" : {
+            "type" : "object"
+			,"description" : " possily include ical info for a person like thing?" 
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^contact$" } 
+				,"value" : { "oneOf" : [ { "$ref" : "#/definitions/telstr"} , { "$ref" : "#/definitions/address" } , { "type" : "string" } ] } 
+            }
+			,"required" : [ "_type"  , "value" ] 
+            ,"additionalProperties": false
+        }
+
+
+        ,"our_uri" : {
+            "type" : "string"
+			,"description" : "bringing this in house to gain control over it, we don't want gofer uris here... only the normalkind ... we'll need to get more rigerous later"
+            ,"pattern": "^(http|https)://.+$"
+        }
+
+        ,"service_catagory_atom" : {
+            "type" : "object"
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^service_catagory_atom$" } 
+				,"keys" : { "type" : "array" , "items" : { "type" :  "string" , "minLength" : 1 }   }
+				,"dictionary" : { "type" : {"$ref" : "#/definitions/our_uri" } } 
+            }
+			,"required" : [ "_type"  , "keys" ] 
+            ,"additionalProperties": false
+        }
+
+
+        ,"service_description" : {
+            "type" : "object"
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^service_description$" } 
+				,"name" : { "type" : "string"}
+				,"extened_description" : { "type" : "string" }
+				,"service_catagories" : { "type" : "array" , "items" : { "$ref" : "#/definitions/service_catagory_atom"  }}
+            }
+			,"required" : [ "_type"  , "service_catagories" ] 
+            ,"additionalProperties": false
+        }
+
+        ,"usage_requirement_atom" : {
+            "type" : "object"
+			,"description" : "kind is for strictly discriminating between (what to bring, fees, and eligibility stuff without a expression systme" 
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^usage_requirement_atom$" } 
+				,"keys" : { "type" : "array" , "items" : { "type" :  "string" , "minLength" : 1 }   }
+				,"kind" : { "type" : "string" , "pattern" : "^(eligible_population|fees|what_to_bring)$" } 
+				,"dictionary" : { "type" : {"$ref" : "#/definitions/our_uri" } } 
+            }
+			,"required" : [ "_type"  , "keys" ] 
+            ,"additionalProperties": false
+        }
+
+
+		,"usage_requirements" : {
+            "type" : "object"
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^usage_requirements$" } 
+				,"name" : { "type" : "string"}
+                ,"extened_description" :  { "type" : "string"}
+				,"notes" : { "type" : "string"}
+				,"usage_requirement_atoms" : { "type" : "array" , "items" : { "$ref" : "#/definitions/usage_requirement_atom"  }}
+            }
+			,"required" : [ "_type"  , "usage_requirement_atoms" ] 
+            ,"additionalProperties": false
+		}
+
+
+
+        ,"accessibility_atom" : {
+            "type" : "object"
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^accessibility_atom$" } 
+				,"keys" : { "type" : "array" , "items" : { "type" :  "string" , "minLength" : 1 }   }
+				,"dictionary" : { "type" : {"$ref" : "#/definitions/our_uri" } } 
+            }
+			,"required" : [ "_type"  , "keys" ] 
+            ,"additionalProperties": false
+        }
+
+
+		,"accessibility" : {
+            "type" : "object"
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^accessibility$" } 
+				,"name" : { "type" : "string" }
+                ,"extened_description" : "string"
+				,"notes" : { "type" : "string"}
+				,"accessibility_atoms" : { "type" : "array" , "items" : { "$ref" : "#/definitions/accessibility_atom"  }}
+            }
+			,"required" : [ "_type"  , "accessibility_atoms" ] 
+            ,"additionalProperties": false
+		}
+
+
+		,"org" :{ 
+            "type" : "object"
+			,"description" : " More copmlicated now that we'll have a relational format as well.. nuts to that. todo:  consider a list of A.K.A.  e.g. Food STamps are now called 'CalFresh' or some such .... 'accepting new clients?' accepting new wait list entries?  .  We curerntly punt on 'usage_requirements_expression' , the idea is to add it to the data in pseudo language, so we can get examples for a non psuedo language good examples are getting_out_staying_out p82,85, 'it's complicated, please call' , page 83,  'different services have different eligabilty'" 
+            ,"properties": {
+				"_type" : { "type" : "string" , "pattern" : "^org$" } 
+				,"org_name" : { "type" : "string" }
+				,"notes" : { "type" : "string" }
+                ,"description" : { "type" : "string" }
+                ,"extened_description" : { "type" : "string" }
+				,"contacts" : { "type" : "object"  }
+					,"patternProperties" : { "type" : {"$ref" : "#/definitions/contact"}}
+				,"hours" : { "type" : "object" , "patternProperties" : { "" : {"$ref" : "#/definitions/hours"}}}
+				,"usage_requirements" : { "$ref" : "#/definitions/usage_requirements" } 
+				,"usage_requirements_expression" : { "type" : "string" } 
+				,"service_description" : { "$ref" : "#/definitions/service_description" } 
+				,"faith_based" : { "type" : "string"  }
+				,"accessiblity" : { "$ref" : "#/definitions/accessibility" } 
+				,"sub_orgs" : { "type" : "array" , "items" : { "$ref" : "#/definitions/org"  } }
+				,"languages_spoken" : { "type" : "array" , "items" : { "type" : "string" }}
+            }
+			,"required" : [ "_type"  ] 
+            ,"additionalProperties": false
+		}
+    }
+}
+

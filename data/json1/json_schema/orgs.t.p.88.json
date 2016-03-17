@@ -1,0 +1,94 @@
+[
+
+{
+	"_type" : "org"
+	,"org_name" : "ARA FIRST STEP HOME SOBER LIVING HOUSE"
+	,"description" : "The Alcoholics Rehabilitation Association of San Francisco, Inc., operates the ARA First Step Home, a residence for men and women who are suffering from alcoholism. Our main objective is to return the alcoholic to his or her rightful place in society. The recovery program is oriented towards Alcoholics Anonymous. Help is also provided to make use of community resources to aid in the recovery process. All residents are required to attend the Monday and Thursday A.A. meetings held at 7:30 PM in the First Step Home and one outside meeting of their choice. They will also be required to attend the weekly home forum meeting on Tuesdays at 6:30 PM.  www.arafirststephome.com"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "ARA Staff" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 863-3661" }
+		,"fax"  : { "_type" : "contact" , "value" : "Fax: (415) 863-3670" }
+		,"email"  : { "_type" : "contact" , "value" : "arahouse@pacbell.net" }
+		,"web"  : { "_type" : "contact" , "value" : "www.arafirststephome.com" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1035 Haight Street","San Francisco","CA 94117"
+						] 
+				 ,"postal-code" : "94117"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "intake" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "06:30" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "06:30" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "06:30" , "close" : "19:30" }
+						]
+					}
+			 ,"" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "06:00" , "close" : "14:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "06:00" , "close" : "14:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "06:00" , "close" : "14:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "06:00" , "close" : "14:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "06:00" , "close" : "14:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Sat" , "open" : "07:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Sun" , "open" : "07:00" , "close" : "10:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Applicants are referred to the house by institutions, clinics, AA clubs, members, doctors, and other responsible individuals. If you are on probation or parole, you must be on supervision in San Francisco. We do not accept probationers or parolees from other counties.\nChecklist:\n 1. Call to be sure you meet the minimum requirements.\n 2. Telephone Interview.\n 3. Once accepted to waiting list, checkin Mon, Wed., & Fridays 9-5.\n 4. Know the House Meeting requirements.\n 5. Valid identification\n 6. TB test required upon entering or within 1st seven days.\n\n\nThere are meetings of Alcoholics Anonymous held at the Home each week. Attendance at meetings is considered a requirement of residence in the Home."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+					"Sober Living","Transitional Housing","Meals","AA Meetings"
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Valid Identification", "Referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Call for more info"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Completion of a primary program (minimum 28 days) within the last year." ,"An honest and sincere desire to gain and maintain sobriety." , "The need for food, shelter, and an atmosphere of friendly understanding" , "Ability and willingness to accept gainful employment"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " completed_course_or_program_dat"
+		,"faith_based" : "No."
+}
+
+
+]

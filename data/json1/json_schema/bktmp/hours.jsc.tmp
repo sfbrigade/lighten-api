@@ -1,0 +1,7 @@
+{ "$schema": "http://json-schema.org/draft-04/schema#"
+	,"id" : "hours.jsc"
+	,"title" : "test stub"
+	,"description" : "stuff"
+	,"default" : "none"
+    ,"allOf" :[ { "$ref" : "file:///Users/x/fp/sfor/json_format_1/schema_checker_dinkering/json_schema/basic_components.jsc#/definitions/hours" } ] 
+}

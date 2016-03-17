@@ -1,0 +1,83 @@
+[
+
+{
+	"_type" : "org"
+	,"org_name" : "TENDERLOIN HOUSING CLINIC HOUSING AND SUPPORTIVE SERVICES"
+	,"description" : "THC provides affordable supportive housing in San Francisco to over 1,500 formerly homeless tenants in 16 master leased properties residing in the Tenderloin, Mission, Union Square, and South of Market (SOMA) neighborhoods. Additionally, THC owns and operates the Galvin Apartments, a building in SOMA, designed for tenants transitioning out of Single Room Occupancy Hotels (SROs).  The Housing Services Staff are enthusiastic about helping clients retain and maintain their housing through rental payment and money management services. THC provides supportive case management to all THC tenants, using a harm reduction framework. Through the harm reduction lens, each tenant is seen as an individual with unique needs. We attempt to serve tenants in a fair, consistent and supportive manner, which builds upon their strengths and promotes self-sufficiency.  www.thclinic.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Clinic Staff" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 771-2427" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 921-8691" }
+		,"web"  : { "_type" : "contact" , "value" : "www.thclinic.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "472 Turk Street","San Francisco" , "CA, 94102"
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "09:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Tue" , "open" : "09:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Wed" , "open" : "09:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Thu" , "open" : "09:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "mday" : "Fri" , "open" : "09:30" , "close" : "16:00" }
+						]
+					}
+		
+	}
+		,"notes" : "To qualify for placement in a master lease hotel, prospective tenants must: 1) Be homeless. 2) Have a qualifying income.  3) Must be referred from an approved source.  \n\n How to Sign Up for the Master Lease Program: \n\n If you are a CAAP Recipient: Any client who is active and listed as homeless with their County Adult Assistance Program (CAAP) worker is eligible for master lease hotel housing. Check with your CAAP worker during your monthly Homeless Residency verification appointment regarding housing opportunities. Your CAAP worker is the only person who can provide you with this information.  \n\n If you are a SSI/SSDI/SSA/VA/CAPI Recipient: To qualify for the Master Lease program, you must stay at a qualified emergency shelter or work with a qualified agency. These include: MSC South, Next Door, Hospitality House, Episcopal Sanctuary, A Woman's Place, Larkin St., Dolores St., or the Homeless Outreach Team. Each shelter has a designated number of referrals slots and has its own internal process for making referrals to THC. Please see your shelter case manager to learn about their referral process. If your income is CAAP you cannot be referred through a shelter.  \n\n If you are a Qualified Low-Income Working Individual: To qualify for the Master Lease program, you must stay at a qualified emergency shelter or work with a qualified agency. These include: MSC South, Next Door, Hospitality House, Episcopal Sanctuary, A Woman's Place, Larkin St., Dolores St., or the Homeless Outreach Team. Each shelter has a designated number of referrals slots, and has its own internal process for making referrals to THC. Please see your shelter case manager to learn about their referral process. If your income is CAAP you cannot be referred through a shelter. "
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+					"Intake & Assessment","Case Management","Benefits Advocacy","Community Organizing","Mediation with Property Management","Conflict Resolution","Support Groups","Social Events","Organized Tenant Activities","Wellness Checks","Referrals to other resources available as needed"
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" , "Mandrin", "Assamese"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"homeless","complicated"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " spread over each program / ... "
+		,"faith_based" : "No."
+}
+
+
+]
