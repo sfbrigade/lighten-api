@@ -90,7 +90,7 @@
     }
   }
   ,"hours" : {
-    "hours" :  {
+    "default" :  {
       "_type" : "hours"
       ,"label": "Hours"
       ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "10:00" , "close" : "18:00" }
@@ -199,7 +199,7 @@
     }
   }
   ,"hours" : {
-    "hours" : {
+    "default" : {
       "_type": "hours"
       ,"label": "Hours"
       ,"hours_atoms" : [
@@ -255,7 +255,7 @@
     }
   }
   ,"hours" : {
-    "hours" :  {
+    "default" :  {
       "_type" : "hours"
       ,"label": "Hours"
       ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
@@ -308,7 +308,7 @@
     }
   }
   ,"hours" : {
-    "hours" :  {
+    "default" :  {
       "_type" : "hours"
       ,"label": "Hours"
       ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
@@ -368,7 +368,7 @@
   ,"web" : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
   }
   ,"hours" : {
-    "hours" :  {
+    "default" :  {
       "_type" : "hours"
       ,"label": "Hours"
       ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
@@ -428,7 +428,7 @@
   ,"web" : { "_type" : "contact" , "value" : "www.cityteam.org/san-jose" }
   }
   ,"hours" : {
-    "hours" :  {
+    "default" :  {
       "_type" : "hours"
       ,"label": "Hours"
       ,"hours_atoms" : [ {  "_type" : "hours_atom" , "mday" : "Mon" , "open" : "08:30" , "close" : "17:30" }
