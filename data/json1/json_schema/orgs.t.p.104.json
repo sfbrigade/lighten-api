@@ -1,0 +1,510 @@
+
+
+[
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eechoobao3aiChohSh6chiew1on5aephot0iboo2-1"
+	,"org_name" : "RECOVERY SURVIVAL NETWORK (RSN) FAMILY OF FRIENDS SOBER LIVING NETWORK"
+	,"description" : "Our Mission: to help those who want to help themselves. Our goals: provide intensive case management coupled with clean and sober housing to help transition participants into selfsufficiency.  www.rsn2000.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Lou Gordon, Executive Director" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Kevin Henley, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1111" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-8444" }
+		,"24 hour emergency hotline"  : { "_type" : "contact" , "value" : "888-USE-NONE" }
+		,"email"  : { "_type" : "contact" , "value" : "rsn2000@gmail.com" }
+		,"web"  : { "_type" : "contact" , "value" : "www.rsn2000.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "3032-16th St.," , "San Francisco, CA " , "94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "RSN transitional housing requires a referral from SFAPD, Superior Court, or the SF Sheriff’s Department. Appointments preferred.\nranslation available for Spanish, Mandarin, Cantonese.\n Some facilities accommodate people with mobility impairments."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Stabilization Housing","Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-occuring Disorder/Dual Diagnosis Treatment","Anger Management","Community Education & Mediation","Intensive Case Management","Individual Counseling/Therapy (Peer-to-Peer only)","Mentorship","Outreach","PostIncarceration Support","Restorative Justice/Survivor Impact","Employment Training","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education"," Representative Payee Services","Family Reunification","Visits of Family Members in Jails & Prisons" , "Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Clean and sober living housing rate is $1000.00 per month."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					" Men","Women","Transgender", "Individuals required to register as a sex offender are accepted on a case by case basis"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+
+
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eechoobao3aiChohSh6chiew1on5aephot0iboo2-2"
+	,"org_name" : "RECOVERY SURVIVAL NETWORK (RSN) FAMILY OF FRIENDS SOBER LIVING NETWORK"
+	,"description" : "Our Mission: to help those who want to help themselves. Our goals: provide intensive case management coupled with clean and sober housing to help transition participants into selfsufficiency.  www.rsn2000.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Lou Gordon, Executive Director" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Kevin Henley, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1111" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-8444" }
+		,"24 hour emergency hotline"  : { "_type" : "contact" , "value" : "888-USE-NONE" }
+		,"email"  : { "_type" : "contact" , "value" : "rsn2000@gmail.com" }
+		,"web"  : { "_type" : "contact" , "value" : "www.rsn2000.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "68-6th St.," , "San Francisco, CA" , "94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "RSN transitional housing requires a referral from SFAPD, Superior Court, or the SF Sheriff’s Department. Appointments preferred.\nranslation available for Spanish, Mandarin, Cantonese.\n Some facilities accommodate people with mobility impairments."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Stabilization Housing","Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-occuring Disorder/Dual Diagnosis Treatment","Anger Management","Community Education & Mediation","Intensive Case Management","Individual Counseling/Therapy (Peer-to-Peer only)","Mentorship","Outreach","PostIncarceration Support","Restorative Justice/Survivor Impact","Employment Training","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education"," Representative Payee Services","Family Reunification","Visits of Family Members in Jails & Prisons" , "Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Clean and sober living housing rate is $1000.00 per month."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					" Men","Women","Transgender", "Individuals required to register as a sex offender are accepted on a case by case basis"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+
+
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eechoobao3aiChohSh6chiew1on5aephot0iboo2-3"
+	,"org_name" : "RECOVERY SURVIVAL NETWORK (RSN) FAMILY OF FRIENDS SOBER LIVING NETWORK"
+	,"description" : "Our Mission: to help those who want to help themselves. Our goals: provide intensive case management coupled with clean and sober housing to help transition participants into selfsufficiency.  www.rsn2000.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Lou Gordon, Executive Director" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Kevin Henley, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1111" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-8444" }
+		,"24 hour emergency hotline"  : { "_type" : "contact" , "value" : "888-USE-NONE" }
+		,"email"  : { "_type" : "contact" , "value" : "rsn2000@gmail.com" }
+		,"web"  : { "_type" : "contact" , "value" : "www.rsn2000.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1312 Utah St." , "San Francisco, CA" , "94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "RSN transitional housing requires a referral from SFAPD, Superior Court, or the SF Sheriff’s Department. Appointments preferred.\nranslation available for Spanish, Mandarin, Cantonese.\n Some facilities accommodate people with mobility impairments."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Stabilization Housing","Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-occuring Disorder/Dual Diagnosis Treatment","Anger Management","Community Education & Mediation","Intensive Case Management","Individual Counseling/Therapy (Peer-to-Peer only)","Mentorship","Outreach","PostIncarceration Support","Restorative Justice/Survivor Impact","Employment Training","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education"," Representative Payee Services","Family Reunification","Visits of Family Members in Jails & Prisons" , "Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Clean and sober living housing rate is $1000.00 per month."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					" Men","Women","Transgender", "Individuals required to register as a sex offender are accepted on a case by case basis"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+
+
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eechoobao3aiChohSh6chiew1on5aephot0iboo2-4"
+	,"org_name" : "RECOVERY SURVIVAL NETWORK (RSN) FAMILY OF FRIENDS SOBER LIVING NETWORK"
+	,"description" : "Our Mission: to help those who want to help themselves. Our goals: provide intensive case management coupled with clean and sober housing to help transition participants into selfsufficiency.  www.rsn2000.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Lou Gordon, Executive Director" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Kevin Henley, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1111" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-8444" }
+		,"24 hour emergency hotline"  : { "_type" : "contact" , "value" : "888-USE-NONE" }
+		,"email"  : { "_type" : "contact" , "value" : "rsn2000@gmail.com" }
+		,"web"  : { "_type" : "contact" , "value" : "www.rsn2000.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1657 Market St." , "San Francisco, CA" , "94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "RSN transitional housing requires a referral from SFAPD, Superior Court, or the SF Sheriff’s Department. Appointments preferred.\nranslation available for Spanish, Mandarin, Cantonese.\n Some facilities accommodate people with mobility impairments."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Stabilization Housing","Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-occuring Disorder/Dual Diagnosis Treatment","Anger Management","Community Education & Mediation","Intensive Case Management","Individual Counseling/Therapy (Peer-to-Peer only)","Mentorship","Outreach","PostIncarceration Support","Restorative Justice/Survivor Impact","Employment Training","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education"," Representative Payee Services","Family Reunification","Visits of Family Members in Jails & Prisons" , "Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Clean and sober living housing rate is $1000.00 per month."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					" Men","Women","Transgender", "Individuals required to register as a sex offender are accepted on a case by case basis"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+
+
+
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eechoobao3aiChohSh6chiew1on5aephot0iboo2-5"
+	,"org_name" : "RECOVERY SURVIVAL NETWORK (RSN) FAMILY OF FRIENDS SOBER LIVING NETWORK"
+	,"description" : "Our Mission: to help those who want to help themselves. Our goals: provide intensive case management coupled with clean and sober housing to help transition participants into selfsufficiency.  www.rsn2000.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Lou Gordon, Executive Director" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Kevin Henley, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1111" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-8444" }
+		,"24 hour emergency hotline"  : { "_type" : "contact" , "value" : "888-USE-NONE" }
+		,"email"  : { "_type" : "contact" , "value" : "rsn2000@gmail.com" }
+		,"web"  : { "_type" : "contact" , "value" : "www.rsn2000.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "30 Sycamore St." , "San Francisco, CA" , "94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "RSN transitional housing requires a referral from SFAPD, Superior Court, or the SF Sheriff’s Department. Appointments preferred.\nranslation available for Spanish, Mandarin, Cantonese.\n Some facilities accommodate people with mobility impairments."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Stabilization Housing","Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-occuring Disorder/Dual Diagnosis Treatment","Anger Management","Community Education & Mediation","Intensive Case Management","Individual Counseling/Therapy (Peer-to-Peer only)","Mentorship","Outreach","PostIncarceration Support","Restorative Justice/Survivor Impact","Employment Training","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education"," Representative Payee Services","Family Reunification","Visits of Family Members in Jails & Prisons" , "Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Clean and sober living housing rate is $1000.00 per month."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					" Men","Women","Transgender", "Individuals required to register as a sex offender are accepted on a case by case basis"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+
+
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eechoobao3aiChohSh6chiew1on5aephot0iboo2-6"
+	,"org_name" : "RECOVERY SURVIVAL NETWORK (RSN) FAMILY OF FRIENDS SOBER LIVING NETWORK"
+	,"description" : "Our Mission: to help those who want to help themselves. Our goals: provide intensive case management coupled with clean and sober housing to help transition participants into selfsufficiency.  www.rsn2000.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Lou Gordon, Executive Director" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Kevin Henley, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 552-1111" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-8444" }
+		,"24 hour emergency hotline"  : { "_type" : "contact" , "value" : "888-USE-NONE" }
+		,"email"  : { "_type" : "contact" , "value" : "rsn2000@gmail.com" }
+		,"web"  : { "_type" : "contact" , "value" : "www.rsn2000.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "2697 Mission St." , "San Francisco, CA" , "94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "RSN transitional housing requires a referral from SFAPD, Superior Court, or the SF Sheriff’s Department. Appointments preferred.\nranslation available for Spanish, Mandarin, Cantonese.\n Some facilities accommodate people with mobility impairments."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Stabilization Housing","Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-occuring Disorder/Dual Diagnosis Treatment","Anger Management","Community Education & Mediation","Intensive Case Management","Individual Counseling/Therapy (Peer-to-Peer only)","Mentorship","Outreach","PostIncarceration Support","Restorative Justice/Survivor Impact","Employment Training","Employment Placement","Job Readiness/Life Skills","Money Management/Personal Financial Education"," Representative Payee Services","Family Reunification","Visits of Family Members in Jails & Prisons" , "Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"referal"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Clean and sober living housing rate is $1000.00 per month."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					" Men","Women","Transgender", "Individuals required to register as a sex offender are accepted on a case by case basis"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+
+]

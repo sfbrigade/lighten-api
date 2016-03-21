@@ -3,7 +3,12 @@
 
 
 #   load all the sample org data : 
-#  docker-compose run web ./manage.py db3 -- --readfrom   data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
+#  docker-compose run web ./manage.py lightenclitool -- --readfrom   data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
+#
+#  prod db : 
+#
+#     heroku run python manage.py  lightenclitool -- -- --writetodb  data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json 
+#     note the double '--' z' 
 
 
 

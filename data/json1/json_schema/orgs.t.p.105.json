@@ -1,0 +1,95 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ahngoox9phah9vei5hupah7uT9Phuneejohfeoqu"
+	,"org_name" : "SAN FRANCISCO NETWORK MINISTRIES HOUSING CORPORATION SAN FRANCISCO SAFEHOUSE"
+	,"description" : "SafeHouse is an 18-month transitional housing program for women; we provide gender-specific responses to chronic homelessness for women in the commercial sex industry. Our clean and sober living community empowers homeless women exiting prostitution to gain the skills and resources they need to grow and become independent and self-sufficient members of society. Services include case management, substance abuse treatment, individual and group therapy, money management and financial education, vocational testing, and guidance and assistance in finding permanent housing when leaving SafeHouse. www.sfsafehouse.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Kristen Moore, Case Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 643-7861" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 643-1293" }
+		,"email"  : { "_type" : "contact" , "value" : "casemanager@sfsafehouse.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfsafehouse.org" }
+		,"mailing_address"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "P.O. Box 40369" , "San Francisco, CA" , "94140" 
+						] 
+				 ,"postal-code" : "94140"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "intake" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "17:00" }
+						]
+					},
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "00:00" , "close" : "23:59" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "00:00" , "close" : "23:59" }
+						]
+					}
+		
+	}
+		,"notes" : "Service location is confidential.\nlients can self-refer or be referred by a provider; if the program beds are full, SafeHouse maintains a waitlist and contacts prospective clients for intake."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ "Transitional Housing","Access to Internet","Assistance Getting Driver’s License or Other ID","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Shower Facilities","Storage Facilities","Mental Health Treatment","Substance Abuse Treatment","Co-occurring Disorder/Dual Diagnosis Treatment","Dental Care","Health & Wellness Education","Menu Planning and Nutritionist Weekly","Group Counseling/Therapy","Intensive Case Management","Individual Counseling/Therapy","Mentorship","Outreach","Post-Incarceration Support","Trauma Recovery Services","Victim/Survivor Services","Basic/Remedial Education","College & Graduate Education","GED & High School Education","Assessment & Application for Food Stamps, General Assistance, SSI","Credit Repair","Job Readiness/Life Skills","Money Management/Personal Financial Education","Internship Program","Parenting Support/Education. Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"20-30%, varries"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Women who are currently homeless","have a history of work in the sex industry","and have been clean and sober for at least 30 days","May not have a criminal conviction for arson or be a registered sex offender"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

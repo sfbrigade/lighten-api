@@ -16,9 +16,9 @@
 				"_type" : { "type" : "string" , "pattern" : "^hours_atom$" } 
 				,"day" : { "enum" : ["Monday" , "Tuesday" , "Wednesday" , "Thursday", "Friday", "Saturday","Sunday" ] } 
 				,"timezone" : { "type" : "string" , "pattern" : "^(pdt)*$", "description" : "a placeholder, for later expansion" } 
-				,"open" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1})$"
+				,"open" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1}|24:00)$"
 						,"description" : "this needs to get flexed out to 12 hour time and tested" }
-				,"close" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1})$"
+				,"close" : { "type" : "string" , "pattern" : "^(([0-1][0-9]|(2[0-3]))(:[0-5][0-9](:[0-5][0-9])?){0,1}|24:00)$"
 						,"description" : "this needs to get flexed out to 12 hour time and tested" }
 			}
 			,"required" : [ "_type"  , "day" , "open" ,"close"] 
@@ -37,7 +37,7 @@
 	
 		,"address1" : { 
 			"type" : "object"
-			,"description" : "the address simply can't be done correctly, ( http://www.columbia.edu/~fdc/postal/ ) , There is much to say about possibly data validation, and generality, there is in fact and industry around it e.g. http://www.address-validator.net/ for now punt "
+			,"description" : "the address simply can't be done correctly, ( http://www.columbia.edu/~fdc/postal/ ) , There is much to say about possibly data validation, and generality, there is in fact and industry around it e.g. http://www.address-validator.net/ for now punt :  Some places have names, like the Sears Building, or the Parthanon, thus a namem field has been added"
 			,"properties" : { 
 				"_type" : { "type" : "string" , "pattern" : "^address1$" } 
 				,"name" : { "type" :"string"}

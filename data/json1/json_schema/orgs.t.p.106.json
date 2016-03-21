@@ -1,21 +1,18 @@
+[
 
 {
-	"_type" : "org"  ,"unique_lighten_recordId" : "REPLACE_ME_unique_lighten_recordId"
-	,"org_name" : ""
-	,"description" : ""
+	"_type" : "org"  ,"unique_lighten_recordId" : "zieT9Ait8fo3eb7eiwaGhoobeiN6AQueeLi2heih"
+	,"org_name" : "SF STRONG"
+	,"description" : "In partnership with the Delancey Street Foundation, SF Strong is a transitional housing program for formerly incarcerated individuals. The facility houses 15 men who have been released from local or state custody and/or are on probation or parole. Program residents work with staff to develop an individualized reentry plan, including securing employment and/or participating in job training and education programs. Approximate length of stay is 3 months, which varies based on individual needs. "
 	,"contacts" : { 
-		"Contact Person"  : { "_type" : "contact" , "value" : "" }
-		,"phone"  : { "_type" : "contact" , "value" : "" }
-		,"fax"  : { "_type" : "contact" , "value" : "" }
-		,"email"  : { "_type" : "contact" , "value" : "" }
-		,"web"  : { "_type" : "contact" , "value" : "" }
-		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		"Contact Person"  : { "_type" : "contact" , "value" : "Teri Delane" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 340-3285" }
+		,"email"  : { "_type" : "contact" , "value" : "sfstrong4336@gmail.com" }
 		,"service_site"  : { "_type" : "contact" , "value" :  
 				{ "_type" : "address1" , "addrtxtlines" : 
-						[ "" , "" , "" 
+						[ "4336 Irving St." , "SF, CA" , "94122" 
 						] 
-                                 ,"name" : ""  
-				 ,"postal-code" : ""
+				 ,"postal-code" : "94122"
 				}
 			 } 
 	}
@@ -28,30 +25,27 @@
 					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
 						]
 					}
 		
 	}
-		,"notes" : ""
+		,"notes" : "Men who are exiting local or state incarceration."
 		,"service_description" : { 
 			"_type" : "service_description" 
 			,"service_catagories" : [
 				{"_type" : "service_catagory_atom"
-				,"keys" : [ 
+				,"keys" : [ "Transitional Housing","Counseling and Groups","Assistance with Job Readiness","Referrals to other resources available as needed"
 					] 	}
 			]
 	}
 		,"languages_spoken" : [ 
-			"English" ,"Spanish", "Cantonese" 
+			"English" 
 		]
 		,"accessiblity" : {
 			"_type" : "accessibility" 
 			,"accessibility_atoms" : [ 
 				{ "_type" : "accessibility_atom"
 				,"keys" : [ 
-					"Wheelchair accessible" , "Other disabilities are accommodated." 
 					]
 				}
   			]
@@ -62,19 +56,18 @@
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "what_to_bring"
 				,"keys" : [
-					""
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "fees"
 				,"keys" : [
-					""
+					"None Initially"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "eligible_population"
 				,"keys" : [
-					""
+					"Men who are exiting local or state incarceration"
 					]
 				}
 			]
@@ -84,3 +77,4 @@
 }
 
 
+]

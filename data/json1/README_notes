@@ -71,6 +71,17 @@ bbbb:schema_checker_dinkering x$
 
 
 
+#
+#
+#
+
+Runing a full schemea test/regression (from this dir)
+    (venv) bbbb:json1 x$ ./regress_schema 
+
+
+
+
+
 
 
 

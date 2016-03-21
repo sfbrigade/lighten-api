@@ -1,0 +1,80 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eeHi3ca6eih4ooliebahth7ma1ahthaeteix3iew"
+	,"org_name" : "CITY COLLEGE OF SAN FRANCISCO GUARDIAN SCHOLARS PROGRAM"
+	,"description" : "Our mission is to make the dream of attending college a reality for former foster youth or out of home placement youth in the juvenile justice system.  www.ccsf.edu/en/student-services/student-counseling/guardians-scholars-program.html"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Receptionist" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 239-3279" }
+		,"web"  : { "_type" : "contact" , "value" : "www.ccsf.edu/en/student-services/student-counseling/guardians-scholars-program.html" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "Guardian Scholars Program" , "50 Phelan Avenue"  ,"Multi-Use Building" , "Room MU298" , "San Francisco CA, 94112"
+						] 
+				 ,"postal-code" : "94112"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Confirmation of foster youth or out-ofhome placement status is required. Foster Youth Status (Referral from County Human Services agency); Out of Home Placement Status (Referral from County Juvenile Justice agency or State Social Services Agency). Dropin services provided; appointments made on request."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                            "Rental Move-in Assistance","Transitional Housing Referrals","Access to Internet","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Shower Facilities","Storage Facilities","Transit Vouchers","Mental Health Treatment Referrals","Medical Care Referrals","Intensive Case Management","Mentorship","Basic/Remedial Education","Employment Training","Job Readiness/Life Skills","Money Management/Personal Financial Education","Legal Rights Workshops on Housing, Education, Employment","Summer College Readiness Program","Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Additional language translation possible"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Verification of foster youth or out of home placement status for at least one year when minor. Program will assist client in getting documentation. "
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals 18-25 who have experienced foster care."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

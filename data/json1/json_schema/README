@@ -1,18 +1,37 @@
 
-    
+      
     *.jsc  :  json schema 
     
+
+    Important notes : 
+        
+    A simple load of passing test vectors into the prod db : 
+    e.g.
+        (venv) bbbb:lighten-django-demo x$ heroku run python manage.py  lightenclitool -- -- --writetodb  data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
+
+
+
+
+
 
     TODO : 
 
         migrate migrate
-        add a uniq record  GUID... 
         document some of the reasons why... 
+            
+        APD guide page 121 has a distributed org example. that has extra phone#s in hte location fields.
+              reivew and figure out what we'd like to do about that. 
+             seperate sub orgs, duplicate orgs?  
+        APD guiede page 125-127 similar and  small / truncated / non well fromed entries... e.g. TechSF (p127)
+
+    
+        
 
 
     TODONE : 
 
         mday => day { Monday, Tuesday, Wednesday ... } 
+        add a uniq record  GUID... 
  
 
      

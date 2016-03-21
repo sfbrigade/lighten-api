@@ -1,0 +1,92 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ahbahyavohrikeghiele0yaeghieBiPai8Pu8yoh"
+	,"org_name" : "LA CASA DE LAS MADRES"
+	,"description" : "La Casa offers a comprehensive continuum of support services for survivors of domestic violence. La Casa offers safety-first, empowerment and client-centered services. It offers crisis response, emergency shelter, and ongoing counseling and resource advocacy. Ending or escaping domestic violence is a process. Services are confidential. Individuals do not have to leave the abusive partner before accessing support. www.lacasa.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 503-0500" }
+		,"24 hour Hotline"  : { "_type" : "contact" , "value" : "(877) 503-1850" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 503-0301" }
+		,"email"  : { "_type" : "contact" , "value" : "info@lacasa.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.lacasa.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1663 Mission Street, Suite 225" , "San Francisco, CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+		,"service_site2"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "850 Bryant Street, 5th Floor SVU," , "San Francisco, CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "08:30" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins available.  Shelter location is confidential."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [  "Emergency Shelter","Legal Assistance/Advocacy","Accompany to Court Dates","Help/Vouchers to Get State ID","Parenting Support","Services for Children","Counseling","Life Skills","Mentoring","Trauma Recovery","Victim Services","Referrals to other resources available as needed."
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Mandarin","Farsi", "others"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"free" , "confidential"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Women; Transgender Women; Women w/ Children; Pregnant Women; Teens, Age 11-24; if facing domestic violence"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

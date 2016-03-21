@@ -1,21 +1,19 @@
+[
 
 {
-	"_type" : "org"  ,"unique_lighten_recordId" : "REPLACE_ME_unique_lighten_recordId"
-	,"org_name" : ""
-	,"description" : ""
+	"_type" : "org"  ,"unique_lighten_recordId" : "xahdoo8Zahkohphaf2oosooreamah5eitaol9ae3"
+	,"org_name" : "CITY COLLEGE OF SAN FRANCISCO WAY PASS WOMEN’S AFTERCARE PROGRAM"
+	,"description" : "The Women’s Aftercare Program and Services is a collaborative project with City College of San Francisco, under the auspices of the Health Science Department and the Women’s Studies Department. We are designed to address the unique needs of self-identified women who are formerly incarcerated. We serve women coming home from prisons, jails, and drug programs. It is our belief that education is the best alternative to incarceration and it is our desire to assist our sisters in their academic endeavors. "
 	,"contacts" : { 
-		"Contact Person"  : { "_type" : "contact" , "value" : "" }
-		,"phone"  : { "_type" : "contact" , "value" : "" }
-		,"fax"  : { "_type" : "contact" , "value" : "" }
-		,"email"  : { "_type" : "contact" , "value" : "" }
-		,"web"  : { "_type" : "contact" , "value" : "" }
-		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		"Contact Person"  : { "_type" : "contact" , "value" : "Phoebe Vanderhorst" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 452-4889" }
+		,"email"  : { "_type" : "contact" , "value" : "waypass@gmail.com" }
 		,"service_site"  : { "_type" : "contact" , "value" :  
 				{ "_type" : "address1" , "addrtxtlines" : 
-						[ "" , "" , "" 
+						[ "50 Phelan Avenue" , "Multi-Use Building MUB 301-C" , "San Francisco, CA 94112" 
 						] 
-                                 ,"name" : ""  
-				 ,"postal-code" : ""
+                                 ,"name" : "City College of San Francisco – Way Pass"  
+				 ,"postal-code" : "94112"
 				}
 			 } 
 	}
@@ -34,17 +32,18 @@
 					}
 		
 	}
-		,"notes" : ""
+		,"notes" : "No referral needed"
 		,"service_description" : { 
 			"_type" : "service_description" 
 			,"service_catagories" : [
 				{"_type" : "service_catagory_atom"
 				,"keys" : [ 
+                                        ": Case Management","Help with Registration Forms","Informal Counseling and Support","Class Planning and Management","Support Groups and Workshops","Referrals to other resources available as needed"
 					] 	}
 			]
 	}
 		,"languages_spoken" : [ 
-			"English" ,"Spanish", "Cantonese" 
+			"English"
 		]
 		,"accessiblity" : {
 			"_type" : "accessibility" 
@@ -62,19 +61,19 @@
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "what_to_bring"
 				,"keys" : [
-					""
+					"Positive attitude"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "fees"
 				,"keys" : [
-					""
+					"Free to any current City College student"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "eligible_population"
 				,"keys" : [
-					""
+					"Formerly incarcerated women."
 					]
 				}
 			]
@@ -84,3 +83,4 @@
 }
 
 
+]

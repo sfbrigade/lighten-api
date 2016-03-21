@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+use strict;
+my ($n);
 $n =1;
 
 if ( defined $ARGV[0]){
@@ -8,9 +10,17 @@ if ( defined $ARGV[0]){
 
 print "[\n"; 
 
-		   #orgs.t.p.shell.json
+#orgs.t.p.shell.json
+my $buf;
+                   
 $buf = ( `cat orgs.t.p.shell.json` ); 
-print join "," , map { $buf } 1 .. $n ; 
+print join "," , map { 
+        my $tmpbuf = $buf ;
+        my $randid = `pwgen -n1  -c 40`; 
+            chomp($randid);
+            $tmpbuf =~ s/REPLACE_ME_unique_lighten_recordId/$randid/; 
+            $tmpbuf;
+        } 1 .. $n ; 
 print "]\n";
 
 
