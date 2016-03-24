@@ -1,17 +1,18 @@
 { "$schema": "http://json-schema.org/draft-04/schema#"
 	,"id" : "basic_components.jsc"
-	,"title" : "Basic Component parts for the sfor backend datastore"
-	,"description" : " Version 0.0.0.1 :  We still need '_meta' stuff,  basicly another object for arbitrary keys and values for logging, and a place to put extra data when converting to/from other primary formats (basicly every object will probably get a _meta) \n 'usage_requirements' is a combination of eligabilty and what one needs to bring, Stuff to bring may need to be split out again ,and eligabilty requirements will require an and/or/not  logic system of some sort to support the given dataset. We may also wish to add a 'noes' field each of the new datatypes due ot the heavy use of interspersed human text in the tables (or leave this in _meta maybe)" 
+	,"title" : "Basic Component parts for the Lighten backend datastore"
+	,"description" : " Version 0.0.0.1 :  We still need '_meta' stuff,  basicly another object for arbitrary keys and values for logging, and a place to put extra data when converting to/from other primary formats (basicly every object will probably get a _meta) \n 'usage_requirements' is a combination of eligabilty and what one needs to bring. Stuff to bring may need to be split out again ,and eligabilty requirements will require an and/or/not  logic system of some sort to support the given dataset. We may also wish to add a 'notes' field each of the new datatypes due ot the heavy use of interspersed human text in the tables (or leave this in _meta maybe)" 
 	,"default" : "none"
     ,"definitions" :{
 		"telstr" : { 
 			"type" : "string"
-			,"description" : " eventually this could be replaced by tel urls? "
+			,"description" : " eventually this could be replaced by tel urls? https://tools.ietf.org/html/rfc3966 , note https://en.wikipedia.org/wiki/Telephone_keypad#Letter_mapping , thus we should not accept leters as valid phone parts, e.g. nothing like 1-888-eat-poop "
 			,"pattern" : "^[ 0-9-#xX()]{5,30}$"
 		}
 
 		,"hours_atom" : { 
 			"type" : "object"
+			,"description" : "A extent of facility open time. 00:00 - 24:00 and a day of the week."
 			,"properties" : { 
 				"_type" : { "type" : "string" , "pattern" : "^hours_atom$" } 
 				,"day" : { "enum" : ["Monday" , "Tuesday" , "Wednesday" , "Thursday", "Friday", "Saturday","Sunday" ] } 
@@ -27,6 +28,7 @@
 		
 		,"hours" : { 
 			"type": "object"
+			,"description" : "A set of up to day long extents that a given function may be open/in opretaion"
 			,"properties" : { 
 				"_type" : { "type" : "string" , "pattern" : "^hours$" } 
 				,"hours_atoms" : { "type" : "array" , "items" : { "$ref" : "#/definitions/hours_atom" } } 
@@ -150,24 +152,29 @@
 
 		,"org" :{ 
             "type" : "object"
-			,"description" : " More copmlicated now that we'll have a relational format as well.. nuts to that. todo:  consider a list of A.K.A.  e.g. Food STamps are now called 'CalFresh' or some such .... 'accepting new clients?' accepting new wait list entries?  .  We curerntly punt on 'usage_requirements_expression' , the idea is to add it to the data in pseudo language, so we can get examples for a non psuedo language good examples are getting_out_staying_out p82,85, 'it's complicated, please call' , page 83,  'different services have different eligabilty' , 87, a multi tierd org attempting to shoe horn in. ... page 95-96, a few programs stuffed into one record.... p97 , 'third trimester of pregnenacy'  98 , for things to bring... 'if Veteran, Form DD214.' " 
+			,"description" : " More complicated now that we'll have a relational format as well.. nuts to that. todo:  consider a list of A.K.A.  e.g. Food STamps are now called 'CalFresh' or some such .... 'accepting new clients?' accepting new wait list entries?  .  We curerntly punt on 'usage_requirements_expression' , the idea is to add it to the data in pseudo language, so we can get examples for a non psuedo language good examples are getting_out_staying_out p82,85, 'it's complicated, please call' , page 83,  'different services have different eligabilty' , 87, a multi tierd org attempting to shoe horn in. ... page 95-96, a few programs stuffed into one record.... p97 , 'third trimester of pregnenacy'  98 , for things to bring... 'if Veteran, Form DD214.' " 
             ,"properties": {
 				"_type" : { "type" : "string" , "pattern" : "^org$" } 
-                                ,"unique_lighten_recordId" : { "type" : "string" , "pattern" : "^.*$" } 
+                                ,"unique_lighten_recordId" : { "type" : "string" , "pattern" : "^.*$" 
+                                    ,"description" : "A uniq label per org so that we can manually dedup / update reocrds and know which ones are equivilant when other fields change"
+                                    } 
 				,"org_name" : { "type" : "string" }
 				,"notes" : { "type" : "string" }
                 ,"description" : { "type" : "string" }
                 ,"extened_description" : { "type" : "string" }
-				,"contacts" : { "type" : "object"  }
+				,"contacts" : { "type" : "object"  
+                                    ,"description" :"contacts are the interfaces into an organization. "  }
 					,"patternProperties" : { "type" : {"$ref" : "#/definitions/contact"}}
-				,"hours" : { "type" : "object" , "patternProperties" : { "" : {"$ref" : "#/definitions/hours"}}}
-				,"usage_requirements" : { "$ref" : "#/definitions/usage_requirements" } 
-				,"usage_requirements_expression" : { "type" : "string" } 
-				,"service_description" : { "$ref" : "#/definitions/service_description" } 
-				,"faith_based" : { "type" : "string"  }
-				,"accessiblity" : { "$ref" : "#/definitions/accessibility" } 
-				,"sub_orgs" : { "type" : "array" , "items" : { "$ref" : "#/definitions/org"  } }
-				,"languages_spoken" : { "type" : "array" , "items" : { "type" : "string" }}
+				,"hours" : { "type" : "object" , "patternProperties" : { "" : {"$ref" : "#/definitions/hours"}}
+                                    ,"description" : "Mostly like an hour placard up at the enterance to many buisnesses.  It is crude and aproximate. In the future it could be an Ical refrerence or Ical text. "
+                                    }
+				,"usage_requirements" : { "$ref" : "#/definitions/usage_requirements","description":"A combination of what to bring, population served and fees." } 
+				,"usage_requirements_expression" : { "type" : "string" ,"description":"Punted on for now, eveutally" } 
+				,"service_description" : { "$ref" : "#/definitions/service_description" ,"description" : "The primary services this organization (or part theirof) provide." } 
+				,"faith_based" : { "type" : "string"  ,"description" :"yes/no , sometimes a more nlp description e.g. 'Yes, Christian'."}
+				,"accessiblity" : { "$ref" : "#/definitions/accessibility" , "description" : "Accomidations that the facility can provide."} 
+				,"sub_orgs" : { "type" : "array" , "items" : { "$ref" : "#/definitions/org"  } , "description" :"left here for future use.  The idea is to sparesly populate a tree of these things, then flow or inherrit parts of the object as the tree is desended.  This will allow an ldap like ORG structure, though will require some tooling to get this implemented(thus out of MVP)."}
+				,"languages_spoken" : { "type" : "array" , "items" : { "type" : "string" } ,"description" : "a simple txt key set" }
             }
 			,"required" : [ "_type" , "unique_lighten_recordId" ] 
             ,"additionalProperties": false

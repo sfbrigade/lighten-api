@@ -15,9 +15,11 @@ my $buf;
                    
 $buf = ( `cat orgs.t.p.shell.json` ); 
 print join "," , map { 
+        my ($i) = $_;
         my $tmpbuf = $buf ;
         my $randid = `pwgen -n1  -c 40`; 
             chomp($randid);
+            $randid .= "-$i";
             $tmpbuf =~ s/REPLACE_ME_unique_lighten_recordId/$randid/; 
             $tmpbuf;
         } 1 .. $n ; 

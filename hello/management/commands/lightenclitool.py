@@ -27,8 +27,11 @@ from django.core.management.base import BaseCommand, CommandError, NoArgsCommand
 #from  ...hello import *
 from hello.models import Example 
 import argparse
-import json;
+import json
+import sys
 
+
+    # this works here, thought it seems wrong.
 parser = argparse.ArgumentParser(description='A backend lighten json1 loading and unloading tool',
                    epilog='\n\nthings\n\n') 
 
@@ -53,41 +56,97 @@ from pprint import pprint
 #
 #
 def safestoreExample(txt):
-    print "storing as a raw string for now"
-    b = Example(content=txt)
-    b.save()
+    #print "storing as a raw string for now"
+    # overwrite any previous reocrd with this unique_lighten_recordId
+    data = json.loads(txt)
+    if not "unique_lighten_recordId" in data : 
+        print "Malformed lighten json1 reocrd format a unique_lighten_recordId property is required in:"
+        print txt
+        print "quiting"
+        sys.exit(2)
+
+
+    ulrid = data["unique_lighten_recordId"]
+    # lookup and filter on the record ID... oh, ick, this is a icky load and tablescan... 
+    allrecords = Example.objects.filter()
+    written = False
+
+    for rec in allrecords : 
+        #print rec.content
+        dbdata = json.loads(rec.content)
+        if "unique_lighten_recordId" in dbdata and dbdata["unique_lighten_recordId"] == data["unique_lighten_recordId"] :
+            #check for mod time? ( currently just slamming it )
+            print "found record for " + ulrid
+            rec.content = txt
+            rec.save
+            written = True
+            break
+        else : 
+            print "NOT : found record for " + ulrid
+    
+
+    if not written : 
+        print "A new entry into the db..." 
+        b = Example(content=txt)
+        b.save()
+
+#    b = Example(content=txt)
+#    b.save()
 
 
 
 #class Command(NoArgsCommand):
 class Command(BaseCommand):
 
-    help = "Whatever you want to print here"
+    help = """The lighten cli tool for managing db entries in the django backend db, loading, unloading and updating records from json1 format"""
 
-    option_list = NoArgsCommand.option_list + (
-        make_option('--verbose', action='store_true'),
-    )
+ #   add_arguments(parser)
+  #  option_list = NoArgsCommand.option_list + (
+   #     make_option('--verbose', action='store_true'),
+    #)
+    def add_arguments(self , parser):
+        parser.add_argument('--readfromdb', action='store_true', help='read all the records from a db and display them to stdout' , default=False)
+        parser.add_argument('--writetodb', action='store', help='add some records to the db (posisbly dedup the duplicates, or update current records)' , nargs='*') 
+
 
     def handle(self, *args, **options):
-        print "handling with args.... I guess.."
-        print "mark1 "
-        print args 
-        print options 
+        #   print "handling with args.... I guess.."
+ #  #     print "mark1 "
+  #      print args 
+   #     print options 
         ap_args = parser.parse_args(args)
+        if False:
+            print "the args args follows :"
+            print args 
+            print "the app args follows :"
+            print ap_args 
+            print "the options follows "
+            print options 
+
+        ap_args = options
   #      print ap_args.accumulate(ap_args.integers)
-        print ap_args.readfromdb 
+      #  print ap_args.readfromdb 
 
-        if ap_args.readfromdb  :
+        if ap_args["readfromdb"] :
             allrecords = Example.objects.filter()
-            for rec in allrecords : 
-                print "record .... "
+            print "["
+            firstone = True
+            for rec in allrecords :
+                if not firstone : 
+                    print "\n,"
+                else : 
+                    firstone = False
+                #print "WAKA WAKA WAKA\n";
                 print rec.content
+                
+                #print "record .... "
+                #print rec.content
+            print "]\n";
 
 
-
-        if ap_args.writetodb : 
+        if ap_args["writetodb"] : 
             # read the files
-            for filename in ap_args.writetodb:
+            for filename in ap_args["writetodb"]:
                 print "filename " + filename
                 infile = open(filename,"r")
                 buf = infile.read()
@@ -101,24 +160,13 @@ class Command(BaseCommand):
                 else :
                     safestoreExample(buf)
 
-
-        #b = Example2(content='Beatles Blog txt blob')
-        #b.save()
-        # https://docs.djangoproject.com/en/1.9/ref/models/expressions/
-#
-# (venv) bbbb:lighten-django-demo x$ docker-compose run web ./manage.py shell 
-# from hello.models import Example2
-#		>>> stuff = Example2.objects.filter() 
-#>>> for thing in stuff : 
-#...     print thing.content
-#
-
 	#	Example2.objects.filter()
 		
-        print "mark2 "
+ #       print "mark2 "
 
     def handle_noargs(self, **options):
-		print "wkaka"
+        pass
+        #	print "wkaka"
 
 
 
