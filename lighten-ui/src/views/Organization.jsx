@@ -14,15 +14,15 @@ export default class Organization extends React.Component {
 
   constructor (props) {
     super(props)
-    const { organizationId } = this.props.params
     this.state = {
-      organization: organizations[organizationId]
+      organization: parseOrganization(organizations[props.params.organizationId])
     }
   }
 
   render () {
     const { organization } = this.state
-    parseOrganization(organization)
+    if (!organization) return null
+
     console.log(organization)
 
     let hoursMarkup

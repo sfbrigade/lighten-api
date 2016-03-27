@@ -9,4 +9,5 @@ export const parseOrganization = (organization) => {
       delete organization.contacts[key]
     }
   })
+  return organization
 }
