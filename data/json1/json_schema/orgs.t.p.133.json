@@ -1,0 +1,72 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "nee7kath9kee4quee2eXo6zaeTh5euxohLohcuuv-1"
+	,"org_name" : "DEFY VENTURES"
+	,"description" : "Defy Ventures is a non-profit organization that works with individuals who have had previous criminal justice involvement (18+ years and older) to create profitable enterprises that sustain them and their families over time. We support emerging entrepreneurs in the launch of their ventures by offering intensive hands-on entrepreneurship training, character development, mentoring, business incubation, financing opportunities and holistic personal development services. \n In 2014, Defy switched from a brick-and-mortar classroom training program to a “blended learning model” that leverages technology to equip people with criminal histories to become successful, legal entrepreneurs and business leaders. The blended learning model combines online training in entrepreneurship, employment and leadership with in-person executive mentoring, hands-on entrepreneurial team challenges, character-building exercises, and Shark Tank-style business plan competitions. \n Defy’s key strategic partners are the 3,000+ private sector volunteers (and many of their companies) who have given 13,500+ hours to mentoring and teaching our EITs, provided pro bono business development services to EITs and to Defy, and served on our governing and advisory boards. In the Bay Area, Defy works with criminal justice partners and nonprofit re-entry organizations such as The Last Mile, HealthRIGHT360, Impact Hub, Stride Center, St. Vincent de Paul of Alameda County, and Community Works West to recruit Bay Area EITs (Entrepreneurs in Training). We partner with leading private sector professionals to teach courses and develop training content, including venture capitalist and founder of Draper University Tim Draper in San Mateo, faculty members from the Harvard and Stanford Business Schools, marketing guru Seth Godin, and former NYSE CEO Duncan Niederauer. www.defyventures.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Melissa Gelber-O’Dell" }
+		,"phone"  : { "_type" : "contact" , "value" : "(646) 661-3960 ext 102" }
+		,"email"  : { "_type" : "contact" , "value" : "recruiting@defyventures.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.defyventures.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "SF Bay Area" , "" 
+						] 
+                                 ,"name" : "SF Bay Area"  
+				 ,"postal-code" : "00000"
+				}
+			 } 
+	}
+	
+		,"notes" : "No referral necessary, call first for an appointment"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Real World Business Education","Executive Level Mentorship","Seed Capital to Start, Incubate and Scale Legitimate, Legal Enterprises"
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"ADA compliant"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Yes—however, scholarships and payment plans are available"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Adults (18+) who have experienced criminal justice involvement"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

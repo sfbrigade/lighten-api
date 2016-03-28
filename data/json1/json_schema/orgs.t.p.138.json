@@ -1,0 +1,89 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "thooYooJ3ti3chaeche8eigaez1Igh6eesh4Seer-1"
+            ,"_internal_record_notes_" : "another dual hybred record p. 138 apd"
+	,"org_name" : "JEWISH VOCATIONAL SERVICES (JVS)"
+	,"description" : "At JVS, we can help you with the skills and resources you need to find the right job. Our job search assistance program is specially tailored to meet your particular employment needs. We work with job seekers that truly represent the broad diversity of San Francisco, and we work with some of the best Bay Area companies in healthcare, administration, reatil and technology. Our Technology Center helps people improve their job related computer skills and provides online job search opportunities. You can search for a job; improve your typing speed and Microsoft Office skills with self-paced tutorials; use our software and print library to explore your career options; build your resume, cover letter, and basic skills; and study for the GED, NCLEX-PN, and NCLEX-RN. www.jvs.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Alicia Velez-Rivers, Intake Coordinator" }
+		,"Contact Person2"  : { "_type" : "contact" , "value" : "Technology Center Contact Person: Jennifer Volk, TAC Coordinator" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 782-6282" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 391-3617" }
+		,"phone2"  : { "_type" : "contact" , "value" : "(415) 782-6217 (TAC)" }
+		,"fax2"  : { "_type" : "contact" , "value" : "(415) 391-3617 (TAC)" }
+		,"email"  : { "_type" : "contact" , "value" : "avelez-rivers@jvs.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.jvs.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "225 Bush Street" , "Suite 400 - West Lobby" , "San Francisco, CA 94104" 
+						] 
+				 ,"postal-code" : "94104"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Get started online at www.jvs.org/welcome or attend a drop-in Welcome Session (every Wednesday at 1:00pm.\nNon-native speakers are welcome to access the Technology Center facilities although the job search resources are primarily in English."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Employment Placement","Employment Retention","Employment Training","Job Readiness","Access to Internet","Referrals to other resources available as needed"
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Russian","Cantonese","Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Authorization to work in the United States"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals who are clean and sober and comply with a work-focused professional facility."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

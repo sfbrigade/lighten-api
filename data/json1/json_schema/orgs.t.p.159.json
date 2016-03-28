@@ -1,21 +1,19 @@
+[
 
 {
-	"_type" : "org"  ,"unique_lighten_recordId" : "REPLACE_ME_unique_lighten_recordId"
-	,"org_name" : ""
-	,"description" : ""
+	"_type" : "org"  ,"unique_lighten_recordId" : "ahV2Dei7aMai9jaoQu3ieri7equoz4hai6sai0ga-1"
+	,"org_name" : "CITYTEAM MEN’S RESIDENTIAL RECOVERY PROGRAM"
+	,"description" : "Cityteam of San Francisco’s Men’s Recovery Program serves men who are seeking treatment in their drug and alcohol addiction. This long-term, residential program takes a holistic approach, addressing addictions as well as psychological, spiritual, education, and vocational issues. We provide individual and group counseling, GED prep classes, computer skills training, medical treatment, and community involvement. www.cityteam.org/san-francisco/"
 	,"contacts" : { 
-		"Contact Person"  : { "_type" : "contact" , "value" : "" }
-		,"phone"  : { "_type" : "contact" , "value" : "" }
-		,"fax"  : { "_type" : "contact" , "value" : "" }
-		,"email"  : { "_type" : "contact" , "value" : "" }
-		,"web"  : { "_type" : "contact" , "value" : "" }
-		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		"Contact Person"  : { "_type" : "contact" , "value" : "Recovery Program" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 861-8688" }
+		,"email"  : { "_type" : "contact" , "value" : "sanfrancisco@cityteam.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.cityteam.org/san-francisco/" }
 		,"service_site"  : { "_type" : "contact" , "value" :  
 				{ "_type" : "address1" , "addrtxtlines" : 
-						[ "" , "" , "" 
+						[ "164 6th Street" , "San Francisco, CA 94103" 
 						] 
-                                 ,"name" : ""  
-				 ,"postal-code" : ""
+				 ,"postal-code" : "94103"
 				}
 			 } 
 	}
@@ -28,24 +26,22 @@
 					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
 						]
 					}
 		
 	}
-		,"notes" : ""
+		,"notes" : "Please call first for an intake"
 		,"service_description" : { 
 			"_type" : "service_description" 
 			,"service_catagories" : [
 				{"_type" : "service_catagory_atom"
 				,"keys" : [ 
-                                        "" 
+                                        "Residential Substance Abuse Treatment","12 Step Program","Health and Wellness Education","Anger Management","Case Management","Mentorship","Therapy","Clothing","Meals","Hygiene/Personal Care Items","Referrals to other services available as needed" 
 					] 	}
 			]
 	}
 		,"languages_spoken" : [ 
-			"English" ,"Spanish", "Cantonese" 
+			"English" ,"Spanish"
 		]
 		,"accessiblity" : {
 			"_type" : "accessibility" 
@@ -63,25 +59,26 @@
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "what_to_bring"
 				,"keys" : [
-					""
+					"State-Issued ID"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "fees"
 				,"keys" : [
-					""
+					"Program fee is 30% of net income not to exceed $500 a month."
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "eligible_population"
 				,"keys" : [
-					""
+					"Men ages 18 and older"
 					]
 				}
 			]
 	}
         ,"usage_requirements_expression" : " "
-		,"faith_based" : "No."
+		,"faith_based" : "Yes"
 }
 
 
+]

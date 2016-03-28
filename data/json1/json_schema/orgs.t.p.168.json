@@ -1,21 +1,20 @@
+[
 
 {
-	"_type" : "org"  ,"unique_lighten_recordId" : "REPLACE_ME_unique_lighten_recordId"
-	,"org_name" : ""
-	,"description" : ""
+	"_type" : "org"  ,"unique_lighten_recordId" : "ieb7ohme9ieg1agooneiThu9aechohxie8ojahl4-1"
+	,"org_name" : "ASIAN AMERICAN RECOVERY SERVICES COMPREHENSIVE OUTREACH PROGRAM FOR PACIFIC ISLANDERS AND ASIAN SUBSTANCE ABUSERS (COPPASA)"
+	,"description" : "Asian American Recovery Services COPPASA's, a program of HealthRIGHT360, provides challenged and underserved community members with mental health and substance abuse pretreatment services for direct placement into San Francisco-based community programs. www.aars.org"
 	,"contacts" : { 
-		"Contact Person"  : { "_type" : "contact" , "value" : "" }
-		,"phone"  : { "_type" : "contact" , "value" : "" }
-		,"fax"  : { "_type" : "contact" , "value" : "" }
-		,"email"  : { "_type" : "contact" , "value" : "" }
-		,"web"  : { "_type" : "contact" , "value" : "" }
-		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		"Contact Person"  : { "_type" : "contact" , "value" : "Stephen Fields, Program Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 541-9404" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 876-6850" }
+		,"email"  : { "_type" : "contact" , "value" : "sfields@aars.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.aars.org" }
 		,"service_site"  : { "_type" : "contact" , "value" :  
 				{ "_type" : "address1" , "addrtxtlines" : 
-						[ "" , "" , "" 
+						[ "2166 Hayes Street" , "Suite 206" , "San Francisco, CA 94117" 
 						] 
-                                 ,"name" : ""  
-				 ,"postal-code" : ""
+				 ,"postal-code" : "94117"
 				}
 			 } 
 	}
@@ -28,24 +27,22 @@
 					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
 						]
 					}
 		
 	}
-		,"notes" : ""
+		,"notes" : "No referral needed. Drop-ins are welcome."
 		,"service_description" : { 
 			"_type" : "service_description" 
 			,"service_catagories" : [
 				{"_type" : "service_catagory_atom"
 				,"keys" : [ 
-                                        "" 
+                                        "Transit Vouchers","Counseling and Referral to Treatment","Prevention and Pretreatment Counseling","Family Crisis Intervention","Mental Health and AOD Intervention","Referrals to other resources available as needed" 
 					] 	}
 			]
 	}
 		,"languages_spoken" : [ 
-			"English" ,"Spanish", "Cantonese" 
+			"English"
 		]
 		,"accessiblity" : {
 			"_type" : "accessibility" 
@@ -63,19 +60,19 @@
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "what_to_bring"
 				,"keys" : [
-					""
+					"TB Clearance. Program will assist clients in getting these."
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "fees"
 				,"keys" : [
-					""
+					"Public Health funded, no client is turned away for lack of money or insurance."
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "eligible_population"
 				,"keys" : [
-					""
+					"All individuals who do not have a criminal conviction for arson and are not registered sex offenders."
 					]
 				}
 			]
@@ -85,3 +82,4 @@
 }
 
 
+]

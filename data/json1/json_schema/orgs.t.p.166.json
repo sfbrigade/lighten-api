@@ -1,0 +1,83 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "tu5ki4jiegae8beegh9Fahh2shai7ahdevahn0un-1"
+	,"org_name" : "ST. ANTHONY FOUNDATION FATHER ALFRED CENTER"
+	,"description" : "The St. Anthony Foundation’s Father Alfred Center provides the Bay Area’s only licensed no-fee residential recovery program to homeless men who are ready to build sober, stable futures. The program serves men from San Francisco, Marin, Alameda, Contra Costa, and San Mateo counties. The Father Alfred Center’s year-long work-structured program empowers men with no income or resources with the tools to overcome addiction, and the support to establish productive and healthy lives. The multi-program access available through St. Anthony’s own services is rare in the field of recovery, and allows the speedy assessment and resolution of clients’ medical, legal, vocational, and educational needs, most or all of which have been affected profoundly by their cycles of poverty and addiction. www.stanthonysf.org/RecoveryProgram"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Intake" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 592-2831" }
+		,"web"  : { "_type" : "contact" , "value" : "www.stanthonysf.org/RecoveryProgram" }
+		,"intake_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "121 Golden Gate Avenue" , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "08:00" , "close" : "10:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "08:00" , "close" : "10:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Residential Recovery Program","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Shower Facilities","Medical Care","Anger Management","GED","Vocational Education","Employment Training","Employment Retention","Job Readiness/Life Skills","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"No fee"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Men ages 18 and older. May not have a criminal conviciton for arson; may not be a registered sex offender; may not have a serious medical/mental health condition requiring medication. Client must be able to pass a physical examination given by St. Anthony’s Medical Clinic as part of the intake process."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "12-Step based program"
+}
+
+
+]

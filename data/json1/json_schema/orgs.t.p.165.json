@@ -1,0 +1,87 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "AuNg6poo7ohj1vapahpheego0yaGhoo5ohMachu3-1"
+                ,"_internal_record_notes_" : "p 165 of apd.. ( multi location reocrd, needs expanding )" 
+	,"org_name" : "PROGRESS FOUNDATION"
+	,"description" : "Progress Foundation offers medication education, symptom management (mental health), case management, and referrals to other resources. www.progressfoundation.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "Main Office: (415) 861-0828; La Amistad (415) 285-8100; Clay Street: (415) 776-4647; Progress House: (415) 668-1511; Seniors: (415) 821-0697; Ashbury (women & children): (415) 775-6194; Supported Living Program: Phone: (415) 752-3416 " }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 752-3483" }
+		,"web"  : { "_type" : "contact" , "value" : "www.progressfoundation.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "368 Fell Street" , "San Francisco, CA 94102"
+						] 
+                                 ,"name" : "Main Office"  
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Referral required from any case manager, therapist, or psychiatrist.\nResidential Treatment Facility Hours: 24 hours/7 days\nAvenues, Clay, and Ashbury are wheelchair accessible."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Access to Benefits (SSI, GA, TANF, et al)","Accompany to Court Dates","Anger Management","Co-occurring Disorder/Dual Diagnosis","Counseling","Family Reunification","Food/Meals","Healthcare","Life Skills","Parenting Support","Phone/Voicemail","Residential/Housing","Showers","Transit Vouchers","Trauma Recovery","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Proof of San Francisco residency; TB clearance; a physical within the past 12 months. Program can assist with physical and TB tests"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Sliding scale; free for individuals with no income."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and families, including seniors (age 60 and older) with an Axis I mental health disorder. Must not be registered sex offender, must not have a criminal conviction for arson."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

@@ -1,21 +1,19 @@
+[
 
 {
-	"_type" : "org"  ,"unique_lighten_recordId" : "REPLACE_ME_unique_lighten_recordId"
-	,"org_name" : ""
-	,"description" : ""
+	"_type" : "org"  ,"unique_lighten_recordId" : "cheesohm3mohbangohph2QuooSho6ithoveetae4-1"
+	,"org_name" : "CENTRAL AMERICAN RESOURCE CENTER (CARECEN)"
+	,"description" : "Second Chance Tattoo Removal Program provides tattoo removal services for young adults wishing to remove gang-related tattoos. Dental services include emergency dental care, cleanings, examinations, x-rays, extractions, root canals, fillings, pit and fissure sealants, denture repairs, crowns, and referrals for other dental services. www.carecensf.org"
 	,"contacts" : { 
-		"Contact Person"  : { "_type" : "contact" , "value" : "" }
-		,"phone"  : { "_type" : "contact" , "value" : "" }
-		,"fax"  : { "_type" : "contact" , "value" : "" }
-		,"email"  : { "_type" : "contact" , "value" : "" }
-		,"web"  : { "_type" : "contact" , "value" : "" }
-		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		"phone"  : { "_type" : "contact" , "value" : "(415) 642-4425" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 642-4400" }
+		,"email"  : { "_type" : "contact" , "value" : "info@carecensf.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.carecensf.org" }
 		,"service_site"  : { "_type" : "contact" , "value" :  
 				{ "_type" : "address1" , "addrtxtlines" : 
-						[ "" , "" , "" 
+						[ "3101 Mission Street" , "Suite 101" , "San Francisco, CA 94110" 
 						] 
-                                 ,"name" : ""  
-				 ,"postal-code" : ""
+				 ,"postal-code" : "94110"
 				}
 			 } 
 	}
@@ -28,24 +26,22 @@
 					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
 						]
 					}
 		
 	}
-		,"notes" : ""
+		,"notes" : "Specific Intake Days and Times: Call for details.\nNo referral needed. Make an appointment or drop in to inquire."
 		,"service_description" : { 
 			"_type" : "service_description" 
 			,"service_catagories" : [
 				{"_type" : "service_catagory_atom"
 				,"keys" : [ 
-                                        "" 
+                                        "Tattoo Removal","Referrals to other resources available as needed" 
 					] 	}
 			]
 	}
 		,"languages_spoken" : [ 
-			"English" ,"Spanish", "Cantonese" 
+			"English" ,"Spanish" ,"For other than Spanish we can access interpretation services."
 		]
 		,"accessiblity" : {
 			"_type" : "accessibility" 
@@ -63,19 +59,19 @@
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "what_to_bring"
 				,"keys" : [
-					""
+					"Second Chance Tattoo Removal Program Application or Referral"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "fees"
 				,"keys" : [
-					""
+					"Free to those who qualify."
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "eligible_population"
 				,"keys" : [
-					""
+					"All individuals and family members. For tattoo removal services, ages 12-24 only. Men, Transgender people, Pregnant women."
 					]
 				}
 			]
@@ -85,3 +81,4 @@
 }
 
 
+]

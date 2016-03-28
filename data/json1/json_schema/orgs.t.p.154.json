@@ -1,0 +1,83 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "te3wanahweequeecoph4ieHo4reVee4ogheu0ohm-1"
+	,"org_name" : "TRANSITIONS CLINIC"
+	,"description" : "Transitions Clinic is a unique primary care clinic dedicated to recently released chronically-ill men and women and their families. Transitional and primary care services are available within the first two weeks upon release from prison. Patients are supported by community health workers who have a history of incarceration. www.transitionsclinic.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Ron Sanders, Juanita Alvarado, Joseph Calderon: Community Health Workers" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 671-7087 – office; Ron: (415) 933-4403 (cell); Juanita: (415) 730-5357 (cell); Joseph: (415) 676-0816 (cell)" }
+		,"email"  : { "_type" : "contact" , "value" : "ronald.sanders@sfdph.org, juanita.alvarado@sfdph.org, joseph.calderon@sfdph.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.transitionsclinic.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "2401 Keith Street" , "San Francisco Ca 94124" 
+						] 
+                                 ,"name" : "Southeast Health Center"  
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "12:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Public Transportation: T Train, 54, 29\nAll patients are supported by trained community health workers with a history of incarceration. Our clinic partners with many community organizations and are we not funded by the criminal justice system."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Medical Care","Health & Wellness Education","Individual Counseling/Therapy","Mentorship","Outreach","Post-Incarceration support","Referrals to other resources available as needed, including referral for employment, housing, mental health and substance use treatment","Medical care on site: buprenorphine (suboxone), optometry, podiatry, acupuncture, smoking cessation classes, lab services and nutrition","Clothing & food access upon request." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "others" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"State-issued ID, Social Security Card, and Proof of SF Residency","No additional documentation needed prior to entry, but will need these documents in 30 days for San Francisco insurance program. Program will assist entering clients."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Men, Women, Transgender people, Pregnant women, and families."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

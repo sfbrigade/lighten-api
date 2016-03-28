@@ -1,0 +1,83 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "bes9vu8goquoequohph2Aewielairephahch2thu-1"
+	,"org_name" : "MISSION COUNCIL ON ALCOHOL ABUSE FOR THE SPANISH SPEAKING, INC."
+	,"description" : "Mission Council on Alcohol Abuse for the Spanish Speaking, Inc., a non-profit organization, has been committed to the prevention and treatment of alcohol and other drug-related problems for individuals, families, and groups of underserved members of San Francisco communities by providing leadership and community care needs in a safe and culturally relevant setting. www.missioncouncil.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Intake Coordinator" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 826-6767" }
+		,"phone2"  : { "_type" : "contact" , "value" : "(415) 920-0721" }
+		,"email"  : { "_type" : "contact" , "value" : "jla@missioncouncil.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.missioncouncil.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "154-A Capp Street" , "San Francisco, CA 94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "15:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "15:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "15:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "15:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "15:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Culturally Specific Assessments","Outpatient Counseling","Individual/Group Counseling","Drug and Alcohol Education Classes","Drug and Alcohol Testing","Alcoholics Anonymous","Narcotics Anonymous","Employment Services Referrals","Housing Referrals","Collaboration with the San Francisco Drug Court","Domestic Violence Counseling","Dual Diagnosis Assessment and Counseling","Referrals to other resources available as needed." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members, 18 and older"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

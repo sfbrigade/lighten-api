@@ -1,0 +1,236 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eiPhoodahbeipuhiomi3eMah7boh2aek4aif0jag-1.0"
+	,"org_name" : "WESTSIDE COMMUNITY SERVICES SERVICES FOR ADULTS - Behavioral Health Services"
+	,"description" : "Westside Community Services has been providing an array of community-based prevention, mental health, substance abuse, and social services to clients in the City and County of San Francisco for 40 years. Incorporated in 1967, Westside is one of the oldest community-based mental health agencies in the nation. The range of programs and services has varied over the years, while a commitment to providing excellent, high-quality, culturally and community appropriate programs has remained central to the core of the organization. www.westside-health.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 355-0311" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 355-0349" }
+		,"email"  : { "_type" : "contact" , "value" : "crisisclinic@westside-health.org outpatient@westside-health.org ACT@westside-health.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.westside-health.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "245 11th Street" , "San Francisco, CA 94103"
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+						]
+					}
+		
+	}
+		,"notes" : ""
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Advocacy","Chemical Dependency Services","Outreach","In-Home Support","Therapeutic Interventions","Care Coordination","Medication Monitoring and Health Screening","Crisis Assessment","Crisis Intervention" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Program may require photo ID or other documentation. Contact Westside for specifics."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Sliding scale. Medi-Cal share of cost, if appropriate."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"San Francisco residents; other eligibility requirements may apply. Contact program for specifics"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+,{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eiPhoodahbeipuhiomi3eMah7boh2aek4aif0jag-1.1.1"
+	,"org_name" : "WESTSIDE COMMUNITY SERVICES SERVICES FOR ADULTS - Methadone Maintenance & Detoxification"
+	,"description" : "Westside Community Services has been providing an array of community-based prevention, mental health, substance abuse, and social services to clients in the City and County of San Francisco for 40 years. Incorporated in 1967, Westside is one of the oldest community-based mental health agencies in the nation. The range of programs and services has varied over the years, while a commitment to providing excellent, high-quality, culturally and community appropriate programs has remained central to the core of the organization. www.westside-health.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 563-8200" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 563-5985" }
+		,"email"  : { "_type" : "contact" , "value" : "methadone@westside-health.org" } 
+		,"web"  : { "_type" : "contact" , "value" : "www.westside-health.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1301 Pierce Street" , "San Francisco, CA 94115" 
+						] 
+				 ,"postal-code" : "94115"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+						]
+					}
+		
+	}
+		,"notes" : ""
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Advocacy","Chemical Dependency Services","Outreach","In-Home Support","Therapeutic Interventions","Care Coordination","Medication Monitoring and Health Screening","Crisis Assessment","Crisis Intervention" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Program may require photo ID or other documentation. Contact Westside for specifics."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Sliding scale. Medi-Cal share of cost, if appropriate."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"San Francisco residents; other eligibility requirements may apply. Contact program for specifics"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eiPhoodahbeipuhiomi3eMah7boh2aek4aif0jag-1.2"
+	,"org_name" : "WESTSIDE COMMUNITY SERVICES SERVICES FOR ADULTS - HIV Testing, Counseling & Linkages AIDS Case Management & Home Care"
+	,"description" : "Westside Community Services has been providing an array of community-based prevention, mental health, substance abuse, and social services to clients in the City and County of San Francisco for 40 years. Incorporated in 1967, Westside is one of the oldest community-based mental health agencies in the nation. The range of programs and services has varied over the years, while a commitment to providing excellent, high-quality, culturally and community appropriate programs has remained central to the core of the organization. www.westside-health.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 355-0311" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 355-0358" }
+		,"email"  : { "_type" : "contact" , "value" : "AIDS@westside-health.org" }
+		,"email2"  : { "_type" : "contact" , "value" : "CTL@westside-health.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.westside-health.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1153 Oak Street" , "San Francsico, CA 94117" 
+						] 
+				 ,"postal-code" : "94117"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : ""
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Advocacy","Chemical Dependency Services","Outreach","In-Home Support","Therapeutic Interventions","Care Coordination","Medication Monitoring and Health Screening","Crisis Assessment","Crisis Intervention" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Program may require photo ID or other documentation. Contact Westside for specifics."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Sliding scale. Medi-Cal share of cost, if appropriate."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"San Francisco residents; other eligibility requirements may apply. Contact program for specifics"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

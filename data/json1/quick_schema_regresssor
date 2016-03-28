@@ -2,6 +2,10 @@
 
 # 
 #
+# e.g.   (venv) bbbb:json_schema x$ ../quick_schema_regresssor orgs.jsc 
+#
+#
+#
 # a quick test harness 
 #	given recusrive.jsc , 
 #	run  tests of names recursive.t.[pf].\d+(.json)

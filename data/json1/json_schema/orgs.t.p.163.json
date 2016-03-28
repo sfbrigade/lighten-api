@@ -1,0 +1,162 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ui6de2quah4EeD0xah7sain4au6eeyaiRahdo8bu-1.0"
+	,"org_name" : "JELANI, INC. Jelani House Prenatal Program"
+	,"description" : "Residential drug treatment program for families."
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Norman Mathis, Intake Coordinator." }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 822-5945" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 822-5943" }
+		,"email"  : { "_type" : "contact" , "value" : "nmathis@jelaniinc.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1601 Quesada Avenue" , "San Francisco, CA 94124" 
+						] 
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "intake hours" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Referrals from family agencies or criminal justice system."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Alcohol/Drug Treatment","Access to Benefits (SSI, GA, TANF, et al)","Accompany to Court Dates","Anger Management","Childcare","Co-Occurring Disorder/Dual Diagnosis","Counseling","Family Reunification","Life Skills","Parenting Support","Perinatal Services","Residential Housing","Services for Children","Trauma Recovery Services","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Social Security Card; Proof of Residence; TB Clearance. Preferable, but not completely necessary at intake. Some assistance may be available to help gather these documents."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"80% of public assistance received"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All Individuals and families, including adults with children, and pregnant women. Must not be convicted of sex offense or arson."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ui6de2quah4EeD0xah7sain4au6eeyaiRahdo8bu-1."
+	,"org_name" : "JELANI, INC."
+	,"description" : "Residential drug treatment program for families."
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Norman Mathis, Intake Coordinator." }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 822-5945" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 822-5943" }
+		,"email"  : { "_type" : "contact" , "value" : "nmathis@jelaniinc.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1638 Kirkwood Avenue" , "San Francisco, CA" 
+						] 
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "intake hours" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Referrals from family agencies or criminal justice system."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Alcohol/Drug Treatment","Access to Benefits (SSI, GA, TANF, et al)","Accompany to Court Dates","Anger Management","Childcare","Co-Occurring Disorder/Dual Diagnosis","Counseling","Family Reunification","Life Skills","Parenting Support","Perinatal Services","Residential Housing","Services for Children","Trauma Recovery Services","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Social Security Card; Proof of Residence; TB Clearance. Preferable, but not completely necessary at intake. Some assistance may be available to help gather these documents."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"80% of public assistance received"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All Individuals and families, including adults with children, and pregnant women. Must not be convicted of sex offense or arson."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

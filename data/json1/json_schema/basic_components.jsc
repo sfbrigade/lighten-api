@@ -175,6 +175,7 @@
 				,"accessiblity" : { "$ref" : "#/definitions/accessibility" , "description" : "Accomidations that the facility can provide."} 
 				,"sub_orgs" : { "type" : "array" , "items" : { "$ref" : "#/definitions/org"  } , "description" :"left here for future use.  The idea is to sparesly populate a tree of these things, then flow or inherrit parts of the object as the tree is desended.  This will allow an ldap like ORG structure, though will require some tooling to get this implemented(thus out of MVP)."}
 				,"languages_spoken" : { "type" : "array" , "items" : { "type" : "string" } ,"description" : "a simple txt key set" }
+                                ,"_internal_record_notes_" : { "type" : "string" }
             }
 			,"required" : [ "_type" , "unique_lighten_recordId" ] 
             ,"additionalProperties": false
