@@ -1,0 +1,180 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "cheijohP5Ushahphe4eipeiN8ooph9shae7ieja0-1"
+	,"org_name" : "POSITIVE DIRECTIONS EQUALS CHANGE"
+	,"description" : "Our mission is to inspire personal and social responsibility in the African American community through advocacy, education, and results-oriented service. Outpatient substance abuse treatment program certified by the State, based on 12-step recovery principles, combined with non-traditional treatment modalities that address the whole individual. Other services include life skills, re-socialization training, parenting education groups, anger management/violence prevention, relapse prevention, drug education, HIV/AIDS awareness, and harm reduction education."
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Cedric Akbar, Executive Director" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 401-0199" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 401-0175" }
+		,"email"  : { "_type" : "contact" , "value" : "cantgetright94124@yahoo.com" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1663 Newcomb Ave." , "San Francisco, CA 94124" 
+						] 
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "10:00" , "close" : "17:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-in preferred"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Anger Management","Case Management","Counseling","Life Skills","Literacy/Basic Education","Mentoring","Substance Abuse Treatment","Trauma Recovery","Victim Services","Violence Prevention","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Call for fee schedule"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "Ahch3Ahlu5boo8Lee3yoh8voh0Buneehahshien8-2"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF PUBLIC HEALTH CHINATOWN NORTH BEACH MENTAL HEALTH SERVICES"
+	,"description" : "Chinatown North Beach Mental Health Services offers an array of outpatient mental health services to adolescents, adults, and older adults. Many clients served are immigrants or refugee survivors of war. The program operates from the basic philosophy that services need to be accessible and culturally appropriate. A harm reduction approach is offered to help persons who have both substance abuse and mental health issues. Goals are to help people in their recovery from psychiatric illness, and co-occurring disorders when present, building on the strengths of the individual and family and supporting persons to have productive lives in the community."
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "On-Duty Clinician or OD" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 352-2000" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 352-2050" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "729 Filbert Street" , "San Francisco, CA 94133"
+						] 
+				 ,"postal-code" : "94133"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "clinic" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:30" , "close" : "17:00" }
+
+						]
+					}
+		
+			 ,"drop in" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "11:00" }
+
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "13:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "13:00" , "close" : "15:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Okay to drop-in."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Assessment","Individual Therapy/Counseling","Clinical Case Management","Medication Services","Urgent Care","Crisis Outreach","Family Intervention","Acupuncture","Group Services","Adult Socialization Program","Mental Health Services" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Mandarin","Vietnamese","Cantonese"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Medi-Cal card, Medicare card, Healthy San Francisco card or other insurance information, if applicable."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Sliding scale"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"San Francisco resident"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

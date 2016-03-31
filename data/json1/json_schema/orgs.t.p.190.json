@@ -1,0 +1,160 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ooVooghohh1kieree2zai6ohPohm0uy3aip9aiz3-1"
+	,"org_name" : "COMMUNITY WORKS WEST YOUNG MEN’S REENTRY PROGRAM/VOICES ON THE RISE"
+	,"description" : "The Young Men’s Reentry Program is a full-service reentry program for 18-25 year old, previously incarcerated men. Voices on the Rise is a restorative justice theater ensemble for formerly incarcerated young men ages 18-25 years old. The program starts in late Fall/early Winter and meets twice a week at the San Franscisco Sheriff’s Department (SFSD) Community Programs and culminates in several public performances in the Spring. Voices on the Rise is a paid job opportunity. www.communityworkswest.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Teeoni Newsom" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415)-575-6409" }
+		,"email"  : { "_type" : "contact" , "value" : "tnewsom@communityworkswest.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.communityworkswest.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "San Francisco Sheriff’s Department Community Programs" , "70 Oak Grove" , "San Francisco, CA 94103" 
+						] 
+                                 ,"name" : "San Francisco Sheriff’s Department Community Programs"  
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:30" , "close" : "16:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "16:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:30" , "close" : "16:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "16:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:30" , "close" : "16:30" }
+						]
+					}
+		
+	}
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Intensive Case Management","Individual Service Plans that adress Employment Goals, Housing, Education, Counseling, and Substance Abuse","Job Development","Life Skills","Thinking for a Change and Manalive Classes","Restorative Justice Theater Program for Young Men" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Men ages 18-25"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eehu8ooRiamokai2kouSoo7eele7aizohh1ahbai-2"
+	,"org_name" : "COMMUNITY WORKS WEST WOMEN RISING/RISING VOICES"
+	,"description" : "Women Rising/Rising Voices provides formerly incarcerated young women with the tools/resources to lead healthy and productive lives, as well as reducing their rates of re-arrest, by providing a full continuum of services, combining the principles of restorative justice and youth development through a paid theater internship and case management. Rising Voices is a restorative justice theater ensemble for formerly incarcerated young women ages 18-25. Rising Voices is a paid job opportunity. www.communityworkswest.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Chloe Turner" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415)-734-3150" }
+		,"email"  : { "_type" : "contact" , "value" : "cturner@communityworkswest.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.communityworkswest.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "San Francisco Sheriff’s Department Women’s Resource Center" , "930 Bryant Street" , "San Francisco, CA 94103" 
+						] 
+                                 ,"name" : "San Francisco Sheriff’s Department Women’s Resource Center"  
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "16:00" }
+						]
+					}
+		
+	}
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Intensive Case Management","Individual Service Plans that adress Employment Goals, Housing, Education, Counseling, and Substance Abuse","Job Development","Life Skills","Thinking for a Change and Manalive Classes","Restorative Justice Theater Program for Young Women" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Open to all formerly incarcerated women ages 18-25 years old"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

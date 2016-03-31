@@ -1,0 +1,548 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1."
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - "
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "" }
+		,"fax"  : { "_type" : "contact" , "value" : "" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "" , "" , "" 
+						] 
+                                 ,"name" : ""  
+				 ,"postal-code" : ""
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+,{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1.1"
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - Main Office"
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 749-2100" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 749-2136" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "290 Turk Street" , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1.2"
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - TSHC"
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 749-2143" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "290 Turk Street" , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "07:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "07:00" , "close" : "19:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1.3"
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - Sixth Street"
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 369-3040" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "Sixth Street Self-Help Ctr" , "169 & 181 Sixth St." , "San Francisco, CA 94103" 
+						] 
+                                 ,"name" : "Sixth Street Self-Help Ctr"  
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1.4"
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - Shelter"
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 749-2103" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "146 Leavenworth St." , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "16:00" , "close" : "24:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "16:00" , "close" : "24:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "16:00" , "close" : "24:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "16:00" , "close" : "24:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "16:00" , "close" : "24:00" }
+
+					,{  "_type" : "hours_atom" , "day" : "Monday" , "open" : "00:00" , "close" : "08:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "00:00" , "close" : "08:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "00:00" , "close" : "08:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "00:00" , "close" : "08:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "00:00" , "close" : "08:00" }
+
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "00:00" , "close" : "24:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "00:00" , "close" : "24:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1.5"
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - CAP"
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 749-2133" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "Community Arts Program" , "1007 Market St."  ,"San Francisco, CA 94102"
+						] 
+                                 ,"name" : "Community Arts Program"  
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "13:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "10:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "13:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "10:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "13:00" , "close" : "18:00" }
+
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "zohxous3jie3quae6yuing0uc2piokeeg4Apooth-1.6"
+	,"org_name" : "CENTRAL CITY HOSPITALITY HOUSE - CBP"
+            , "_internal_record_notes_" : "Multi records from page 184 apd , review, renormalize" 
+	,"description" : "Hospitality House is a community center for San Francisco’s Tenderloin neighborhood, providing opportunities for personal growth and self-determination to homeless people and neighborhood residents. The agency’s mission is to build community strength by advocating policies and rendering services that foster self-sufficiency and cultural enrichment. We encourage self-help, mutual respect, and increased self-esteem. The goal of these efforts is to make the heart of San Francisco a better place for us all. Facilities include the Tenderloin Self-Help Center (TSHC), the Sixth Street Self-Help Center, a shelter, the Community Arts Program (CAP) , the Employment Program (EP), and the Community Building Program (CBP)."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 749-2102" }
+		,"email"  : { "_type" : "contact" , "value" : "info@hospitalityhouse.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "Employment Program" , "146 Leavenworth" , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter","Rental Move-in Assistance","Access to Internet","Assistance Getting Driver’s License or Other ID","Hygiene/Personal Care Items","P.O. Box/Mail Service","Phone/Voicemail","Transit Vouchers","Mental Health Treatment","Substance Abuse Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Health & Wellness Education","Group Counseling/Therapy","Individual Counseling/Therapy","Post-Incarceration Support","Employment Placement","Employment Retention","Job Readiness/Life Skills","Couples/Family Counseling","Meals","Shower Facilities","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+]

@@ -1,0 +1,163 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eethoo3phaLiV0siePaitiemae3oociez1phee8z-1"
+	,"org_name" : "ARAB CULTURAL AND COMMUNITY CENTER"
+	,"description" : "Assist immigrant families in adjusting/adapting to hardships in American societies, and aim to provide any services needed through referrals. www.arabculturalcenter.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 664-2200" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 664-2280" }
+		,"email"  : { "_type" : "contact" , "value" : "info@arabculturalcenter.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.arabculturalcenter.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "2 Plaza Street" , "San Francisco, CA 94116" 
+						] 
+				 ,"postal-code" : "94116"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "10:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "10:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. By appointment only. No drop-ins."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Referrals to range of community resources and social services" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"State-Issued ID","Proof of San Francisco residency"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals, and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "Ciecho0raiteen5Eich8Ahphie0ierae8ieg9iph-2"
+	,"org_name" : "BAY AREA WOMEN’S & CHILDREN’S CENTER"
+	,"description" : "BAWCC offers a variety of direct services that address immediate needs and assists with achieving long-term stability. BAWCC's advocacy, planning and policy work on issues of low-income children and families has had a positive impact on the lives of thousands since we opened in 1981. BAWCC's long-term projects have resulted in the creation of playgrounds, a recreation center, school, and family center. www.bawcc.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Diane Van Stralen, Nancy Ong or Midge Wilson" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 474-2400" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415)474-5525" }
+		,"web"  : { "_type" : "contact" , "value" : "www.bawcc.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "318 Leavenworth Street" , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "drop-in" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "12:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "12:30" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins are welcome. Appointments can be made."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Clothing","Dental Care (in partnership with UCSF)","Food Pantry","Literacy/Basic Education","Scholarship Fund for Tenderloin College Age Students","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Cantonese","Mandarin","Limited Spanish","Vietnamese"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Some form of I.D."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Women, transgender individuals, including those pregnant or with children."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

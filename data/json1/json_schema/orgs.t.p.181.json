@@ -1,0 +1,85 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "koub9ohx6she3XataiMohtohxie7shi8aeth1soi-1"
+	,"org_name" : "UCSF CITYWIDE CASE MANAGEMENT FORENSIC NOVA THERAPY PROGRAM"
+	,"description" : "The purpose of this program is to provide culturally competent mental health services in support of the Sheriff’s Department NoVA Program’s goals of aiding offenders’ successful reentry into the community and reducing recidivism, treating all individuals with dignity, compassion and respect"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Yasi Shirazi, MFT, Clinical Supervisor" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 597-8027" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 597-8004" }
+		,"email"  : { "_type" : "contact" , "value" : "yasaman.shirazi@ucsf.edu" }
+		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "982 Mission Street" , "San Francisco, CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+                                          {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:30" , "close" : "16:45" }
+                                         ,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "16:45" }
+                                         ,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:30" , "close" : "16:45" }
+                                         ,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "16:45" }
+                                         ,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:30" , "close" : "16:45" }
+                                         ,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "10:00" , "close" : "13:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Clients must all be enrolled in the San Francisco Sheriff's Department NoVA program and be referred by his or her community-based case manager. No drop-ins."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Mental Health Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Group and Individual Counseling/Therapy","Outreach","Post-Incarceration Support","Trauma Recovery Services","Assistance with Assessment & Application for SSI","Employment Training","Employment Placement","Employment Retention","Job Readiness/Life Skills","Money Management/Personal Financial Education","Couples/Family Counseling","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible" , "Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"There are no client fees for NoVA therapy services"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Individuals who are enrolled in the SF Sheriff Department’s NoVA program."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

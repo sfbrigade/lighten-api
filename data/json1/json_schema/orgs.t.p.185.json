@@ -1,0 +1,92 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ue2vaiXeiDohzaejaenga2soghoh2ooj8ohtieng-1"
+	,"org_name" : "CENTER FOR RESTORATIVE JUSTICE WORKS GET ON THE BUS"
+	,"description" : "The Center for Restorative Justice Works (CRJW) unites children, families, and communities separated by crime and the criminal justice system. CRJW calls the community to set aside pre-judgments about women and men in prison in order to work together to accompany families torn apart by the crime and the criminal justice system, create awareness about the negative impacts of incarceration on children and families, and advocate for programs and policies that restore relationships. CJRW re-weaves the web of relationships that have been torn apart by crime and the policies of the criminal justice system.\nGet on the Bus is a program of The CRJW. Get On The Bus brings children and their guardians/caregivers from throughout the state of California to visit their mothers and fathers in prison. An annual event, Get On The Bus offers free transportation for the children and their caregivers to the prison, provides travel bags for the children, comfort care bags for the caregivers, a photo of each child with his or her parent, and meals for the day (breakfast, snacks on the bus, lunch at the prison, and dinner on the way home) — all at no cost to the children’s family. On the bus trip home, following a four-hour visit, each child receives a teddy bear with a letter from their parent and post-event counseling. www.crjw.us www.getonthebus.us"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(818) 980-7714" }
+		,"fax"  : { "_type" : "contact" , "value" : "(818) 980-7702" }
+		,"email"  : { "_type" : "contact" , "value" : "info@getonthebus.us" }
+		,"web"  : { "_type" : "contact" , "value" : "www.crjw.us" }
+		,"web2"  : { "_type" : "contact" , "value" : "www.getonthebus.us" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "6400 Laurel Canyon Blvd. Ste 304" , "North Hollywood, CA 91606"
+						] 
+				 ,"postal-code" : "91606"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+			 ,"intake" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+				         {  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Applications are received from the incarcerated parent at select institutions. Call for more information"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Each year around Mother’s Day and Father’s Day, hundreds of children and their caregivers board buses and travel from cities all over the State of California to be united with their parents." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"ADA compliant"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Children (Infant to 18 years) of incarcerated mothers & fathers (including caregivers)"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "Inter-Faith."
+}
+
+
+]

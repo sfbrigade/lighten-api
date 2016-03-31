@@ -1,21 +1,19 @@
+[
 
 {
-	"_type" : "org"  ,"unique_lighten_recordId" : "REPLACE_ME_unique_lighten_recordId"
-	,"org_name" : ""
-	,"description" : ""
+	"_type" : "org"  ,"unique_lighten_recordId" : "Eech8yeiqueemoJuo3gaighomai0phash6ish7ae-1"
+	,"org_name" : "ASIAN AMERICAN RECOVERY SERVICES PROJECT ADAPT"
+	,"description" : "Asian American Recovery Services Project ADAPT, a program of HealthRIGHT360, provides outpatient drug and alcohol treatment. We adhere to a holistic approach intended to promote the development of a healthy body, mind, and spirit. The aim is to help individuals reduce substance use and develop a clean and sober lifestile. www.aars.org"
 	,"contacts" : { 
-		"Contact Person"  : { "_type" : "contact" , "value" : "" }
-		,"phone"  : { "_type" : "contact" , "value" : "" }
-		,"fax"  : { "_type" : "contact" , "value" : "" }
-		,"email"  : { "_type" : "contact" , "value" : "" }
-		,"web"  : { "_type" : "contact" , "value" : "" }
-		,"facebook"  : { "_type" : "contact" , "value" : "" }
+		"Contact Person"  : { "_type" : "contact" , "value" : "Nicole Richards or Stephen Fields for program information and intakes" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 541-9404" }
+		,"email"  : { "_type" : "contact" , "value" : "sfields@aars.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.aars.org" }
 		,"service_site"  : { "_type" : "contact" , "value" :  
 				{ "_type" : "address1" , "addrtxtlines" : 
-						[ "" , "" , "" 
+						[ "2020 Hayes Street" , "San Francisco, CA 94117"
 						] 
-                                 ,"name" : ""  
-				 ,"postal-code" : ""
+				 ,"postal-code" : "94117"
 				}
 			 } 
 	}
@@ -28,31 +26,29 @@
 					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
 					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
-					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
 						]
 					}
 		
 	}
-		,"notes" : ""
+		,"notes" : "No referral needed. Call or write for appointment. No drop-ins."
 		,"service_description" : { 
 			"_type" : "service_description" 
 			,"service_catagories" : [
 				{"_type" : "service_catagory_atom"
 				,"keys" : [ 
-                                        "" 
+                                        "Substance Abuse Treatment","Individual Counseling and Group Sessions","Group Counseling/Therapy","Referrals to other resources available as needed" 
 					] 	}
 			]
 	}
 		,"languages_spoken" : [ 
-			"English" ,"Spanish", "Cantonese" 
+			"English" ,"Cantonese","Mandarin","Tagalog","Korean"
 		]
 		,"accessiblity" : {
 			"_type" : "accessibility" 
 			,"accessibility_atoms" : [ 
 				{ "_type" : "accessibility_atom"
 				,"keys" : [ 
-					"Wheelchair accessible","Other disabilities are accommodated." 
+					"Wheelchair accessible"
 					]
 				}
   			]
@@ -63,19 +59,19 @@
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "what_to_bring"
 				,"keys" : [
-					""
+					"TB Clearance"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "fees"
 				,"keys" : [
-					""
+					"Sliding scale"
 					]
 				},
 				{ "_type" : "usage_requirement_atom"
                 ,"kind" : "eligible_population"
 				,"keys" : [
-					""
+					"Must be a resident of San Francisco, over the age of 18, have a drug or alcohol problem."
 					]
 				}
 			]
@@ -85,3 +81,4 @@
 }
 
 
+]
