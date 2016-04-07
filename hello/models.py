@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.postgres.fields import JSONField
 
 # Create your models here.
 class Greeting(models.Model):
@@ -6,3 +7,7 @@ class Greeting(models.Model):
 
 class Example(models.Model):
     content = models.TextField()
+    json = JSONField(null=True)
+
+class Organization(models.Model):
+    json = JSONField()
