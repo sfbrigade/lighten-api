@@ -2,21 +2,28 @@ import React, { PropTypes } from 'react'
 import DataBlock from '../components/DataBlock'
 import Location from '../components/Location'
 import Hours from '../components/Hours'
+import http from 'superagent'
 import { parseOrganization } from '../utils/common'
 import './Organization.scss'
-import organizations from '../static/mock/orgs.json'
 
 export default class Organization extends React.Component {
 
   static propTypes = {
-    params: PropTypes.object.isRequired
+    params: PropTypes.object.isRequired,
   }
 
-  constructor (props) {
-    super(props)
-    this.state = {
-      organization: parseOrganization(organizations[props.params.organizationId])
-    }
+  componentDidMount () {
+    http.get(`http://192.168.99.100:8080/api/organizations/${this.params.organizationId}`)
+      .end((error, response) => {
+        if (error) {
+          return console.error(error)
+        }
+        this.setState((state) => {
+          return Object.assign({}, state, {
+            organization: response
+          })
+        })
+      })
   }
 
   render () {
