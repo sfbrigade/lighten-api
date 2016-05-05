@@ -12,4 +12,4 @@ web:
   volumes:
     - '.:/app/user'
 postgres:
-  image: postgres
+  image: postgres:9
