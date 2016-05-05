@@ -5,9 +5,5 @@ from django.contrib.postgres.fields import JSONField
 class Greeting(models.Model):
     when = models.DateTimeField('date created', auto_now_add=True)
 
-class Example(models.Model):
-    content = models.TextField()
-    json = JSONField(null=True)
-
 class Organization(models.Model):
     json = JSONField()

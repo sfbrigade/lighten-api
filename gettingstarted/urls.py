@@ -1,6 +1,6 @@
 from django.conf.urls import include, url
 from django.contrib.auth.models import User
-from hello.models import Example, Organization
+from hello.models import Organization
 from rest_framework import routers, serializers, viewsets
 
 from django.contrib import admin
@@ -13,10 +13,6 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
         fields = ('url', 'username', 'email', 'is_staff',)
-class ExampleSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Example
-        fields = ('id', 'content', 'json',)
 class OrganizationSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Organization
@@ -26,9 +22,6 @@ class OrganizationSerializer(serializers.HyperlinkedModelSerializer):
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-class ExampleViewSet(viewsets.ModelViewSet):
-    queryset = Example.objects.all()
-    serializer_class = ExampleSerializer
 class OrganizationViewSet(viewsets.ModelViewSet):
     queryset = Organization.objects.all()
     serializer_class = OrganizationSerializer
@@ -36,7 +29,6 @@ class OrganizationViewSet(viewsets.ModelViewSet):
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
-router.register(r'examples', ExampleViewSet)
 router.register(r'organizations', OrganizationViewSet)
 
 urlpatterns = [
