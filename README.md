@@ -4,6 +4,15 @@ A barebones Python app, which can easily be deployed to Heroku.
 
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
+## Starting Docker
+
+If you use Docker for Mac, it's really simple!
+
+```sh
+docker-compose up web
+open http://localhost:8080
+```
+
 ## Running Locally
 
 Make sure you have Python [installed properly](http://install.python-guide.org).  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
@@ -24,16 +33,14 @@ $ heroku local
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Deploying
 
 ```sh
-$ heroku create
-$ git push heroku master
+git push origin master
 
-$ heroku run python manage.py migrate
-$ heroku open
+heroku run python manage.py migrate
+heroku open
 ```
-or
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
