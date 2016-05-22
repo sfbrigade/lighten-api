@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { connect } from 'react-redux'
-import organizations from '../static/mock/orgs.json'
+import http from 'superagent'
 import './Home.scss'
 
 export class Home extends React.Component {
@@ -9,8 +9,22 @@ export class Home extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      organizations
+      organizations: []
     }
+  }
+
+  componentDidMount () {
+    http.get('http://192.168.99.100:8080/api/organizations')
+      .end((error, response) => {
+        if (error) {
+          return console.error(error)
+        }
+        this.setState((state) => {
+          return Object.assign({}, state, {
+            organizations: response
+          })
+        })
+      })
   }
 
   render () {
