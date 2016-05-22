@@ -1,1 +1,1 @@
-FROM heroku/python
+FROM heroku/python:3
