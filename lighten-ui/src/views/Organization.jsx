@@ -13,14 +13,14 @@ export default class Organization extends React.Component {
   }
 
   componentDidMount () {
-    http.get(`http://192.168.99.100:8080/api/organizations/${this.params.organizationId}`)
+    http.get(`api/organizations/${this.params.organizationId}`)
       .end((error, response) => {
         if (error) {
           return console.error(error)
         }
         this.setState((state) => {
           return Object.assign({}, state, {
-            organization: response
+            organization: response.body
           })
         })
       })

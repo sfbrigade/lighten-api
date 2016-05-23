@@ -14,14 +14,14 @@ export class Home extends React.Component {
   }
 
   componentDidMount () {
-    http.get('http://192.168.99.100:8080/api/organizations')
+    http.get('api/organizations')
       .end((error, response) => {
         if (error) {
           return console.error(error)
         }
         this.setState((state) => {
           return Object.assign({}, state, {
-            organizations: response
+            organizations: response.body
           })
         })
       })

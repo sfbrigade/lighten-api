@@ -16,6 +16,12 @@ new WebpackDevServer(webpack(webpackConfig), {
   noInfo: config.compiler_quiet,
   lazy: false,
   stats: config.compiler_stats,
+  proxy: {
+    '/api*': {
+      target: 'http://localhost:8080',
+      secure: false
+    }
+  }
 }).listen(port, host, function (err, result) {
   if (err) {
     debug(err)
