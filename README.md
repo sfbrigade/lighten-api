@@ -9,7 +9,7 @@ This application supports the [Getting Started with Python on Heroku](https://de
 If you use Docker for Mac, it's really simple!
 
 ```sh
-docker-compose up web
+docker-compose up
 open http://localhost:8080
 ```
 
