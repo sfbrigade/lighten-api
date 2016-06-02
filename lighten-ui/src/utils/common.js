@@ -11,3 +11,10 @@ export const parseOrganization = (organization) => {
   })
   return organization
 }
+
+export const flattenOrganizationProperties = (organization) => {
+  return {
+    id: organization.id,
+    ...organization.json,
+  }
+}

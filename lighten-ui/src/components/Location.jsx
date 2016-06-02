@@ -7,14 +7,8 @@ export default class Location extends React.Component {
     location: PropTypes.object
   }
 
-  constructor (props) {
-    super(props)
-    this.state = {}
-  }
-
   render () {
     const {location} = this.props
-    console.log(location)
 
     const address = location.addrtxtlines.join(', ')
     const uriEncodedAddress = encodeURIComponent(address)
@@ -33,7 +27,7 @@ export default class Location extends React.Component {
           frameBorder='0'
           style={{border: 0}}
           src={googleMapsIframeUrl}
-          allowFullscreen></iframe>
+          allowFullScreen></iframe>
         <DataBlock label='Address' value={address} />
       </div>
     )
