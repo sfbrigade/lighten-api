@@ -1,0 +1,163 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "yohm2tahcae5euxa5ru7ahfoo7neuPh2teejoo4E-1"
+	,"org_name" : "SAN FRANCISCO OFFICE OF CITIZEN COMPLAINTS"
+	,"description" : "The mission of the Office of Citizen Complaints is to promptly, fairly and impartially investigate complaints of police misconduct. In addition to complaint investigation, the office provides a volunteer mediation program, performs policy analysis for recommendations to the Police Commission, and runs community outreach efforts. www.sfgov.org/occ"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 241-7711" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 241-7733" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfgov.org/occ" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "25 Van Ness Avenue #700" , "San Francisco" , "CA 94002" 
+						] 
+				 ,"postal-code" : "94002"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Drop-ins allowed."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Mediation and Investigation of complaints against SF Police Officers","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"Spanish", "Cantonese"  ,"Tagalog" ,"Russian"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members who wish to make a complaint regarding a sworn San Francisco Police Department officer."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "aung4eiPheopiech3aeGh5Ga3ooshohth3hahs8o-2"
+	,"org_name" : "SAN FRANCISCO OFFICE OF THE DISTRICT ATTORNEY BACK ON TRACK INITIATIVE"
+	,"description" : "The San Francisco District Attorney’s Back on Track Initiative is a court-driven program for offenders ages 18-30 who are charged with their first adult felony drug sales offense. Defendants accepted into Back on Track spend a minimum of one year attending progress hearings and commit to complete community service, obtain their high school diploma/GED, and find employment. We partner with Criminal Justice Specialists at Goodwill Industries, who both monitor individuals’ progress and assist with job training, job placement and other critical supports. Successful participants have their cases dismissed and arrest records sealed. \n www.sfdistrictattorney.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Ranon Ross, Back on Track Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 553-9665" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 553-9700" }
+		,"email"  : { "_type" : "contact" , "value" : "ranon.ross@sfgov.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfdistrictattorney.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "850 Bryant Street" , "3rd Floor" , "San Francisco" , "CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Referrals are required for program; call for referrals."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Referrals into Back on Track program","referrals to other resources as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Young adults in the criminal justice system. There are additional requirements; please call for more information."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

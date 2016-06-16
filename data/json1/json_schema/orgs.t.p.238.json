@@ -1,0 +1,92 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "fa7ADei9ooHahxush4Oogeingein5ailohpaivoo-1"
+	,"org_name" : "HOMELESS ADVOCACY PROJECT (HAP)"
+	,"description" : "The Homeless Advocacy Project (HAP) may be able to help you if you have legal issues and are homeless, or threatened with homelessness, especially if you have a disability or minor children living with you. HAP also provides supportive social services to its legal clients to address underlying psychosocial needs. We primarily assist clients with federal disability and other benefit issues; eviction prevention; and immigration documentation. www.sfbar.org/volunteer/homeless_article.aspx"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 575-3130" }
+		,"phone toll free"  : { "_type" : "contact" , "value" : "(800) 405-4427" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 703-8639" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfbar.org/volunteer/homeless_article.aspx" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1360 Mission Street Suite 201" , "San Francisco" , "CA 94102" 
+						] 
+                                 ,"name" : ""  
+				 ,"postal-code" : ""
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+                         ,
+			 "intake" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "13:30" , "close" : "16:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Please drop in during Tuesday intake hours."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "HAP is only able to provide assistance with certain types of legal issues. These include: Applications for Supplemental Security Income (SSI – federal disability benefits) and issues related to SSI applications","Eviction defense, especially if you are accused of causing a nuisance or your landlord has obtained a default judgment against you","Immigration documentation, if you are in the country legally but have lost your immigration documents or have not taken the steps needed to get proper immigration documents","Brief advice and referrals to other projects or agencies that can help you." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"Spanish","Vietnamese","Mandarin"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Any documents related to your case (eviction papers; social security notices)"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None if low-income"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Homeless or at risk of homelessness, with priority to individuals who have mental health disabilities and families"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

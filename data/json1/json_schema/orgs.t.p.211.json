@@ -1,0 +1,168 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eiF8iov9axooCiequogujiech1Quo9ihiegai9bu-1"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF PUBLIC HEALTH MOBILE CRISIS TREATMENT TEAM"
+	,"description" : "To provide acute mobile psychiatric crisis evaluation and intervention for adults in San Francisco, regardless of insurance. We are strongly committed to delivering family focused and consumer driven care, and developing a safety network within San Francisco County."
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 970-4000" }
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "11:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "11:00" }
+
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "12:00" , "close" : "20:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Please call for assistance"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Psychiatric Inpatient Hospital bed; Mental Health Treatment. Referrals to other resources available as needed." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese","Taglog","Vietnamese","Other languages can be accommodated"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Clients must exhibit psychiatric emergencies"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Sliding scale. Accept MediCal, private insurance"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals over the age of 18 who have psychiatric or mental health emergencies."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ahdoh0aigaoghepahDa1ieth7ootieH1biechooH-2"
+	,"org_name" : "ST. ANTHONY FOUNDATION FREE CLOTHING PROGRAM"
+	,"description" : "St. Anthony Foundation’s Free Clothing Program is San Francisco’s largest free clothing program, providing warm clothes, interview or employment apparel, and children’s clothing to homeless and low-income families and individuals. www.stanthonysf.org/FreeClothingProgram"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 241-2600" }
+		,"web"  : { "_type" : "contact" , "value" : "www.stanthonysf.org/FreeClothingProgram" }
+	}
+		,"hours" : {  
+			 "Men & Women Service Hours" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "07:30" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "07:30" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "07:30" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "07:30" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "07:30" , "close" : "12:00" }
+
+						]
+					}
+			 ,"Family Service Hours (appointmnets)" : {
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "13:30" , "close" : "14:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "13:30" , "close" : "14:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "13:30" , "close" : "14:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "13:30" , "close" : "14:30" }
+
+						]
+					}
+			 ,"Family Service Hours (lottery)" : {
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "14:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "14:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "14:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "14:30" , "close" : "16:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "Men & Women Service Hours is (first come, first served), Family Service Hours are appointments only—please call (415) 592-2803 to make an appointment or lottery"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "The free clothing program is for men, women, and children" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals needing clothes"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "Yes."
+}
+
+
+]

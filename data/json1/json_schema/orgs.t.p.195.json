@@ -1,0 +1,322 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "IP2fa7IeBi3baiteifeej6faCoh3JesooS9ani2L-1.1"
+                ,"_internal_record_notes_" : "apd 195, first one, uses referential locations, and some locations not mentioned in the guide, revierify / check "
+	,"org_name" : "EPISCOPAL COMMUNITY SERVICES SF START - Next Door"
+	,"description" : "SF-START is designed to provide coordinated and integrated services to support recovery in partnership with Episcopal Community Services’ Skills Center, permanent housing placement support, and benefits advocacy in San Francisco’s single adult homeless shelters.  www.ecs-sf.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Contact an SF-START case manager working inside one of the supported shelterts." }
+		,"web"  : { "_type" : "contact" , "value" : "www.ecs-sf.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1001 Polk Street" , "San Francisco, CA 94109" , "" 
+						] 
+                                 ,"name" : "Next Door"  
+				 ,"postal-code" : "94109"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "19:30" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. SF-START does not provide shelter beds; it serves people who are already inside the emergency shelter system."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Case Management for Individuals with Mental Health and Substance Abuse Disorders","Group Counseling and Therapy","Intensive Case Management","Individual Counseling/Therapy","Outreach","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"has elevators/wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Adults"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "IP2fa7IeBi3baiteifeej6faCoh3JesooS9ani2L-1.2"
+                ,"_internal_record_notes_" : "apd 195, first one, uses referential locations, and some locations not mentioned in the guide, revierify / check "
+	,"org_name" : "EPISCOPAL COMMUNITY SERVICES SF START - MSC-South"
+	,"description" : "SF-START is designed to provide coordinated and integrated services to support recovery in partnership with Episcopal Community Services’ Skills Center, permanent housing placement support, and benefits advocacy in San Francisco’s single adult homeless shelters.  www.ecs-sf.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Contact an SF-START case manager working inside one of the supported shelterts." }
+		,"web"  : { "_type" : "contact" , "value" : "www.ecs-sf.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "525 5th Street" , "San Francisco, CA 94107" 
+						] 
+                                 ,"name" : "MULTI-SERVICE CENTER (MSC) SOUTH"  
+				 ,"postal-code" : "94107"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "19:30" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. SF-START does not provide shelter beds; it serves people who are already inside the emergency shelter system."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Case Management for Individuals with Mental Health and Substance Abuse Disorders","Group Counseling and Therapy","Intensive Case Management","Individual Counseling/Therapy","Outreach","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"has elevators/wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Adults"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "IP2fa7IeBi3baiteifeej6faCoh3JesooS9ani2L-1.3"
+                ,"_internal_record_notes_" : "apd 195, first one, uses referential locations, and some locations not mentioned in the guide, revierify / check "
+	,"org_name" : "EPISCOPAL COMMUNITY SERVICES SF START - Sanctuary"
+	,"description" : "SF-START is designed to provide coordinated and integrated services to support recovery in partnership with Episcopal Community Services’ Skills Center, permanent housing placement support, and benefits advocacy in San Francisco’s single adult homeless shelters.  www.ecs-sf.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Contact an SF-START case manager working inside one of the supported shelterts." }
+		,"web"  : { "_type" : "contact" , "value" : "www.ecs-sf.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "201 8th St" , "San Francisco, CA 94103" 
+						] 
+                                 ,"name" : "Sanctuary"  
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "19:30" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "19:30" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. SF-START does not provide shelter beds; it serves people who are already inside the emergency shelter system."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Case Management for Individuals with Mental Health and Substance Abuse Disorders","Group Counseling and Therapy","Intensive Case Management","Individual Counseling/Therapy","Outreach","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"not fully wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Adults"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "Angae8Tho2viemad5aiLaez3eojeingoop5ohK8j-2"
+	,"org_name" : "EPISCOPAL COMMUNITY SERVICES ADULT EDUCATION CENTER"
+	,"description" : "The Adult Education Center specializes in providing a stable, caring and individualized learning environment for students who are coping with the inter-related challenges of homelessness, illiteracy, learning disabilities, substance abuse, and mental health issues. While created particularly for homeless adults and those formerly homeless adults living in supportive housing, the Adult Education Center is open to all low-income individuals in San Francisco who would like to further develop their academic skills or need job counseling, training, and placement.\n  www.ecs-sf.org/programs/skills.html"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Staff" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 487-3300 ext. 1101" }
+		,"web"  : { "_type" : "contact" , "value" : "www.ecs-sf.org/programs/skills.html" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "165 8th Street" , "San Francisco, CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "12:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins welcome. Orientations are drop in every Monday-Thursday at 1:00pm"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Access to Internet","Food/Prepared Meals","Hygiene/Personal Care Items","Health and Wellness Education","Basic/Remedial Education","GED Preparation","High School Diploma","Reading and Literacy Assistance","Job Readiness and Life Skills","Money Management and Personal Finance Education","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Adults, age 18 and older"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

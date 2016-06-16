@@ -1,0 +1,95 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eipieyo4ooh1phaon0Ahcei7quued7eyeequ8oDo-1"
+	,"org_name" : "SAN FRANCISCO SHERIFF’S DEPARTMENT COMMUNITY PROGRAMS"
+	,"description" : "The San Francisco Sheriff’s Department established the Community Programs to provide educational, vocational, substance abuse treatment, and batterers’ intervention classes, as well as a variety of specialized services designed to help ex-offenders successfully reenter the community. The goal is to achieve successful community reintegration on all levels. We nurture ongoing collaborations with a wide range of community-based agencies to help address the needs of the clients. Furthermore, clients are provided the opportunity to participate in the Five Keys Charter School. www.sfsheriff.com"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 575-6450" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 575-6451" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfsheriff.com" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "70 Oak Grove Street" , "San Francisco" , "CA 94107" 
+						] 
+				 ,"postal-code" : "94107"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "intake" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "13:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "13:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "13:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "13:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "13:30" }
+
+						]
+					}
+                            ,
+			 "program" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "16:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referrals required; Drop-ins only Monday-Friday 8:00am-4:00pm otherwise by appointment."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Anger Management","Counseling","Employment Placement","GED Preparation","AA/NA","Life Skills","Literacy/Basic Education","Mentoring","Transit Vouchers","Referrals to other resources available as needed","Community Works provides job development and Manalive, a 52-week, DV certified batterers intervention program" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible first floor only","Limited service to vision-impaired"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None","Fees are only charged for SWAP or Electronic Monitoring"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals, ages 18 and older"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

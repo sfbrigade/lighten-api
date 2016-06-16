@@ -1,0 +1,168 @@
+[
+
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "wam7CaW1ExooJai4lee7vee2Ku2iethiefoo7hee-1"
+	,"org_name" : "A BETTER WAY"
+	,"description" : "A Better Way (ABW) provides counseling to children and their families. The agency is a private, non-profit organization. We mainly service children who are in foster care or at risk of being placed in out of home care. We have three mental health programs: Therapeutic Visitation Services for families recently separated and in the process of reunification; Outpatient Mental Health Services for children needing individual therapy or families needing family therapy; and Early Childhood Mental Health Services for infants and young children to address their emotional and behavioral development. Children seen through our program need to be Full-Scope Medi-Cal eligible. www.abetterwayinc.net"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Ann Chu, Program Director" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 715-1050" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 715-1051" }
+		,"email"  : { "_type" : "contact" , "value" : "achu@abetterwayinc.net" }
+		,"web"  : { "_type" : "contact" , "value" : "www.abetterwayinc.net" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1663 Mission Street" , "San Francisco" , "CA 94611" 
+						] 
+				 ,"postal-code" : "94611"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "18:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "All clients are referred from Human Service Agency and authorized for services through Foster Care Mental Health. We also provide mental health outpatient services for children ages 0-5 who are at risk of emotional and behavioral development difficulties. These children need to be Full Scope Medi-Cal eligible."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Access to Internet","Clothing","Food/Prepared Meals (snacks and juice for clients)","Phone/Voicemail","Mental Health Treatment","Intensive Case Management","Individual Counseling/Therapy","Visitation","Couples/Family Counseling","Family Reunification","Parenting Support/EducationServices for Children","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Mandarin" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Medi-Cal or approval from Foster Care Mental Health"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Client fees are paid by Medi-Cal or per HSA work order"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Children are the primary clients; family or adult involvement is through a child"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+} ,
+    
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "wam7CaW1ExooJai4lee7vee2Ku2iethiefoo7hee-2"
+	,"org_name" : "A BETTER WAY"
+	,"description" : "A Better Way (ABW) provides counseling to children and their families. The agency is a private, non-profit organization. We mainly service children who are in foster care or at risk of being placed in out of home care. We have three mental health programs: Therapeutic Visitation Services for families recently separated and in the process of reunification; Outpatient Mental Health Services for children needing individual therapy or families needing family therapy; and Early Childhood Mental Health Services for infants and young children to address their emotional and behavioral development. Children seen through our program need to be Full-Scope Medi-Cal eligible. www.abetterwayinc.net"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Ann Chu, Program Director" }
+		,"phone"  : { "_type" : "contact" , "value" : "510-601-0203" }
+		,"fax"  : { "_type" : "contact" , "value" : "510-601-4002" }
+		,"email"  : { "_type" : "contact" , "value" : "achu@abetterwayinc.net" }
+		,"web"  : { "_type" : "contact" , "value" : "www.abetterwayinc.net" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "3200 Adeline Street" , "Berkeley" , "CA 94703" 
+						] 
+				 ,"postal-code" : "94703"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "19:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "19:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "All clients are referred from Human Service Agency and authorized for services through Foster Care Mental Health. We also provide mental health outpatient services for children ages 0-5 who are at risk of emotional and behavioral development difficulties. These children need to be Full Scope Medi-Cal eligible."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Access to Internet","Clothing","Food/Prepared Meals (snacks and juice for clients)","Phone/Voicemail","Mental Health Treatment","Intensive Case Management","Individual Counseling/Therapy","Visitation","Couples/Family Counseling","Family Reunification","Parenting Support/EducationServices for Children","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Mandarin" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Medi-Cal or approval from Foster Care Mental Health"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Client fees are paid by Medi-Cal or per HSA work order"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Children are the primary clients; family or adult involvement is through a child"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+]

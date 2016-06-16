@@ -1,0 +1,173 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "jiedu6eo2osh6quei4Ea7thoaNg5quai2caizaez-1"
+	,"org_name" : "EVICTION DEFENSE COLLABORATIVE (EDC) AND RENTAL ASSISTANCE (RADCO)"
+	,"description" : "The Eviction Defense Collaborative is the principal organization in San Francisco helping low-income tenants to respond to eviction lawsuits. Each year we provide emergency legal services, through EDC, and rental assistance, through RADCo, to more than 5,000 tenants in San Francisco. www.evictiondefense.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "415-947-0797" }
+		,"web"  : { "_type" : "contact" , "value" : "www.evictiondefense.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "995 Market, #1200" , "San Francisco" , "CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:30" , "close" : "11:30" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:30" , "close" : "11:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:30" , "close" : "11:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:30" , "close" : "11:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:30" , "close" : "11:30" }
+
+					,{  "_type" : "hours_atom" , "day" : "Monday" , "open" : "13:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "13:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "13:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "13:00" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "13:00" , "close" : "15:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-In only."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "EDC’s legal services include counseling and legal help to tenants during the eviction process: programs include preparing a response to the lawsuit, limited representation at the settlement conference, and preparation of requests for delays of the sheriff’s eviction.  RADCo’s provides rental assistance to more than 600 families each year, in the form of interest-free loans and grants. Please note: The Eviction Defense Collaborative does not provide the services of a lawyer – clients act as their own lawyer. Referrals to other services provided, as appropriate" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Chinese","French","Russian" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Proof of San Francisco Residency"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"Certain services have sliding-scale fees. Nobody turned away for lack of funds"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "Shoomai0ti5laeh6yei5ohl3eix5ahquieH6eish-2"
+	,"org_name" : "GOLDEN GATE UNIVERSITY SCHOOL OF LAW WOMEN’S EMPLOYMENT RIGHTS CLINIC"
+	,"description" : "The Clinic provides free or low-cost legal services to people with employment-related legal problems, with an emphasis on problems affecting women and low-wage immigrant workers. Law students provide legal services. www.ggu.edu/law/werc"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Law Student Hotline" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 442-6647" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 896-2450" }
+		,"email"  : { "_type" : "contact" , "value" : "werc@ggu.edu" }
+		,"web"  : { "_type" : "contact" , "value" : "www.ggu.edu/law/werc" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "40 Jessie Street" , "5th Floor" , "San Francisco"  , "CA 94105"
+						] 
+				 ,"postal-code" : "94105"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Saturday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Sunday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "January-April and September-November, only.  No referrals needed. Please call the hotline for an appointment first. No drop-ins."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Legal Assistance/Advocacy","Referrals to other services provided, as appropriate" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Other languages can be accommodated"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"No fees for legal services. Possible costs for photocopying, etc."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

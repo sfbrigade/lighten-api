@@ -1,0 +1,85 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "uphux8aceephaCaemiChae2nae2thae0aa9piezo-1"
+	,"org_name" : "HOMELESS CHILDREN'S NETWORK (HCN) EARLY PERIODIC SCREENING, DIAGNOSIS, AND TREATMENT"
+	,"description" : "In collaboration with a network of homeless services providers, HCN seeks to decrease the trauma of homelessness and domestic violence, to increase the strength and effectiveness of the HCN Collaborative, and to provide early childhood education and consultation to shelter-based child care and family child care providers. HCN provides flexible, well-coordinated and culturally competent services to homeless and formerly homeless children and their families. Funding and services provided through Early Periodic Screening, Diagnosis and Treatment Program (EPSDTP). www.hcnkids.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Kathy O'Shea, Program Director" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 437-3990" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 437-3994" }
+		,"email"  : { "_type" : "contact" , "value" : "kathy@hcnkids.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.hcnkids.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "3450 3rd Street" , "Unit 1C" , "San Francisco"  , "CA 94124"
+						] 
+				 ,"postal-code" : "94124"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "18:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "18:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Please call or write for an appointment. No drop-ins."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Up to Two Years of Mental Health Treatment","Co-Occurring Disorder/Dual Diagnosis Treatment","Group Counseling/Therapy","Individual Counseling/Therapy","Outreach","Trauma Recovery Services","Victim/Survivor Services","Couples/Family Counseling","Parenting Support/Education","Services for Children","Facilitation of Visits in Jails and Prisons","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "ASL", "Japanese"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Medi-Cal ID card"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Serves homeless individuals from birth to age 17 with mental health diagnosis that meets medical necessity, such as Adjustment Disorder, Depression, or PTSD. May not have criminal conviction for sex offense or be a registered sex offender. Current abuse cases are referred to CPS"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

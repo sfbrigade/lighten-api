@@ -1,0 +1,61 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "ohwaik6zoobiLa1ooReiNg3suf8doocohH1eeho5-1"
+	,"org_name" : "freeprintshop"
+	,"description" : "\"Free Eats\" and \"Free Pantry\" Charts, updated quarterly and are available in many community locations in San Francisco, as well as on line at www.freeprintshop.org"
+	,"contacts" : { 
+		"web"  : { "_type" : "contact" , "value" : "www.freeprintshop.org" }
+                ,"phone"  : { "_type" : "contact" , "value" : "(415) 648-3222" }
+                 ,"email"  : { "_type" : "contact" , "value" : "free@freeprintshop.org"} 
+                    ,"web"  : { "_type" : "contact" , "value" : "www.thissacredspace.org" }
+                    }
+
+		,"notes" : ""
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Food schedules","food calander" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

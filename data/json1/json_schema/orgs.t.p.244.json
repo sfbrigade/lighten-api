@@ -1,0 +1,84 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "Ohr8esh1xie5Tiugh2shiebu3phieSie1nah3yo9-1"
+	,"org_name" : "SAN FRANCISCO OFFICE OF THE DISTRICT ATTORNEY VICTIM SERVICES DIVISION"
+	,"description" : "The Victim Services Division of the District Attorney’s Office provides comprehensive advocacy and support to victims of crime and witnesses to crime. Our Victim Advocates provide services in English, Cantonese, Mandarin, Spanish, and Vietnamese. We start by assessing each victim’s needs. This can mean crisis intervention, counseling, accompanying a victim to court, assistance with victim compensation, making funeral arrangements, intervening with employers and creditors when victims cannot work, and providing many other services needed to restore a crime victim’s life. Our Victim Services staff is diverse and committed to providing culturally competent services. www.sfdistrictattorney.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Jackie Ortiz" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 553-9044" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 553-9700" }
+		,"email"  : { "_type" : "contact" , "value" : "jacqueline.ortiz@sfgov.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfdistrictattorney.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "850 Bryant Street" , "3rd Floor" , "San Francisco" ,"CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Individuals who are currently on probation or parole are not eligible to receive State Victim Compensation Funds during the period of their probation or parole."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Assistance with 'Victim Compensation Program' Claims","Crisis Intervention & Emergency Assistance","Help Navigating the Criminal Justice System","Resources and Referrals","Restitution and Property Return","Witness Relocation","Transportation","and more" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" ,"Mandarin","Vietnamese", "other translation available"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Victims of crime; victims’ family members; witnesses to crime"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

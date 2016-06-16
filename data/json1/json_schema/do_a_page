@@ -5,12 +5,12 @@
 my ($pagenum,$entries) = @ARGV; 
 
 if (not defined $pagenum){
-	die("need pagenum\n");
+	die("  PAGENUM   # ENTRIES \n");
 }
 
 $fname = "orgs.t.p.$pagenum.json"; 
 if ( -f $fname ){
-	die" Woooah... STOP!!!! there is one already....\n";
+	die" Woooah... STOP!!!! there is one already.... ($fname) \n";
 }
 
 `./ntimes $entries > $fname `; 

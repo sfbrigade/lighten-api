@@ -1,0 +1,165 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "daafief9fohrae0iemaith6wuash9te6ieWazaFa-1"
+	,"org_name" : "SAN FRANCISCO OFFICE OF THE PUBLIC DEFENDER REENTRY UNIT"
+	,"description" : "Children of Incarcerated Parents Social Worker and Adult Social Workers work with current and former clients of the Public Defender. www.sfpublicdefender.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Simin Shamji, Manager of Reentry Unit" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 553-1671" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 553-9810" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfpublicdefender.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "555 Seventh Street", "San Francisco", "CA 94103"
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "Referral required from Public Defender Attorney. By appointment only."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Assistance with Access to Benefits (SSI, GA, TANF, et al)","Accompany to Court Dates","Counseling","Parenting Support","Help/Vouchers to Get State ID, etc.","Legal Assistance/Advocacy","Referrals to Treatment, Housing, Medical and Other Services" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "other languages accommodated as needed"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "cii9kahmaequuy1muuNge3ni4aNee7ahcahpheed-2"
+	,"org_name" : "SUPERIOR COURT OF CALIFORNIA, COUNTY OF SAN FRANCISCO ACCESS CENTER (LEGAL SELF-HELP)"
+	,"description" : "To provide linguistically and culturally appropriate self-help services to individuals seeking to access and navigate the legal system in the county of San Francisco. Areas of law are limited to Family Law and Civil Law www.sfsuperiorcourt.org/self-help"
+	,"contacts" : { 
+		"info hotline phone"  : { "_type" : "contact" , "value" : "(415) 551-5880" }
+		,"web"  : { "_type" : "contact" , "value" : "www.sfsuperiorcourt.org/self-help" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "400 McAllister Street", "Room 509" ,"San Francisco", "CA 94102"
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:30" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:30" , "close" : "12:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:30" , "close" : "12:00" }
+
+					,{  "_type" : "hours_atom" , "day" : "Monday" , "open" : "13:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "13:30" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "13:30" , "close" : "16:00" }
+
+
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Drop-ins available."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Family Law Services: Dissolution of Marriage/Domestic Partnership","Legal Separation","Annulment/Nullity of Marriage","Established Paternity/Parental Relationship","Child Support","Domestic Violence Restrating Orders","Step-Parent Adoptions. Civil Law Services: Small Claims","Civil Harassment Restraining Orders","Name Changes","Gender Changes","Evictions","Guardianship of the Person","Conservationship of the Person" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Cantonese","Mandarin","Toisanese","Spanish","Italian","Volunteers also speak Russian, French, Portuguese, Tagalog, French, and other languages.","Materials are multilingual"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","ASL interpreters available" ,"Other disabilities are accommodated."
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

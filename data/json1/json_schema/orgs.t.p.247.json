@@ -1,0 +1,165 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "foo8Aex6ohLah1aDeeShoQuuaPoh4Quag2ahph2p-1"
+	,"org_name" : "SWORDS TO PLOWSHARES LEGAL DEPARTMENT"
+	,"description" : "War causes wounds and suffering that last beyond the battlefield. Our mission is to heal the wounds, to restore dignity, hope and self-sufficiency to all veterans in need, and to significantly reduce homelessness and poverty among veterans. Many veterans never receive the benefits for which they are eligible. The Legal Department of Swords to Plowshares helps veterans to cut through the extremely arduous VA benefits application process by providing free attorney representation, case management, and advocacy to indigent veterans by seeking benefits. www.swords-to-plowshares.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 252-4788" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 252-4790" }
+		,"web"  : { "_type" : "contact" , "value" : "www.swords-to-plowshares.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1060 Howard Street", "San Francisco", "CA 94103"
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "11:45" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "11:45" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "11:45" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "11:45" }
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Drop-ins available."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Legal Assistance/Advocacy—access to benefits for veterans of the U.S. Military. Referral to other services provided, as appropriate" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"TB Clearance; Proof of homelessnes and veteran status (Defense Department Form 214). Program will assist clients in obtaining these documents."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All veterans of the U.S. military. Must be homeless or veteran of the wars in Iraq or Afghanistan."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "oM8theiMa6iethooxewaidoisaSu9ehohV6oyaen-2"
+	,"org_name" : "TENDERLOIN HOUSING CLINIC LEGAL SERVICES"
+	,"description" : "The Tenderloin Housing Clinic law office represents low-income tenants in San Francisco in all aspects of landlord-tenant and housing law. We primarily represent seniors, the disabled, and minority and immigrant families, often as defendants in unlawful detainer actions and in affirmative lawsuits for wrongful eviction, and to address substandard housing conditions. THC's attorneys are some of the most experienced and well-respected attorneys in San Francisco, with decades of experience representing low-income tenants. The law office also provides limited free legal counseling to tenants. www.thclinic.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Steven Shubert, Legal Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 771-9850" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 771-1287" }
+		,"email"  : { "_type" : "contact" , "value" : "steven@thclinic.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.thclinic.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "126 Hyde Street" , "San Francisco" , "CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Drop-ins welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Free legal services for qualified participants" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" ,"Mandarin", "Tagalog", "Assamese"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"No wheelchair access. Reasonable attempts to provide accommodations will be provided as needed"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"State-Issued ID, Social Security card, Rental Agreement and/or lease, any late rent notices and/or Unlawful Detainer."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"San Francisco tenants facing landlord-tenant and housing issues"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

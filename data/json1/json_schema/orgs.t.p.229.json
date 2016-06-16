@@ -1,0 +1,327 @@
+[
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "RaebahZee2sai3eil1ung3idahReiGiipohngeec-1.1"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF CHILD SUPPORT SERVICES CUSTOMER SERVICE OUTREACH (COMMUNITY & JAIL OUTREACH PROGRAM)"
+	,"description" : "The Department's mission is to empower parents to provide for the economic needs of their children. The Community and Jail Outreach Program holds workshops with various groups in the community, including treatment facilities, to educate and assist noncustodial parents with their child support cases, obligations and issues. The Jail Outreach Program assists incarcerated non-custodial parents with outstanding child support issues that arise as a result of their incarceration. www.sfgov.org/dcss or www.facebook.com/sfdcss"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "George J. Smith, III Public Relations Assistant" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 356-2950" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 356-2773" }
+		,"email"  : { "_type" : "contact" , "value" : "GeorgeJ.Smith@sfgov.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.facebook.com/sfdcss" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "617 Mission Street" , "San Francisco" , "CA 94105" 
+						] 
+				 ,"postal-code" : "94105"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "17:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins are welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Intensive Case Management","Outreach","Child Support Orders","Health Insurance Orders","Post-Incarceration Support","Family law" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals with an open child support case. Any parent of a minor child can open a case."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+},
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "RaebahZee2sai3eil1ung3idahReiGiipohngeec-1.2"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF CHILD SUPPORT SERVICES CUSTOMER SERVICE OUTREACH (COMMUNITY & JAIL OUTREACH PROGRAM)"
+	,"description" : "The Department's mission is to empower parents to provide for the economic needs of their children. The Community and Jail Outreach Program holds workshops with various groups in the community, including treatment facilities, to educate and assist noncustodial parents with their child support cases, obligations and issues. The Jail Outreach Program assists incarcerated non-custodial parents with outstanding child support issues that arise as a result of their incarceration. www.sfgov.org/dcss or www.facebook.com/sfdcss"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "George J. Smith, III Public Relations Assistant" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 356-2950" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 356-2773" }
+		,"email"  : { "_type" : "contact" , "value" : "GeorgeJ.Smith@sfgov.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.facebook.com/sfdcss" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "3120 Mission Street" , "San Francisco" , "CA 94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "08:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "08:00" , "close" : "17:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins are welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Intensive Case Management","Outreach","Child Support Orders","Health Insurance Orders","Post-Incarceration Support","Family law" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals with an open child support case. Any parent of a minor child can open a case."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,{
+	"_type" : "org"  ,"unique_lighten_recordId" : "AhV1Cidieb0Mie3diet0PooZ2yeu2thie0eetoog-2.1"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF CHILD SUPPORT SERVICES NONCUSTODIAL PARENT EMPLOYMENT & TRAINING PROGRAM (C-NET)"
+	,"description" : "The C-NET program was developed to assist custodial and noncustodial parents with resolving barriers to employment, parenting, and their child support obligations. www.sfgov.org/dcss or www.facebook.com/sfdcss"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Tyrone Owens, Child Support Officer, C-NET Coordinator" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 356-2945" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 356-2774" }
+		,"email"  : { "_type" : "contact" , "value" : "tyrone.owens@sfgov.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.facebook.com/sfdcss" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "617 Mission Street" , "San Francisco" , "CA 94105" 
+						] 
+				 ,"postal-code" : "94105"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "07:00" , "close" : "16:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. No appointment necessary. Drop-ins are welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Access to Internet; Releases of Driver’s License or Other Professional Licenses, if suspended due to Child Support Enforcement Activities; Outreach; Education Regarding Child Support Obligations and Resources Available for Employment" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"An individual with an open child support case. Any parent of a minor child can open a case."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "AhV1Cidieb0Mie3diet0PooZ2yeu2thie0eetoog-2"
+	,"org_name" : "SAN FRANCISCO DEPARTMENT OF CHILD SUPPORT SERVICES NONCUSTODIAL PARENT EMPLOYMENT & TRAINING PROGRAM (C-NET)"
+	,"description" : "The C-NET program was developed to assist custodial and noncustodial parents with resolving barriers to employment, parenting, and their child support obligations. www.sfgov.org/dcss or www.facebook.com/sfdcss"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Tyrone Owens, Child Support Officer, C-NET Coordinator" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 356-2945" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 356-2774" }
+		,"email"  : { "_type" : "contact" , "value" : "tyrone.owens@sfgov.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.facebook.com/sfdcss" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "3120 Mission Street" , "San Francisco" , "CA 94110" 
+						] 
+				 ,"postal-code" : "94110"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "07:00" , "close" : "16:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "07:00" , "close" : "16:00" }
+
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. No appointment necessary. Drop-ins are welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Access to Internet; Releases of Driver’s License or Other Professional Licenses, if suspended due to Child Support Enforcement Activities; Outreach; Education Regarding Child Support Obligations and Resources Available for Employment" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Cantonese" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"An individual with an open child support case. Any parent of a minor child can open a case."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

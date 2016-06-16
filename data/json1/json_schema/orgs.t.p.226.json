@@ -1,0 +1,137 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "aiSh8joolohgh0Vai2Chae5voG1eG8JuoSei0xie-1"
+	,"org_name" : "COMPASS FAMILY SERVICES ACCESS CHILD CARE"
+	,"description" : "ACCESS (Accessible Child Care Expediated for the Shelter System) is a child care subsidy that provides quality child care to families in San Francisco with the greatest need.  www.compass-sf.org or www.compass-sf.org/storage/pdf/ACCESS_child_care.pdf"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Compass Family Services" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 644-0504" }
+		,"web"  : { "_type" : "contact" , "value" : "www.compass-sf.org" } 
+		,"web2"  : { "_type" : "contact" , "value" : "www.compass-sf.org/storage/pdf/ACCESS_child_care.pdf" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "" , "" , "" 
+						] 
+                                 ,"name" : ""  
+				 ,"postal-code" : ""
+				}
+			 } 
+	}
+		,"notes" : "ACCESS uses the SF3C list to enroll participants. It is important that you are on the list and that your contact information is up to date. To get onto the SF3C: • Contact a shelter case manager • Contact Compass at (415) 644-0504 • Apply online at www.sf3c.org or by phone at (415) 343-3300 or (415) 391-4956"
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Full- or part-time child care at designated family child care homes or centers for all children (ages 0-13 years) needing care until the youngest child turns 3 years old" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Mandarin","Cantonese","We are all able to request translation services for languages outside of our capacity"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible"
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"Please bring verification of shelter stay within the last 6 months, ID’s for all adults, and birth certificates for children."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"There are no client fees to receive the subsidy. Childcare providers have their own set of policies that may include fees and/or other responsibilities asked of the family"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Must have one child 0-3 years old and have lived in homeless/ domestic violence shelter within past 6 months. Please call for more information"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+,
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "Jib1waegh4AiThae4pohz5iX9ree3neat9AhS5ie-2"
+	,"org_name" : "HOLY FAMILY DAY HOME INFANT, TODDLER AND PRE-K PROGRAM AND FAMILY SUPPORT SERVICE"
+	,"description" : "Our mission is to provide affordable, high-quality early childhood education and family support services in a stable, nurturing environment, thereby providing children of working families skills and hope for lifelong development. Seventy percent of our families are either homeless, in CalWorks Program or are the working poor. www.holyfamilydayhome.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 861-5361" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 861-8926" }
+		,"email"  : { "_type" : "contact" , "value" : "intake@holyfamilydayhome.org" }
+		,"web"  : { "_type" : "contact" , "value" : "www.holyfamilydayhome.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "299 Dolores Street" , "San Francisco" , "CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"notes" : "Call, email or write for more information."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Preschool, Infant, and Toddler program." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members with an infant, toddler or pre-kindergarten age child. Individuals must reveal criminal conviction for violent or sex offenses, as well as registration as sex offender status."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

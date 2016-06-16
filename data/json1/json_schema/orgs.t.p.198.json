@@ -1,0 +1,81 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "eetheizah7dee6tinoovoh2AiNga0seivahGh6ee-1"
+                ,"_internal_record_notes_" : " apd p197 , womens group, without an eligible population definition... suspect, review"
+	,"org_name" : "GLIDE FOUNDATION WOMEN'S CENTER"
+	,"description" : "To introduce Afro-centric and socio/historical/political contexts for a culturally sensitive and holistic approach to healing and transformation for African American women impacted by domestic violence. www.glide.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Case Manager" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 674-6026" }
+		,"web"  : { "_type" : "contact" , "value" : "www.glide.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "330 Ellis Street" , "San Francisco, CA 94102" 
+						] 
+				 ,"postal-code" : "94102"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "10:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "10:30" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "15:00" , "close" : "16:30" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "10:30" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "10:30" }
+						]
+					}
+		
+	}
+		,"notes" : "No referral needed. Drop-ins are welcome."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Emergency Shelter Bed Reservations","Clothing","Food/Prepared Meals","Hygiene/Personal Care Items","Health and Wellness Education","Group Counseling","Intensive Case Management","Individual Counseling/Therapy","Outreach","Victim/Survivor Services","Post-Incarceration Support","Referrals to other resources available as needed" 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" 
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

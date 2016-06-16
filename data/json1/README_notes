@@ -95,3 +95,7 @@ orgs.t.p.195.json
 page 195 , EPISCOPAL COMMUNITY SERVICES SF START, uses location referecnces.... 
 
 
+
+watch " ( cd json_schema/ ; ../quick_schema_regresssor  orgs.jsc |head -8 ) " 
+
+

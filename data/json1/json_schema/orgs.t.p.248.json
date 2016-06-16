@@ -1,0 +1,79 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "AVai4thaiYiequeu0bohghavae7ahvaisooXeaDa-1"
+	,"org_name" : "LEGAL SERVICES FOR PRISONERS WITH CHILDREN CALIFORNIA COALITION FOR WOMEN PRISONERS (CCWP)"
+	,"description" : "CCWP is a grassroots social justice organization, with members inside and outside prison, that challenges the institutional violence imposed on women, transgender people, and communities of color by the prison industrial complex (PIC). We see the struggle for racial and gender justice as central to dismantling the PIC and we prioritize the leadership of the people, families, and communities most impacted in building this movement. www.womenprisoners.org or www.prisonerswithchildren.org"
+	,"contacts" : { 
+		"Contact Person"  : { "_type" : "contact" , "value" : "Samantha Rogers and Hafsah Al-Amin, Program Coordinators" }
+		,"phone"  : { "_type" : "contact" , "value" : "(415) 255-7036 x4" }
+		,"fax"  : { "_type" : "contact" , "value" : "(415) 552-3150" }
+		,"email"  : { "_type" : "contact" , "value" : "samantha@womenprisoners.org" }
+		,"email2"  : { "_type" : "contact" , "value" : "hafsah@womenprisoners.org" }
+		,"web"  : { "_type" : "contact" , "value" : "" }
+		,"facebook"  : { "_type" : "contact" , "value" : "" }
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:00" , "close" : "17:00" }
+					,{  "_type" : "hours_atom" , "day" : "Friday" , "open" : "09:00" , "close" : "17:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No referrals needed. Not a formal service site, but individuals can make appointments to come for support and referrals to other resources."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Assistance Finding Emergency Shelter","Assistance Finding Permanent Housing prior to or upon release","Some Access to Internet","Mentorship","Outreach to a wide cross-section of people including students, domestic violence workers, community service providers, and others","Other Post-Incarceration Support","Restorative Justice/ Survivor Impact efforts with violent offenders in San Francisco Jails","Coordinate with All Of Us or None to spread the word about Clean Slate efforts","Assist with Inmate & Parolee Legal Issues","Coordinate annual event for family members to visit prisoners","Referrals to other resources available as needed." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"In addition, Compañeras Program hightlights and supports issues of Spanish speakers"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Other disabilities are accommodated." 
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"All individuals and family members, in and out of custody"
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]

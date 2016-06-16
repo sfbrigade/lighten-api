@@ -1,0 +1,81 @@
+[
+
+{
+	"_type" : "org"  ,"unique_lighten_recordId" : "xuof6el7ziecae2ahzoh9tae8baGhoh5Eihoafoh-1"
+	,"org_name" : "BAY AREA LEGAL AID (BAYLEGAL)"
+	,"description" : "BayLegal's clients are low- and very low-income members of our communities. BayLegal's clients are spread across our seven county service area, from San Francisco to Livermore, Gilroy to Napa. They include the working poor, our elderly neighbors, military veterans, people with disabilities, and single mothers. www.baylegal.org"
+	,"contacts" : { 
+		"phone"  : { "_type" : "contact" , "value" : "(415) 354-6360" }
+		,"web"  : { "_type" : "contact" , "value" : "www.baylegal.org" }
+		,"service_site"  : { "_type" : "contact" , "value" :  
+				{ "_type" : "address1" , "addrtxtlines" : 
+						[ "1035 Market St" , "San Francisco" , "CA 94103" 
+						] 
+				 ,"postal-code" : "94103"
+				}
+			 } 
+	}
+		,"hours" : {  
+			 "" :  { 
+						"_type" : "hours" 
+					 ,"hours_atoms" : [ 
+					 {  "_type" : "hours_atom" , "day" : "Monday" , "open" : "09:30" , "close" : "15:00" }
+					,{  "_type" : "hours_atom" , "day" : "Tuesday" , "open" : "09:30" , "close" : "13:00" }
+					,{  "_type" : "hours_atom" , "day" : "Wednesday" , "open" : "09:30" , "close" : "13:00" }
+					,{  "_type" : "hours_atom" , "day" : "Thursday" , "open" : "09:30" , "close" : "15:00" }
+						]
+					}
+		
+	}
+		,"notes" : "No drop-in services provided. Please call Legal Advice Line for screening. No referrals needed."
+		,"service_description" : { 
+			"_type" : "service_description" 
+			,"service_catagories" : [
+				{"_type" : "service_catagory_atom"
+				,"keys" : [ 
+                                        "Housing & Eviction Defense","Access to Public Benefits","Law for Domestic Violence Survivors","For PAES recipients, any civil legal issue that makes it harder to get or keep a job, such as driver's license suspension, child support orders, or credit issues (including referrals to Clean Slate/Conviction Expungement Services). Will not provide assistance with contesting a Temporary Restraining Order for people with prior criminal convictions for violence. For health care access issues such as Medi-Cal, Medi-Care, Covered California or private health insurance, contact our Health Consumer Center at (855) 693-7285. Referrals to other services provided, as appropriate." 
+					] 	}
+			]
+	}
+		,"languages_spoken" : [ 
+			"English" ,"Spanish", "Vietnamese","Mandarin","Cantonese","Tagalog","French","BayLegal will serve clients in any other languages through use of Language Line or other assistance"
+		]
+		,"accessiblity" : {
+			"_type" : "accessibility" 
+			,"accessibility_atoms" : [ 
+				{ "_type" : "accessibility_atom"
+				,"keys" : [ 
+					"Wheelchair accessible","Will provide whatever ADA accommodation is necessary for any disability."
+					]
+				}
+  			]
+	}
+		,"usage_requirements" : {
+			"_type"  : "usage_requirements"
+			,"usage_requirement_atoms" : [
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "what_to_bring"
+				,"keys" : [
+					"If you receive an appointment after being screened by the Legal Advice Line, identification and documentation of U.S. citizenship or non-citizen status. BayLegal may assist in securing these documents"
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "fees"
+				,"keys" : [
+					"None."
+					]
+				},
+				{ "_type" : "usage_requirement_atom"
+                ,"kind" : "eligible_population"
+				,"keys" : [
+					"Must be out of custody."
+					]
+				}
+			]
+	}
+        ,"usage_requirements_expression" : " "
+		,"faith_based" : "No."
+}
+
+
+]
