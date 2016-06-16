@@ -2,13 +2,13 @@
 
 
 
-#   load all the sample org data : 
+#   load all the sample org data :
 #  docker-compose run web ./manage.py lightenclitool -- --readfrom   data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
 #
-#  prod db : 
+#  prod db :
 #
-#     heroku run python manage.py  lightenclitool -- -- --writetodb  data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json 
-#     note the double '--' z' 
+#     heroku run python manage.py  lightenclitool -- -- --writetodb  data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
+#     note the double '--' z'
 
 
 
@@ -25,7 +25,7 @@ from django.core.management.base import BaseCommand, CommandError, NoArgsCommand
 #from  models import *
 #from  ..models import *
 #from  ...hello import *
-from hello.models import Example 
+from hello.models import Example
 import argparse
 import json
 import sys
@@ -33,10 +33,10 @@ import sys
 
     # this works here, thought it seems wrong.
 parser = argparse.ArgumentParser(description='A backend lighten json1 loading and unloading tool',
-                   epilog='\n\nthings\n\n') 
+                   epilog='\n\nthings\n\n')
 
 parser.add_argument('--readfromdb', action='store_true', help='read all the records from a db and display them to stdout' , default=False)
-parser.add_argument('--writetodb', action='store', help='add some records to the db (posisbly dedup the duplicates, or update current records)' , nargs='*') 
+parser.add_argument('--writetodb', action='store', help='add some records to the db (posisbly dedup the duplicates, or update current records)' , nargs='*')
 
 #parser.add_argument('integers', metavar='N', type=int, nargs='+',
 #                   help='an integer for the accumulator')
@@ -59,34 +59,34 @@ def safestoreExample(txt):
     #print "storing as a raw string for now"
     # overwrite any previous reocrd with this unique_lighten_recordId
     data = json.loads(txt)
-    if not "unique_lighten_recordId" in data : 
-        print "Malformed lighten json1 reocrd format a unique_lighten_recordId property is required in:"
-        print txt
-        print "quiting"
+    if not "unique_lighten_recordId" in data :
+        print("Malformed lighten json1 reocrd format a unique_lighten_recordId property is required in:")
+        print(txt)
+        print("quiting")
         sys.exit(2)
 
 
     ulrid = data["unique_lighten_recordId"]
-    # lookup and filter on the record ID... oh, ick, this is a icky load and tablescan... 
+    # lookup and filter on the record ID... oh, ick, this is a icky load and tablescan...
     allrecords = Example.objects.filter()
     written = False
 
-    for rec in allrecords : 
+    for rec in allrecords :
         #print rec.content
         dbdata = json.loads(rec.content)
         if "unique_lighten_recordId" in dbdata and dbdata["unique_lighten_recordId"] == data["unique_lighten_recordId"] :
             #check for mod time? ( currently just slamming it )
-            print "found record for " + ulrid
+            print("found record for " + ulrid)
             rec.content = txt
             rec.save
             written = True
             break
-        else : 
-            print "NOT : found record for " + ulrid
-    
+        else :
+            print("NOT : found record for " + ulrid)
 
-    if not written : 
-        print "A new entry into the db..." 
+
+    if not written :
+        print("A new entry into the db...")
         b = Example(content=txt)
         b.save()
 
@@ -106,62 +106,62 @@ class Command(BaseCommand):
     #)
     def add_arguments(self , parser):
         parser.add_argument('--readfromdb', action='store_true', help='read all the records from a db and display them to stdout' , default=False)
-        parser.add_argument('--writetodb', action='store', help='add some records to the db (posisbly dedup the duplicates, or update current records)' , nargs='*') 
+        parser.add_argument('--writetodb', action='store', help='add some records to the db (posisbly dedup the duplicates, or update current records)' , nargs='*')
 
 
     def handle(self, *args, **options):
         #   print "handling with args.... I guess.."
  #  #     print "mark1 "
-  #      print args 
-   #     print options 
+  #      print args
+   #     print options
         ap_args = parser.parse_args(args)
         if False:
-            print "the args args follows :"
-            print args 
-            print "the app args follows :"
-            print ap_args 
-            print "the options follows "
-            print options 
+            print("the args args follows :")
+            print(args)
+            print("the app args follows :")
+            print(ap_args)
+            print("the options follows ")
+            print(options)
 
         ap_args = options
   #      print ap_args.accumulate(ap_args.integers)
-      #  print ap_args.readfromdb 
+      #  print ap_args.readfromdb
 
         if ap_args["readfromdb"] :
             allrecords = Example.objects.filter()
-            print "["
+            print("[")
             firstone = True
             for rec in allrecords :
-                if not firstone : 
-                    print "\n,"
-                else : 
+                if not firstone :
+                    print("\n,")
+                else :
                     firstone = False
                 #print "WAKA WAKA WAKA\n";
-                print rec.content
-                
+                print(rec.content)
+
                 #print "record .... "
                 #print rec.content
-            print "]\n";
+            print("]\n")
 
 
-        if ap_args["writetodb"] : 
+        if ap_args["writetodb"] :
             # read the files
             for filename in ap_args["writetodb"]:
-                print "filename " + filename
+                print("filename " + filename)
                 infile = open(filename,"r")
                 buf = infile.read()
-                print "buf : " 
-                print buf 
+                print("buf : ")
+                print(buf)
                 data = json.loads(buf)
                 pprint(data)
                 if type([]) == type(data):
-                    for rec in data : 
-                        safestoreExample(json.dumps(rec)) 
+                    for rec in data :
+                        safestoreExample(json.dumps(rec))
                 else :
                     safestoreExample(buf)
 
 	#	Example2.objects.filter()
-		
+
  #       print "mark2 "
 
     def handle_noargs(self, **options):
