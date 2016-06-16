@@ -20,12 +20,7 @@ from optparse import make_option
 from django.core.management.base import BaseCommand, CommandError, NoArgsCommand
 #from polls.models import Poll
 
-#from hello.models import Example2
-#from  models import Example2
-#from  models import *
-#from  ..models import *
-#from  ...hello import *
-from hello.models import Example
+from hello.models import Organization
 import argparse
 import json
 import sys
@@ -55,7 +50,7 @@ from pprint import pprint
 #   run it through validity, syntax, and dup checks first.  (todo)
 #
 #
-def safestoreExample(txt):
+def safestoreOrganization(txt):
     #print "storing as a raw string for now"
     # overwrite any previous reocrd with this unique_lighten_recordId
     data = json.loads(txt)
@@ -68,16 +63,16 @@ def safestoreExample(txt):
 
     ulrid = data["unique_lighten_recordId"]
     # lookup and filter on the record ID... oh, ick, this is a icky load and tablescan...
-    allrecords = Example.objects.filter()
+    allrecords = Organization.objects.filter()
     written = False
 
     for rec in allrecords :
-        #print rec.content
-        dbdata = json.loads(rec.content)
+        #print rec.json
+        dbdata = json.loads(rec.json)
         if "unique_lighten_recordId" in dbdata and dbdata["unique_lighten_recordId"] == data["unique_lighten_recordId"] :
             #check for mod time? ( currently just slamming it )
             print("found record for " + ulrid)
-            rec.content = txt
+            rec.json = txt
             rec.save
             written = True
             break
@@ -87,10 +82,10 @@ def safestoreExample(txt):
 
     if not written :
         print("A new entry into the db...")
-        b = Example(content=txt)
+        b = Organization(json=txt)
         b.save()
 
-#    b = Example(content=txt)
+#    b = Organization(json=txt)
 #    b.save()
 
 
@@ -128,7 +123,7 @@ class Command(BaseCommand):
       #  print ap_args.readfromdb
 
         if ap_args["readfromdb"] :
-            allrecords = Example.objects.filter()
+            allrecords = Organization.objects.filter()
             print("[")
             firstone = True
             for rec in allrecords :
@@ -137,10 +132,10 @@ class Command(BaseCommand):
                 else :
                     firstone = False
                 #print "WAKA WAKA WAKA\n";
-                print(rec.content)
+                print(rec.json)
 
                 #print "record .... "
-                #print rec.content
+                #print rec.json
             print("]\n")
 
 
@@ -156,11 +151,11 @@ class Command(BaseCommand):
                 pprint(data)
                 if type([]) == type(data):
                     for rec in data :
-                        safestoreExample(json.dumps(rec))
+                        safestoreOrganization(json.dumps(rec))
                 else :
-                    safestoreExample(buf)
+                    safestoreOrganization(buf)
 
-	#	Example2.objects.filter()
+	#	Organization2.objects.filter()
 
  #       print "mark2 "
 
