@@ -56,7 +56,7 @@ If you make any changes to the data models, you'll need to commit migrations
 
 1. Deploy to Heroku
 
-         git subtree push --prefix lighten-api heroku master
+         git push heroku master
 
 1. Open the production API
 

@@ -2,7 +2,7 @@ version: '2'
 
 services:
   api:
-    build: './lighten-api'
+    build: .
     command: 'gunicorn gettingstarted.wsgi --log-file - --reload'
     working_dir: /app/user
     environment:
@@ -11,7 +11,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - './lighten-api:/app/user'
+      - '.:/app/user'
     depends_on:
       - postgres
   postgres:
