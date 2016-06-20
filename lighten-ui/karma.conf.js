@@ -1,4 +1,3 @@
-import yargs from 'yargs'
 import config from './config'
 import webpackConfig from './webpack.config'
 import _debug from 'debug'
