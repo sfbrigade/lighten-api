@@ -3,7 +3,7 @@ version: '2'
 services:
   api:
     build: .
-    command: 'gunicorn gettingstarted.wsgi --log-file - --reload'
+    command: bin/start-api
     working_dir: /app/user
     environment:
       PORT: 8080
