@@ -146,6 +146,12 @@ REST_FRAMEWORK = {
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
     ),
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',
+        # TODO: Switch this to IsAuthenticated when ready
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
     ],
+}
+
+JWT_AUTH = {
+    # TODO: Enable this when we're ready
+    'JWT_VERIFY_EXPIRATION': False,
 }
