@@ -1,5 +1,8 @@
 #!/bin/sh
 
-pip install -r requirements.txt -U
+# Wait for postgres to start
+# https://github.com/docker/compose/issues/374
+sleep 3
+
 python manage.py migrate
 gunicorn gettingstarted.wsgi --log-file - --reload --workers 2

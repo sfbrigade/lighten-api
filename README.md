@@ -38,7 +38,9 @@ The steps here only need to be run once.
 
 1. Bring up the development services
 
-         docker-compose up
+         docker-compose up --build
+
+   The `--build` option ensures any new dependencies are included.
 
 1. Open the development API
 
