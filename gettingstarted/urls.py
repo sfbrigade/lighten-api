@@ -28,7 +28,7 @@ class OrganizationViewSet(viewsets.ModelViewSet):
     serializer_class = OrganizationSerializer
 
 # Routers provide an easy way of automatically determining the URL conf.
-router = routers.DefaultRouter()
+router = routers.DefaultRouter(schema_title='Lighten API')
 router.register(r'users', UserViewSet)
 router.register(r'organizations', OrganizationViewSet)
 
