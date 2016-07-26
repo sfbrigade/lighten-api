@@ -1,5 +1,5 @@
 """
-Django settings for gettingstarted project on Heroku. For more info, see:
+Django settings for lighten project on Heroku. For more info, see:
 https://github.com/heroku/heroku-django-template
 
 For more information on this file, see
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     # http://whitenoise.evans.io/en/stable/django.html#using-whitenoise-in-development
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
-    'hello',
+    'lighten_api',
     'rest_framework'
 ]
 
@@ -57,7 +57,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'gettingstarted.urls'
+ROOT_URLCONF = 'lighten.urls'
 
 TEMPLATES = [
     {
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'gettingstarted.wsgi.application'
+WSGI_APPLICATION = 'lighten.wsgi.application'
 
 
 # Database

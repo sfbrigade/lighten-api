@@ -1,12 +1,7 @@
 {
-  "name": "Python on Heroku example",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
-  "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": [
-    "python",
-    "django"
-  ],
+  "name": "Lighten",
+  "description": "Lighten is a web-based tool for social service providers to store, update, and exchange social services information through a universal standard.",
+  "repository": "https://github.com/sfbrigade/lighten/",
   "addons": [
     "heroku-postgresql"
   ]
