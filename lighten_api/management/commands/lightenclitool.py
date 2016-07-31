@@ -16,8 +16,7 @@
 
 # http://stackoverflow.com/questions/1310495/running-a-python-script-outside-of-django
 # https://docs.djangoproject.com/en/dev/howto/custom-management-commands/
-from optparse import make_option
-from django.core.management.base import BaseCommand, CommandError, NoArgsCommand
+from django.core.management.base import BaseCommand
 #from polls.models import Poll
 
 from lighten_api.models import Organization
@@ -68,11 +67,10 @@ def safestoreOrganization(txt):
 
     for rec in allrecords :
         #print rec.json
-        dbdata = json.loads(rec.json)
-        if "unique_lighten_recordId" in dbdata and dbdata["unique_lighten_recordId"] == data["unique_lighten_recordId"] :
+        if "unique_lighten_recordId" in rec.json and rec.json["unique_lighten_recordId"] == data["unique_lighten_recordId"] :
             #check for mod time? ( currently just slamming it )
             print("found record for " + ulrid)
-            rec.json = txt
+            rec.json = data
             rec.save
             written = True
             break
@@ -82,7 +80,7 @@ def safestoreOrganization(txt):
 
     if not written :
         print("A new entry into the db...")
-        b = Organization(json=txt)
+        b = Organization(json=data)
         b.save()
 
 #    b = Organization(json=txt)
@@ -143,12 +141,12 @@ class Command(BaseCommand):
             # read the files
             for filename in ap_args["writetodb"]:
                 print("filename " + filename)
-                infile = open(filename,"r")
-                buf = infile.read()
+                infile = open(filename,"r",encoding="utf-8")
+                buf = infile.read().encode('utf8')
                 print("buf : ")
                 print(buf)
-                data = json.loads(buf)
-                pprint(data)
+                data = json.loads(buf.decode('utf8'))
+                pprint(json.dumps(data, indent=2))
                 if type([]) == type(data):
                     for rec in data :
                         safestoreOrganization(json.dumps(rec))
