@@ -20,7 +20,7 @@ from optparse import make_option
 from django.core.management.base import BaseCommand, CommandError, NoArgsCommand
 #from polls.models import Poll
 
-from hello.models import Organization
+from lighten_api.models import Organization
 import argparse
 import json
 import sys

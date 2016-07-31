@@ -2,8 +2,8 @@ const fs = require('fs-extra')
 
 const djangoStaticPath = 'static/'
 const indexHtmlFile = 'index.html'
-const staticDir = __dirname + '/../../hello/static/'
-const templatesDir = __dirname + '/../../hello/templates/'
+const staticDir = __dirname + '/../../lighten_api/static/'
+const templatesDir = __dirname + '/../../lighten_api/templates/'
 const distDir = __dirname + '/../dist/'
 
 console.log('Copy all files in the bundle to django\'s static directory...')
