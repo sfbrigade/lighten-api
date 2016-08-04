@@ -1,7 +1,7 @@
 {
   "name": "Lighten",
   "description": "Lighten is a web-based tool for social service providers to store, update, and exchange social services information through a universal standard.",
-  "repository": "https://github.com/sfbrigade/lighten/",
+  "repository": "https://github.com/sfbrigade/lighten-api/",
   "addons": [
     "heroku-postgresql"
   ]
