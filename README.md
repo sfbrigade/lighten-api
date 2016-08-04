@@ -71,7 +71,9 @@ If you made any changes to the data models, you'll need to apply migrations
 
 ## How to pull all json files into database
 
+```
 docker-compose run api python manage.py lightenclitool --writetodb  data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
+```
 
 ## Documentation
 
