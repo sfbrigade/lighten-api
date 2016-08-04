@@ -1,22 +1,21 @@
-# lighten
+# lighten-api
 
-This repo contains the lighten UI and lighten API, the latter which runs on
-Heroku at https://lighten-api.herokuapp.com/.
+This repo contains the Lighten API which runs on Heroku at https://lighten-api.herokuapp.com/.
 
 ## Initial Setup
 
 The steps here only need to be run once.
 
-1. Install Docker for Mac, which is currently in beta at https://beta.docker.com/
+1. Install Docker for Mac from https://docs.docker.com/docker-for-mac/
 
 1. Install the Heroku CLI
 
          brew install heroku
 
-1. Clone the lighten repo
+1. Clone the `lighten-api` repo
 
-         git clone git@github.com:sfbrigade/lighten.git
-         cd lighten
+         git clone git@github.com:sfbrigade/lighten-api.git
+         cd lighten-api
 
 1. Bring up the development services
 
