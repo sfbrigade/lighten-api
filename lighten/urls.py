@@ -22,7 +22,6 @@ from rest_framework import routers, serializers, viewsets
 from rest_framework_jwt.views import obtain_jwt_token
 
 from lighten_api.models import Organization
-import lighten_api.views
 
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -48,7 +47,7 @@ router.register(r'users', UserViewSet)
 router.register(r'organizations', OrganizationViewSet)
 
 urlpatterns = [
-    url(r'^$', lighten_api.views.index, name='index'),
+    url(r'^$', include(router.urls)),
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),

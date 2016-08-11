@@ -4,4 +4,3 @@ staticfiles
 .env
 db.sqlite3
 .git
-node_modules
