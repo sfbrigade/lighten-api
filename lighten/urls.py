@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from django.contrib.auth.models import User
+from django.views.generic.base import RedirectView
 admin.autodiscover()
 
 from rest_framework import routers, serializers, viewsets
@@ -47,7 +48,7 @@ router.register(r'users', UserViewSet)
 router.register(r'organizations', OrganizationViewSet)
 
 urlpatterns = [
-    url(r'^$', include(router.urls)),
+    url(r'^$', RedirectView.as_view(url='/api/')),
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include(router.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
