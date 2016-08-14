@@ -17,6 +17,10 @@ The steps here only need to be run once.
          git clone git@github.com:sfbrigade/lighten-api.git
          cd lighten-api
 
+1. Create an `.env` file for holding environment variables
+
+         echo "SECRET_KEY=$(openssl rand -hex 24)" > .env
+
 1. Bring up the development services
 
          docker-compose up -d
