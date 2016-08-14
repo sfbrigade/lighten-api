@@ -5,4 +5,4 @@
 sleep 3
 
 python manage.py migrate
-gunicorn lighten.wsgi --reload --workers 2
+python manage.py runserver 0.0.0.0:${PORT}
