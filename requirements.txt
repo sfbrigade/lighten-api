@@ -10,6 +10,7 @@ gunicorn==19.6.0
 itypes==1.1.0
 Markdown==2.6.6
 psycopg2==2.6.2
+pyinotify==0.9.6
 PyJWT==1.4.2
 requests==2.11.0
 simplejson==3.8.2

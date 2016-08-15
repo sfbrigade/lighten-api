@@ -1,1 +1,2 @@
 FROM heroku/python:3
+ENV PYTHONUNBUFFERED 1
