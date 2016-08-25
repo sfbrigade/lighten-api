@@ -150,6 +150,7 @@ REST_FRAMEWORK = {
         # TODO: Switch this to IsAuthenticated when ready
         'rest_framework.permissions.AllowAny',
     ],
+    'PAGE_SIZE': 100
 }
 
 JWT_AUTH = {
