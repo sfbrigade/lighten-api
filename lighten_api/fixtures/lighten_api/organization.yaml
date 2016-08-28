@@ -1,0 +1,52 @@
+- model: lighten_api.organization
+  pk: 1
+  fields:
+    json:
+      accessiblity: [Wheelchair accessible]
+      description: The Example Organization sets an example.
+      eligible_population: [Men, Women]
+      email: [admin@example.org]
+      faith_based: false
+      fees: [$1000/month]
+      hours:
+      - day: Monday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      - day: Tuesday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      - day: Wednesday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      - day: Thursday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      - day: Friday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      - day: Saturday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      - day: Sunday
+        ranges:
+        - {close: '17:00', open: '08:00'}
+      languages_spoken: [English]
+      locations:
+      - contacts:
+        - {name: Shay Keone, notes: '', title: Administrator}
+        fax: (415) 242-2414
+        mailing_address: {city: San Francisco, country: USA, primary: P.O. Box 1,
+          state: CA, zipcode: '94117'}
+        notes: ''
+        phone: (415) 242-2412
+        physical_address: {city: San Francisco, country: USA, primary: 1 Market St.,
+          state: CA, zipcode: '94105'}
+      name: Example Organization
+      notes: No referral needed.
+      services: [Alcohol/Drug Treatment, Anger Management, Clothing, Counseling, Food/Meals,
+        Life Skills, Mentoring, Residential/Housing (6 months to 1 year), Showers,
+        Transit Vouchers]
+      website: [www.example.org]
+      what_to_bring: []
+    created_at: 2016-08-28 23:23:56.941268+00:00
+    updated_at: 2016-08-28 23:23:56.941299+00:00
