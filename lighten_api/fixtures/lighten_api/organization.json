@@ -4,44 +4,21 @@
   "pk": 1,
   "fields": {
     "json": {
+      "_version": "2.0",
+      "accessiblity": [
+        "Wheelchair accessible"
+      ],
       "description": "The Example Organization sets an example.",
-      "locations": [
-        {
-          "phone": "(415) 242-2412",
-          "notes": "",
-          "fax": "(415) 242-2414",
-          "contacts": [
-            {
-              "title": "Administrator",
-              "name": "Shay Keone",
-              "notes": ""
-            }
-          ],
-          "mailing_address": {
-            "city": "San Francisco",
-            "primary": "P.O. Box 1",
-            "state": "CA",
-            "country": "USA",
-            "zipcode": "94117"
-          },
-          "physical_address": {
-            "city": "San Francisco",
-            "primary": "1 Market St.",
-            "state": "CA",
-            "country": "USA",
-            "zipcode": "94105"
-          }
-        }
+      "eligible_population": [
+        "Men",
+        "Women"
       ],
       "email": [
         "admin@example.org"
       ],
-      "languages_spoken": [
-        "English"
-      ],
-      "eligible_population": [
-        "Men",
-        "Women"
+      "faith_based": false,
+      "fees": [
+        "$1000/month"
       ],
       "hours": [
         {
@@ -108,12 +85,39 @@
           ]
         }
       ],
-      "website": [
-        "www.example.org"
+      "languages_spoken": [
+        "English"
+      ],
+      "locations": [
+        {
+          "contacts": [
+            {
+              "name": "Shay Keone",
+              "notes": "",
+              "title": "Administrator"
+            }
+          ],
+          "fax": "(415) 242-2414",
+          "mailing_address": {
+            "city": "San Francisco",
+            "country": "USA",
+            "primary": "P.O. Box 1",
+            "state": "CA",
+            "zipcode": "94117"
+          },
+          "notes": "",
+          "phone": "(415) 242-2412",
+          "physical_address": {
+            "city": "San Francisco",
+            "country": "USA",
+            "primary": "1 Market St.",
+            "state": "CA",
+            "zipcode": "94105"
+          }
+        }
       ],
       "name": "Example Organization",
       "notes": "No referral needed.",
-      "what_to_bring": [],
       "services": [
         "Alcohol/Drug Treatment",
         "Anger Management",
@@ -126,13 +130,10 @@
         "Showers",
         "Transit Vouchers"
       ],
-      "fees": [
-        "$1000/month"
+      "website": [
+        "www.example.org"
       ],
-      "faith_based": false,
-      "accessiblity": [
-        "Wheelchair accessible"
-      ]
+      "what_to_bring": []
     },
     "created_at": "2016-08-28T23:23:56.941Z",
     "updated_at": "2016-08-28T23:23:56.941Z"
