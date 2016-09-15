@@ -1,0 +1,141 @@
+[
+{
+  "model": "lighten_api.organization",
+  "pk": 1,
+  "fields": {
+    "json": {
+      "description": "The Example Organization sets an example.",
+      "locations": [
+        {
+          "phone": "(415) 242-2412",
+          "notes": "",
+          "fax": "(415) 242-2414",
+          "contacts": [
+            {
+              "title": "Administrator",
+              "name": "Shay Keone",
+              "notes": ""
+            }
+          ],
+          "mailing_address": {
+            "city": "San Francisco",
+            "primary": "P.O. Box 1",
+            "state": "CA",
+            "country": "USA",
+            "zipcode": "94117"
+          },
+          "physical_address": {
+            "city": "San Francisco",
+            "primary": "1 Market St.",
+            "state": "CA",
+            "country": "USA",
+            "zipcode": "94105"
+          }
+        }
+      ],
+      "email": [
+        "admin@example.org"
+      ],
+      "languages_spoken": [
+        "English"
+      ],
+      "eligible_population": [
+        "Men",
+        "Women"
+      ],
+      "hours": [
+        {
+          "day": "Monday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "ranges": [
+            {
+              "close": "17:00",
+              "open": "08:00"
+            }
+          ]
+        }
+      ],
+      "website": [
+        "www.example.org"
+      ],
+      "name": "Example Organization",
+      "notes": "No referral needed.",
+      "what_to_bring": [],
+      "services": [
+        "Alcohol/Drug Treatment",
+        "Anger Management",
+        "Clothing",
+        "Counseling",
+        "Food/Meals",
+        "Life Skills",
+        "Mentoring",
+        "Residential/Housing (6 months to 1 year)",
+        "Showers",
+        "Transit Vouchers"
+      ],
+      "fees": [
+        "$1000/month"
+      ],
+      "faith_based": false,
+      "accessiblity": [
+        "Wheelchair accessible"
+      ]
+    },
+    "created_at": "2016-08-28T23:23:56.941Z",
+    "updated_at": "2016-08-28T23:23:56.941Z"
+  }
+}
+]
