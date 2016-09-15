@@ -29,6 +29,10 @@ The steps here only need to be run once.
 
          docker-compose exec api python manage.py migrate
 
+1. Load initial data via fixtures
+
+         docker-compose exec api python manage.py loaddata lighten_api/organization
+
 1. Create a superuser
 
          docker-compose exec api python manage.py createsuperuser
@@ -73,7 +77,7 @@ If you made any changes to the data models, you'll need to apply migrations
 
     heroku run python manage.py migrate
 
-## How to pull all json files into database
+## How to pull all json files into database (DEPRECATED)
 
 ```
 docker-compose run api python manage.py lightenclitool --writetodb  data/json1/json_schema/orgs.t.p.??.json  data/json1/json_schema/orgs.t.p.???.json
