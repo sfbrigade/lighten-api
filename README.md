@@ -1,5 +1,7 @@
 # lighten-api
 
+[![CircleCI](https://circleci.com/gh/sfbrigade/lighten-api.svg?style=shield&circle-token=09eaf0302c45295590c65217357c6d3b5fa1897e)](https://circleci.com/gh/sfbrigade/lighten-api)
+
 This repo contains the Lighten API which runs on Heroku at https://lighten-api.herokuapp.com/.
 
 ## Initial Setup
@@ -52,6 +54,10 @@ The steps here only need to be run once.
 1. Open the development API
 
          open http://localhost:8080
+
+1. Run tests as needed
+
+         docker-compose exec api python manage.py test
 
 #### Migrations
 
