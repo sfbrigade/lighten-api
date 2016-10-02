@@ -4,14 +4,18 @@ Django==1.10.2
 django-crispy-forms==1.6.0
 django-filter==0.15.2
 django-guardian==1.4.6
+-e git://github.com/andreyrusanov/django-rest-assured.git@643a20eb519fbd5d5c0e433c3bccc3b79033552b#egg=django_rest_assured
 djangorestframework==3.4.7
 djangorestframework-jwt==1.8.0
+factory-boy==2.7.0
+fake-factory==0.7.2
 gunicorn==19.6.0
 itypes==1.1.0
 Markdown==2.6.7
 psycopg2==2.6.2
 pyinotify==0.9.6
 PyJWT==1.4.2
+python-dateutil==2.5.3
 python-decouple==3.0
 pytz==2016.6.1
 PyYAML==3.12
