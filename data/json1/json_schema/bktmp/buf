@@ -1,8 +1,0 @@
-        ,"usage_requirements" : {
-            "_type"  : "usage_requirements"
-            ,"usage_requirement_atoms" : [
-                { "_type" : "usage_requirement_atom"
-                ,"keys" : [ "Client fees" 
-            ]
-        }
-

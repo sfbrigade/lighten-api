@@ -22,7 +22,6 @@ from django.core.management.base import BaseCommand
 from lighten_api.models import Organization
 import argparse
 import json
-import sys
 
 
     # this works here, thought it seems wrong.
@@ -50,41 +49,11 @@ from pprint import pprint
 #
 #
 def safestoreOrganization(txt):
-    #print "storing as a raw string for now"
-    # overwrite any previous reocrd with this unique_lighten_recordId
     data = json.loads(txt)
-    if not "unique_lighten_recordId" in data :
-        print("Malformed lighten json1 reocrd format a unique_lighten_recordId property is required in:")
-        print(txt)
-        print("quiting")
-        sys.exit(2)
 
-
-    ulrid = data["unique_lighten_recordId"]
-    # lookup and filter on the record ID... oh, ick, this is a icky load and tablescan...
-    allrecords = Organization.objects.filter()
-    written = False
-
-    for rec in allrecords :
-        #print rec.json
-        if "unique_lighten_recordId" in rec.json and rec.json["unique_lighten_recordId"] == data["unique_lighten_recordId"] :
-            #check for mod time? ( currently just slamming it )
-            print("found record for " + ulrid)
-            rec.json = data
-            rec.save
-            written = True
-            break
-        else :
-            print("NOT : found record for " + ulrid)
-
-
-    if not written :
-        print("A new entry into the db...")
-        b = Organization(json=data)
-        b.save()
-
-#    b = Organization(json=txt)
-#    b.save()
+    print("A new entry into the db...")
+    b = Organization(json=data)
+    b.save()
 
 
 
@@ -147,20 +116,4 @@ class Command(BaseCommand):
                 print(buf)
                 data = json.loads(buf.decode('utf8'))
                 pprint(json.dumps(data, indent=2))
-                if type([]) == type(data):
-                    for rec in data :
-                        safestoreOrganization(json.dumps(rec))
-                else :
-                    safestoreOrganization(buf)
-
-	#	Organization2.objects.filter()
-
- #       print "mark2 "
-
-    def handle_noargs(self, **options):
-        pass
-        #	print "wkaka"
-
-
-
-
+                safestoreOrganization(json.dumps(data))
