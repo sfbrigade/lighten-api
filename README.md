@@ -14,10 +14,12 @@ The steps here only need to be run once.
 
          brew install heroku
 
-1. Clone the `lighten-api` repo
+1. Clone the `lighten-api` repo and submodules
 
          git clone git@github.com:sfbrigade/lighten-api.git
          cd lighten-api
+         git submodule init
+         git submodule update
 
 1. Create an `.env` file for holding environment variables
 
