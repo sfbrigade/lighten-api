@@ -18,8 +18,7 @@ The steps here only need to be run once.
 
          git clone git@github.com:sfbrigade/lighten-api.git
          cd lighten-api
-         git submodule init
-         git submodule update
+         git submodule update --init --recursive
 
 1. Create an `.env` file for holding environment variables
 
