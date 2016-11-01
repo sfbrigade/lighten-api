@@ -22,25 +22,18 @@ admin.autodiscover()
 from rest_framework import routers, serializers, viewsets
 from rest_framework_jwt.views import obtain_jwt_token
 
-from lighten_api.models import Organization
+from lighten_api.views import OrganizationViewSet
 
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
         fields = ('url', 'username', 'email', 'is_staff',)
-class OrganizationSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Organization
-        fields = ('id', 'json',)
 
 # ViewSets define the view behavior.
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-class OrganizationViewSet(viewsets.ModelViewSet):
-    queryset = Organization.objects.all()
-    serializer_class = OrganizationSerializer
 
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter(schema_title='Lighten API')

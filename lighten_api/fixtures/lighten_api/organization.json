@@ -3,6 +3,7 @@
   "model": "lighten_api.organization",
   "pk": 1,
   "fields": {
+    "uuid": "-bGPATPjEjGRImz2U24tYw",
     "json": {
       "_version": 2,
       "accessiblity": [
