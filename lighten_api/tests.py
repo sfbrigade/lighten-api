@@ -1,4 +1,5 @@
 from rest_assured.testcases import ReadWriteRESTAPITestCaseMixin, BaseRESTAPITestCase
+from smalluuid import SmallUUID
 
 from .factories import OrganizationFactory
 
@@ -10,5 +11,8 @@ class OrganizationApiTestCase(ReadWriteRESTAPITestCaseMixin, BaseRESTAPITestCase
     lookup_field = 'uuid'
     relationship_lookup_field = 'uuid'
     response_lookup_field = 'uuid'
-    create_data = {'json': {'name': 'Test Organization 1'}}
+    create_data = {
+        'uuid': SmallUUID(version=1),
+        'json': {'name': 'Test Organization 1'}
+    }
     update_data = {'json': {'name': 'Test Organization 2'}}
