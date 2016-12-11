@@ -2,7 +2,7 @@
 
 # Wait for postgres to start
 # https://github.com/docker/compose/issues/374
-sleep 3
+sleep 5
 
 python manage.py migrate
 python manage.py runserver 0.0.0.0:${PORT}
