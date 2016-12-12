@@ -1,0 +1,49 @@
+#!/bin/bash
+# Script for importing datasets into development or production
+
+set -o errexit -o pipefail -o nounset
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: $0 <development|production> [version]"
+  exit 1
+fi
+
+APP_ENV=$1
+DATASET_VERSION=${2:-current}
+
+if [[ $APP_ENV == "development" ]]; then
+  BASE_URL="http://localhost:${PORT}"
+elif [[ $APP_ENV == "production" ]]; then
+  BASE_URL="https://lighten-api.herokuapp.com"
+else
+  echo "ERROR: Unknown app environment: ${APP_ENV}"
+  exit 1
+fi
+
+echo "==> Importing dataset version '${DATASET_VERSION}' into ${APP_ENV}..."
+for model_dir in data/dataset/${DATASET_VERSION}/*/*; do
+  model_name=$(basename $model_dir)
+  model_url="${BASE_URL}/api/${model_name}/"
+
+  echo "==> Importing ${model_name} into ${model_url}..."
+  pushd $model_dir
+  for object_file in *.json; do
+    object_uuid=$(jq -r '.uuid' $object_file)
+    object_url="${model_url}${object_uuid}/"
+
+    echo "==> Checking for existence of $model_name object '${object_uuid}'..."
+    # http://superuser.com/questions/272265/getting-curl-to-output-http-status-code
+    status_code=$(curl -s -o /dev/null -w "%{http_code}" $object_url)
+
+    if [[ $status_code == "200" ]]; then
+      echo "==> Object '${object_uuid}' exists, using PUT..."
+      curl -s -o /dev/null -H 'Content-Type: application/json' -X PUT -d @${object_file} $object_url
+    elif [[ $status_code == "404" ]]; then
+      echo "==> Object '${object_uuid}' doesn't exist, using POST..."
+      curl -s -o /dev/null -H 'Content-Type: application/json' -X POST -d @${object_file} $model_url
+    else
+      echo "WARNING: Unexpected status code for ${object_uuid}: $status_code"
+    fi
+  done
+  popd
+done
