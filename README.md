@@ -84,11 +84,15 @@ If you made any changes to the data models, you'll need to apply migrations
 
     heroku run python manage.py migrate
 
-## How to pull all json files into database (DEPRECATED)
+## Importing datasets from the data repo
 
-```
-docker-compose run api python manage.py lightenclitool --writetodb data/dataset/current/*/*/*.json
-```
+#### Development
+
+    docker-compose exec api bin/import-dataset development
+
+#### Production
+
+    docker-compose exec api bin/import-dataset production
 
 ## Documentation
 
